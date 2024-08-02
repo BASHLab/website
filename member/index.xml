@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Members on BASH Lab</title>
+    <link>https://users.wpi.edu/~bislam/bashlab/member/</link>
+    <description>Recent content in Members on BASH Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; Bashima, 2021 </copyright>
+    <lastBuildDate>Mon, 12 Jul 2021 15:52:22 +0200</lastBuildDate><atom:link href="https://users.wpi.edu/~bislam/bashlab/member/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bashima Islam</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/users.wpi.edu/~bislam/</link>
+      <pubDate>Mon, 12 Jul 2021 15:52:22 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/users.wpi.edu/~bislam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Member 3</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/member/member3/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/member/member3/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

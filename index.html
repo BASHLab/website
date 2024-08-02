@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta name="generator" content="Hugo 0.86.1" />
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic-group">
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://users.wpi.edu/~bislam/bashlab//js/hugo-academic-group.js"></script>
+
+    <link rel="stylesheet" href="https://users.wpi.edu/~bislam/bashlab//css/bootstrap.min.css">
+    <script src="https://users.wpi.edu/~bislam/bashlab//js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
+
+
+    <script src="https://users.wpi.edu/~bislam/bashlab//js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+    <link rel="stylesheet" href="https://users.wpi.edu/~bislam/bashlab//css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://users.wpi.edu/~bislam/bashlab//css/academicons.min.css">
+    <link rel="stylesheet" href="https://users.wpi.edu/~bislam/bashlab//css/biaslab-font.css">
+    <link rel="stylesheet"
+        href="//fonts.googleapis.com/css?family=Lato:100,300,400,700|Merriweather:100,400,700|Roboto+Mono">
+    <link rel="stylesheet" href="https://users.wpi.edu/~bislam/bashlab//css/hugo-academic-group.css">
+
+
+
+
+    <link rel="shortcut icon" href="https://users.wpi.edu/~bislam/bashlab//img/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://users.wpi.edu/~bislam/bashlab/">
+
+    <title>BASH Lab</title>
+
+</head>
+
+<body>
+    <div class="home-anchor" id="home"></div>
+
+
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+        <div class="container">
+
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target=".navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class="navbar-brand">
+
+
+                </div>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+
+                <ul class="nav navbar-nav navbar-right">
+
+
+                    <li class="nav-item"><a data-scroll href="https://bashlab.wpi.edu/#top">Home</a></li>
+
+
+
+
+                    <li class="nav-item"><a data-scroll href="https://bashlab.wpi.edu/#projects">Research</a></li>
+
+
+
+                    <li class="nav-item"><a data-scroll href="https://bashlab.wpi.edu/#publications">Publications</a>
+                    </li>
+
+
+
+                    <li class="nav-item"><a data-scroll href="https://bashlab.wpi.edu/#members">Members</a></li>
+                    <li class="nav-item"><a data-scroll href="https://bashlab.wpi.edu/#posts">Prospective Students</a>
+                    </li>
+
+
+
+                    <li class="nav-item"><a data-scroll href="https://bashlab.wpi.edu/#collaborators">Collaborators</a>
+                    </li>
+
+
+
+                    <li class="nav-item"><a data-scroll href="https://bashlab.wpi.edu/#contact">Contact</a></li>
+
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <header class="space-below ">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>
+                    <img src="https://bashlab.wpi.edu/img/header.png" alt="BASH Lab" class="center">
+
+
+                </h1>
+
+                <p class="slogan-text">
+                <h1><FONT COLOR="#2066a1">B</FONT>ringing <FONT COLOR="#2066a1">A</FONT>wareness through <FONT COLOR="#2066a1">S</FONT>ystems for <FONT COLOR="#2066a1">H</FONT>umans Lab</h1>
+                </p>
+                <!-- <div class="container-fluid">
+                <div class="row">
+                    
+                    <div class="col-xs-12 col-md-4">
+                        <h3>About</h3>
+                        <p class="slogan-column">We are interested in understanding and enhancing the intelligence, usability and processing capabilities of tiny computing devices to realize their full potential in our daily lives. Our research focuses on machine learning for Internet- of-Things, mobile and pervasive computing, cyber-physical systems (CPS), and mobile health.</p>
+                    </div>
+                    
+                    <div class="col-xs-12 col-md-4">
+                        <h3>Mission</h3>
+                        <p class="slogan-column">Our aim is to introduce a new set of sustainable edge computers that are time-aware, inference capable, life-long learning, programmable, personalized, and user-friendly. Our works will provide sustainable and scalable sensing solutions in various application domains ranging from health care to smart agriculture.</p>
+                    </div>
+                    
+                    <div class="col-xs-12 col-md-4">
+                        <h3>Approach</h3>
+                        <p class="slogan-column">We leverage the data processing and control layer of mobile systems and Internet of Things (IoT) by developing frameworks that (1) integrate different domains of computer science and engineering including networking, energy harvesting, and real-time systems (2) rethink machine learning and computer vision algorithms, and (3) utilize contextual and symantic diversity of data.</p>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    
+                    <div class="col-xs-12 col-md-4">
+                        <a href=""></a>
+                    </div>
+                    
+                    <div class="col-xs-12 col-md-4">
+                        <a href=""></a>
+                    </div>
+                    
+                    <div class="col-xs-12 col-md-4">
+                        <a href=""></a>
+                    </div>
+                    
+                </div> -->
+            </div>
+        </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+    <section id="projects" class="home-section">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-xs-12 col-md-12 section-heading">
+                    <h1><a href="https://bashlab.wpi.edu//project/">Research</a></h1>
+
+                </div>
+                <div class="col-xs-12 col-md-12">
+                    <i class="icofont icofont-2x icofont-bank-alt"> <span style="font-size: x-large;">Fundings:</span></i>
+                    <p class="u-mb-10" >NSF CSR CRII, 2 yr, 1/2024 - 12/2025, $175, Role: Lead PI</p>
+                    <p class="u-mb-10" >NIH NIDA RO1, 5 yr, 9/2023 - 7/2028, $157K, Role: Co-I with Lead-PI McElwain (UIUC)  & Hasegawa-Johnson (UIUC) </p>
+
+
+                </div>
+                
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="hidden-xs col-md-2">
+                    <a href="https://bashlab.wpi.edu/project/littlebeats/">
+
+                        <div class="project-picture" itemprop="image"
+                            style="background-image: url('https://bashlab.wpi.edu//img/../img/lb.png')"></div>
+
+                    </a>
+                </div>
+
+                <div class="visible-xs col-xs-5">
+                    <a href="https://bashlab.wpi.edu/project/littlebeats/">
+
+                        <div class="project-picture" itemprop="image"
+                            style="background-image: url('https://bashlab.wpi.edu//img/../img/lb.png')"></div>
+
+                    </a>
+                </div>
+
+                <div class="article-list-item">
+
+                    <div class="col-xs-7 col-md-10">
+
+                        <h3 class="article-title" itemprop="name">
+                            <a href="https://bashlab.wpi.edu/project/littlebeats/" itemprop="url">Monitor Development of
+                                a Child through AI and Mobile Sensing</a>
+                        </h3>
+
+                    </div>
+
+                    <div class="col-xs-12 col-md-10">
+
+
+
+                        <p class="article-style" itemprop="articleBody">
+                            Designing a wearable sensing platform that enables monitopring the mental development of a
+                            child.
+                        </p>
+
+
+                        <p class="read-more">
+                            <a href="https://bashlab.wpi.edu/project/littlebeats/" class="btn btn-primary btn-outline">
+                                Read More
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="hidden-xs col-md-2">
+                    <a href="https://bashlab.wpi.edu/project/intermittent/">
+
+                        <div class="project-picture" itemprop="image"
+                            style="background-image: url('https://bashlab.wpi.edu//img/../img/intermittent.png')"></div>
+
+                    </a>
+                </div>
+
+                <div class="visible-xs col-xs-5">
+                    <a href="https://bashlab.wpi.edu/project/intermittent/">
+
+                        <div class="project-picture" itemprop="image"
+                            style="background-image: url('https://bashlab.wpi.edu//img/../img/intermittent.png')"></div>
+
+                    </a>
+                </div>
+
+                <div class="article-list-item">
+
+                    <div class="col-xs-7 col-md-10">
+
+                        <h3 class="article-title" itemprop="name">
+                            <a href="https://bashlab.wpi.edu/project/intermittent/" itemprop="url">Machine Learning for
+                                Intermittent Systems</a>
+                        </h3>
+
+                    </div>
+
+                    <div class="col-xs-12 col-md-10">
+
+
+
+                        <p class="article-style" itemprop="articleBody">
+                            Execution of computational tasks, including machine learning, in intermittently-powered
+                            systems.
+                        </p>
+
+
+                        <p class="read-more">
+                            <a href="https://bashlab.wpi.edu/project/intermittent/" class="btn btn-primary btn-outline">
+                                Read More
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="hidden-xs col-md-2">
+                    <a href="https://bashlab.wpi.edu/project/audio/">
+
+                        <div class="project-picture" itemprop="image"
+                            style="background-image: url('https://bashlab.wpi.edu//img/../img/audio.png')"></div>
+
+                    </a>
+                </div>
+
+                <div class="visible-xs col-xs-5">
+                    <a href="https://bashlab.wpi.edu/project/audio/">
+
+                        <div class="project-picture" itemprop="image"
+                            style="background-image: url('https://bashlab.wpi.edu//img/../img/audio.png')"></div>
+
+                    </a>
+                </div>
+
+                <div class="article-list-item">
+
+                    <div class="col-xs-7 col-md-10">
+
+                        <h3 class="article-title" itemprop="name">
+                            <a href="https://bashlab.wpi.edu/project/audio/" itemprop="url">Deep Neural Sensing for
+                                Mobile Health and Safety</a>
+                        </h3>
+
+                    </div>
+
+                    <div class="col-xs-12 col-md-10">
+
+
+
+                        <p class="article-style" itemprop="articleBody">
+                            Acoustic sensing have the potential to passively monitor health biomarkers (e.g., breathing
+                            phase), enhance auditory senses of unattended pedestrians and monitor the environment.
+                        </p>
+
+
+                        <p class="read-more">
+                            <a href="https://bashlab.wpi.edu/project/audio/" class="btn btn-primary btn-outline">
+                                Read More
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div>
+
+                <p class="view-all">
+                    <a href="https://bashlab.wpi.edu//project/">
+                        More Research
+                        <i class="fa fa-angle-double-right"></i>
+                    </a>
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="publications" class="home-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 section-heading">
+                    <h1><a href="https://bashlab.wpi.edu//publication/">Publications</a></h1>
+
+                </div>
+                <div class="col-xs-12 col-md-8">
+                    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="article-title" itemprop="name">
+                                    <a href="https://mlforaudioworkshop.com/SelfSupervisedSpeechEnhancement.pdf"
+                                        itemprop="url">Self-Supervised Speech Enhancement using Multi-Modal Data</a>
+                                </h3>
+                                <div class="pub-authors" itemprop="author">
+                                    <div itemprop="author">
+                                        <span class="author-name">
+                                            Yu-Lin Wei
+                                        </span>,
+                                        <span class="author-name">
+                                            Rajalaxmi Rajagopalan
+                                        </span>,
+                                        <span class="author-name">
+                                            Bashima Islam
+                                        </span>,
+                                        <span class="author-name">
+                                            Romit Roy Choudhury
+                                        </span>,
+                                    </div>
+                                </div>
+                                <div class="pub-publication">
+                                    Machine Learning for Audio Workshop at NeurIPS 2023
+                                </div>
+                                <div class="pub-links">
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://mlforaudioworkshop.com/SelfSupervisedSpeechEnhancement.pdf">PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="article-title" itemprop="name">
+                                    <a href="https://ieeexplore.ieee.org/iel7/10094559/10094560/10094692.pdf"
+                                        itemprop="url">Efficient Stuttering Event Detection Using Siamese Networks</a>
+                                </h3>
+                                <div class="pub-authors" itemprop="author">
+                                    <div itemprop="author">
+                                        <span class="author-name">
+                                            Payal Mohapatra
+                                        </span>,
+                                        <span class="author-name">
+                                            Bashima Islam
+                                        </span>,
+                                        <span class="author-name">
+                                            Md Tamzeed Islam
+                                        </span>,
+                                        <span class="author-name">
+                                            Ruochen Jiao
+                                        </span>,
+                                        <span class="author-name">
+                                            Qi Zhu
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="pub-publication">
+                                    IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP
+                                    ‘23)
+                                </div>
+                                <div class="pub-links">
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://ieeexplore.ieee.org/iel7/10094559/10094560/10094692.pdf">PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="article-title" itemprop="name">
+                                    <a href="https://dl.acm.org/doi/pdf/10.1145/3552326.3587435"
+                                        itemprop="url">Efficient and Safe I/O Operations for Intermittent Systems</a>
+                                </h3>
+                                <div class="pub-authors" itemprop="author">
+                                    <div itemprop="author">
+                                        <span class="author-name">
+                                            Eren Yildiz
+                                        </span>,
+                                        <span class="author-name">
+                                            Saad Ahmed
+                                        </span>,
+                                        <span class="author-name">
+                                            Bashima Islam
+                                        </span>,
+                                        <span class="author-name">
+                                            Josiah Hester
+                                        </span>,
+                                        <span class="author-name">
+                                            Kasim Sinan Yildirim
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="pub-publication">
+                                    Proceedings of the Eighteenth European Conference on Computer Systems (EuroSys ‘23)
+                                </div>
+                                <div class="pub-links">
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://dl.acm.org/doi/pdf/10.1145/3552326.3587435">PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="article-title" itemprop="name">
+                                    <a href="https://dl.acm.org/doi/abs/10.1145/3576842.3582388"
+                                        itemprop="url">Amalgamated Intermittent Computing Systems</a>
+                                </h3>
+                                <div class="pub-authors" itemprop="author">
+                                    <div itemprop="author">
+                                        <span class="author-name">
+                                            Bashima Islam
+                                        </span>,
+                                        <span class="author-name">
+                                            Yubo Luo
+                                        </span>,
+                                        <span class="author-name">
+                                            Shahriar Nirjon
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="pub-publication">
+                                    Proceedings of the 8th ACM/IEEE Conference on Internet of Things Design and
+                                    Implementation (IoTDI ‘23)
+                                </div>
+                                <div class="pub-links">
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://dl.acm.org/doi/abs/10.1145/3576842.3582388">PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="article-title" itemprop="name">
+                                    <a href="https://protean.systems/" itemprop="url">Protean: An Energy-Efficient and
+                                        Heterogeneous Platform for Adaptive and Hardware-Accelerated Battery-free
+                                        Computing</a>
+                                </h3>
+                                <div class="pub-authors" itemprop="author">
+                                    <div itemprop="author">
+                                        <span class="author-name">
+                                            Abu Bakar
+                                        </span>,
+                                        <span class="author-name">
+                                            Rishabh Goel
+                                        </span>,
+                                        <span class="author-name">
+                                            Jasper de Winkel
+                                        </span>,
+                                        <span class="author-name">
+                                            Jason Huang
+                                        </span>,
+                                        <span class="author-name">
+                                            Saad Ahmed
+                                        </span>,
+                                        <span class="author-name">
+                                            Bashima Islam
+                                        </span>,
+                                        <span class="author-name">
+                                            Przemysław Pawełczak
+                                        </span>,
+                                        <span class="author-name">
+                                            Kasım Sinan Yıldırım
+                                        </span>,
+                                        <span class="author-name">
+                                            Josiah Hester
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="pub-publication">
+                                    ACM Conference on Embedded Networked Sensor Systems (SenSys'22)
+                                </div>
+                                <div class="pub-links">
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://abubakar.info/assets/publications/22-sensys-protean/paper.pdf">PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+                        <div class="row">
+
+                            <div class="col-md-12">
+
+
+                                <h3 class="article-title" itemprop="name">
+                                    <a href="https://bashlab.wpi.edu/publication/breathtrack/"
+                                        itemprop="url">BreathTrack: Detecting Regular Breathing Phases from Unannotated
+                                        Acoustic Data Captured by a Smartphone</a>
+                                </h3>
+
+                                <div class="pub-authors" itemprop="author">
+
+                                    <div itemprop="author">
+
+
+
+                                        <span class="author-name">
+
+                                            Bashima Islam
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Mahbubur Rahman
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Tousif Ahmed
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Mohsin Yusuf Ahmed
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Md Mehedi Hasan
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Viswam Nathan
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Korosh Vatanparvar
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Ebrahim Nemati
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Jilong Kuang
+
+                                        </span>,
+
+
+
+                                        <span class="author-name">
+
+                                            Jun Alex Gao
+
+                                        </span>
+
+
+                                    </div>
+
+                                </div>
+
+                                <div class="pub-publication">
+
+                                    ACM Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
+                                    Technologies (IMWUT/UBICOMP ‘21)
+
+
+
+                                </div>
+
+                                <div class="pub-links">
+
+
+
+
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://bashlab.wpi.edu/publication/breathtrack/">Details</a>
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://dl.acm.org/doi/pdf/10.1145/3478123">PDF</a>
+
+
+
+
+
+
+
+                                    <!-- <a class="btn btn-primary btn-outline btn-xs" href="https://bashlab.wpi.edu/project/audio">Project</a> -->
+
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+                        <div class="row">
+
+                            <div class="col-md-12">
+
+
+                                <h3 class="article-title" itemprop="name">
+                                    <a href="https://bashlab.wpi.edu/publication/zygarde/" itemprop="url">Zygarde:
+                                        Time-Sensitive On-Device Deep Inference and Adaptationon Intermittently-Powered
+                                        Systems</a>
+                                </h3>
+
+                                <div class="pub-authors" itemprop="author">
+
+                                    <div itemprop="author">
+
+
+
+                                        <span class="author-name">
+
+                                            Bashima Islam
+
+                                        </span>,
+
+
+
+                                        <span class="author-name">
+
+                                            Shahriar Nirjon
+
+                                        </span>
+
+
+                                    </div>
+
+                                </div>
+
+                                <div class="pub-publication">
+
+                                    ACM Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
+                                    Technologies (IMWUT/UBICOMP ‘20)
+
+
+
+                                </div>
+
+                                <div class="pub-links">
+
+
+
+
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://bashlab.wpi.edu/publication/zygarde/">Details</a>
+
+
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://dl.acm.org/doi/10.1145/3411808">PDF</a>
+
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://youtu.be/oEGqbk_sGJU">Video</a>
+
+
+                                    <!-- <a class="btn btn-primary btn-outline btn-xs" href="https://bashlab.wpi.edu/project/intermittent">Project</a> -->
+
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+                        <div class="row">
+
+                            <div class="col-md-12">
+
+
+                                <h3 class="article-title" itemprop="name">
+                                    <a href="https://bashlab.wpi.edu/publication/breatheasy/" itemprop="url">BreathEasy:
+                                        Assessing Respiratory Diseases Using Mobile Multimodal Sensors</a>
+                                </h3>
+
+                                <div class="pub-authors" itemprop="author">
+
+                                    <div itemprop="author">
+
+
+
+                                        <span class="author-name">
+
+                                            Mahbubur Rahman
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Mohsin Yusuf Ahmed
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Tousif Ahmed
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Bashima Islam
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Viswam Nathan
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Korosh Vatanparvar
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Ebrahim Nemati
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Daniel McCaffrey
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Jilong Kuang
+
+                                        </span>,
+
+
+
+                                        <span class="author-name">
+
+                                            Jun Alex Gao
+
+                                        </span>
+
+
+                                    </div>
+
+                                </div>
+
+                                <div class="pub-publication">
+
+                                    ACM International Conference on Multimodal Interaction (ICMI ‘20)
+
+
+
+                                </div>
+
+                                <div class="pub-links">
+
+
+
+
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://bashlab.wpi.edu/publication/breatheasy/">Details</a>
+
+
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://dl.acm.org/doi/10.1145/3382507.3418852">PDF</a>
+
+
+
+
+                                    <!-- <a class="btn btn-primary btn-outline btn-xs" href="https://bashlab.wpi.edu/project/audio">Project</a> -->
+
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+                        <div class="row">
+
+                            <div class="col-md-12">
+
+
+                                <h3 class="article-title" itemprop="name">
+                                    <a href="https://bashlab.wpi.edu/publication/cough/" itemprop="url">Automated Time
+                                        Synchronization of Multimodal Cough Events from Mobile Devices</a>
+                                </h3>
+
+                                <div class="pub-authors" itemprop="author">
+
+                                    <div itemprop="author">
+
+
+
+                                        <span class="author-name">
+
+                                            Tousif Ahmed
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Mohsin Yusuf Ahmed
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Mahbubur Rahman
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Ebrahim Nemati
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Bashima Islam
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Viswam Nathan
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Korosh Vatanparvar
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Daniel McCaffrey
+
+                                        </span>,
+
+
+                                        <span class="author-name">
+
+                                            Jilong Kuang
+
+                                        </span>,
+
+
+
+                                        <span class="author-name">
+
+                                            Jun Alex Gao
+
+                                        </span>
+
+
+                                    </div>
+
+                                </div>
+
+                                <div class="pub-publication">
+
+                                    ACM International Conference on Multimodal Interaction (ICMI ‘20)
+
+
+
+                                </div>
+
+                                <div class="pub-links">
+
+
+
+
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://bashlab.wpi.edu/publication/cough/">Details</a>
+
+
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://dl.acm.org/doi/abs/10.1145/3382507.3418855">PDF</a>
+
+
+
+
+                                    <!-- <a class="btn btn-primary btn-outline btn-xs" href="https://bashlab.wpi.edu/project/audio">Project</a> -->
+
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+                        <div class="row">
+
+                            <div class="col-md-12">
+
+
+                                <h3 class="article-title" itemprop="name">
+                                    <a href="https://bashlab.wpi.edu/publication/celebi/" itemprop="url">Scheduling
+                                        Computational and Energy Harvesting Tasks in Deadline-Aware Intermittent
+                                        Systems</a>
+                                </h3>
+
+                                <div class="pub-authors" itemprop="author">
+
+                                    <div itemprop="author">
+
+
+
+                                        <span class="author-name">
+
+                                            Bashima Islam
+
+                                        </span>,
+
+
+
+                                        <span class="author-name">
+
+                                            Shahriar Nirjon
+
+                                        </span>
+
+
+                                    </div>
+
+                                </div>
+
+                                <div class="pub-publication">
+
+                                    IEEE International Conference on Real-Time and Embedded Technology and Applications
+                                    Symposium (RTAS ‘20)
+
+
+
+                                </div>
+
+                                <div class="pub-links">
+
+
+
+
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://bashlab.wpi.edu/publication/celebi/">Details</a>
+
+
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://ieeexplore.ieee.org/document/9113096">PDF</a>
+
+                                    <a class="btn btn-primary btn-outline btn-xs"
+                                        href="https://youtu.be/7LrMPPRk_Po">Video</a>
+
+
+                                    <!-- <a class="btn btn-primary btn-outline btn-xs" href="https://bashlab.wpi.edu/project/intermittent">Project</a> -->
+
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+
+                <p class="view-all">
+                    <a
+                        href="https://scholar.google.com/citations?hl=en&user=Ft_8Ju8AAAAJ&view_op=list_works&sortby=pubdate">
+                        More Publications
+                        <i class="fa fa-angle-double-right"></i>
+                    </a>
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="members" class="home-section">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-xs-12 col-md-4 section-heading">
+                    <h1 class="section-heading"><a href="https://bashlab.wpi.edu//member/"> Team </a></h1>
+                </div>
+            </div>
+
+
+            <div class="row">
+
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <a href="https://users.wpi.edu/~bislam/">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/Bashima.png');">
+                            </div>
+                        </a>
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="https://users.wpi.edu/~bislam/">Bashima Islam</a></h4>
+
+                            <h5>Assistant Professor, ECE, CS & DS, Worcester Polytechnic Institute</h5>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <a href="http://users.wpi.edu/~mkhan">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/nur.png');"></div>
+                        </a>
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="http://users.wpi.edu/~mkhan">Mohammad Nur Hossain Khan</a></h4>
+                            <h5>PhD Student, ECE, Worcester Polytechnic Institute</h5>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <a href="https://users.wpi.edu/~sbiswas/">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/subrata.png');">
+                            </div>
+                        </a>
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="https://users.wpi.edu/~sbiswas/">Subrata Kumar Biswas</a></h4>
+                            <h5>PhD Student, ECE, Worcester Polytechnic Institute</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <a href=https://sheikhasifimran.wixsite.com/shouborno>
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/shouborno.jpg');">
+                            </div>
+                        </a>
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href=https://sheikhasifimran.wixsite.com/shouborno>Sheikh Asif Imran
+                                    Shouborno</a></h4>
+                            <h5>PhD Student, ECE, Worcester Polytechnic Institute</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <a href="https://bashlab.wpi.edu/member/member3/">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/portrait.jpg');">
+                            </div>
+                        </a>
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="">Michael Rothstein</a></h4>
+                            <h5>MS Student, ECE, Worcester Polytechnic Institute</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <a href="">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/zhuolin.jpg');">
+                            </div>
+                        </a>
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="">Zhuolin Liu</a></h4>
+                            <h5>MS Student, ECE, Worcester Polytechnic Institute</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <a href="https://sites.google.com/view/hollyer/home">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/josh.jpg');">
+                            </div>
+                        </a>
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="https://sites.google.com/view/hollyer/home">Joshua Hollyer</a>
+                            </h4>
+                            <h5>MS Student, ECE, Worcester Polytechnic Institute</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <a href="">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/robbie.jpg');">
+                            </div>
+                        </a>
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="">Robbie Oleynick</a></h4>
+                            <h5>BS/MS Student, ECE & CS, Worcester Polytechnic Institute</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <a href="https://alex.colwell.xyz/">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/alex.JPG');">
+                            </div>
+                        </a>
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="https://alex.colwell.xyz/">Alex Colwell</a></h4>
+                            <h5>Undergraduate Student, ECE, Worcester Polytechnic Institute</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <a href="#">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/portrait.jpg');">
+                            </div>
+                        </a>
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="#">Jack Adiletta</a></h4>
+                            <h5>Undergraduate Student, ECE, Worcester Polytechnic Institute</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <a href="">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/shreyas.jpg');">
+                            </div>
+                        </a>
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="">Shreyas Potnuru</a></h4>
+                            <h5>Undergraduate Student, ECE, Worcester Polytechnic Institute</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <a href="#">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/portrait.jpg');">
+                            </div>
+                        </a>
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="#">John Neth</a></h4>
+                            <h5>Undergraduate Student, CS, Worcester Polytechnic Institute</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-10">
+                    <h2 class="section-heading">Major Qualifying Project (MQP) Student</h2>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <!-- <a href="#">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/portrait.jpg');">
+                            </div>
+                        </a> -->
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="#">Jacob Nguyen</a></h4>
+                            <h6>Undergraduate Student, ECE, Worcester Polytechnic Institute</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <!-- <a href="#">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/portrait.jpg');">
+                            </div>
+                        </a> -->
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="#">Vincenza Burdulis</a></h4>
+                            <h6>Undergraduate Student, ECE, Worcester Polytechnic Institute</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <!-- <a href="#">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/portrait.jpg');">
+                            </div>
+                        </a> -->
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="#">Daniel Sardak</a></h4>
+                            <h6>Undergraduate Student, CS, Worcester Polytechnic Institute</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <!-- <a href="#">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/portrait.jpg');">
+                            </div>
+                        </a> -->
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="#">Joshua Malcarne</a></h4>
+                            <h6>Undergraduate Student, ECE, Worcester Polytechnic Institute</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <!-- <a href="#">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/portrait.jpg');">
+                            </div>
+                        </a> -->
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="#">Tyler Wong</a></h4>
+                            <h6>Undergraduate Student, ECE, Worcester Polytechnic Institute</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <!-- <a href="#">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/portrait.jpg');">
+                            </div>
+                        </a> -->
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="#">Allan Villatoro</a></h4>
+                            <h6>Undergraduate Student, ECE, Worcester Polytechnic Institute</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <!-- <a href="#">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/portrait.jpg');">
+                            </div>
+                        </a> -->
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="#">Elisabeth Whittemore</a></h4>
+                            <h6>Undergraduate Student, ECE, Worcester Polytechnic Institute</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <!-- <a href="#">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/portrait.jpg');">
+                            </div>
+                        </a> -->
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="#">Aisling Corcoran</a></h4>
+                            <h6>Undergraduate Student, ECE, Worcester Polytechnic Institute</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <!-- <a href="#">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/portrait.jpg');">
+                            </div>
+                        </a> -->
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="#">Alberto Flores</a></h4>
+                            <h6>Undergraduate Student, ECE, Worcester Polytechnic Institute</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <!-- <a href="#">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/portrait.jpg');">
+                            </div>
+                        </a> -->
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="#">Tai Le</a></h4>
+                            <h6>Undergraduate Student, ECE, Worcester Polytechnic Institute</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <!-- <a href="#">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/portrait.jpg');">
+                            </div>
+                        </a> -->
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="#">Krish Patel</a></h4>
+                            <h6>Undergraduate Student, ECE, Worcester Polytechnic Institute</h6>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="col-xs-12">
+                    <h2>Independent Research Students</h2><br>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <!-- <a href="#">
+                            <div class="portrait" itemprop="image"
+                                style="background-image: url('https://bashlab.wpi.edu//img//portraits/portrait.jpg');">
+                            </div>
+                        </a> -->
+                        <div class="portrait-title">
+                            <h4 itemprop="name"><a href="#">Samih Khobzi</a></h4>
+                            <h6>Visiting Student, Worcester Polytechnic Institute</h6>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+    </section>
+
+    <section id="posts" class="home-section">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-xs-12 col-md-4 section-heading">
+                    <h1><a href="https://bashlab.wpi.edu//post/"> Prospective Students</a></h1>
+
+                </div>
+
+
+                <div class="col-xs-12 col-md-8">
+
+                    <div class="article-list-item" itemscope itemprop="blogPost">
+
+                        We are looking for highly motivated students to join BASH lab. Please contact us if you want to
+                        work on machine learning and computation on trillions of sustainable IoT devices. Before you
+                        contact us, it is highly recommended you read <a
+                            href="https://people.cs.clemson.edu/~jsorber/prospective_students.php">this advice</a>.
+                        <p class="article-style" itemprop="articleBody">
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="collaborators" class="home-section">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-xs-12 col-md-4 section-heading">
+                    <h1 class="section-heading">Collaborators</h1>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <div class="portrait" itemprop="image"
+                            style="background-image: url('https://bashlab.wpi.edu//img//uiuc.jpg');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <div class="portrait" itemprop="image"
+                            style="background-image: url('https://bashlab.wpi.edu//img//cmu.png');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <div class="portrait" itemprop="image"
+                            style="background-image: url('https://bashlab.wpi.edu//img//gtech.png');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <div class="portrait" itemprop="image"
+                            style="background-image: url('https://bashlab.wpi.edu//img//NW.png');">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <div class="portrait" itemprop="image"
+                            style="background-image: url('https://bashlab.wpi.edu//img//delft.png');">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <div class="portrait" itemprop="image"
+                            style="background-image: url('https://bashlab.wpi.edu//img//trento.png');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <div class="portrait" itemprop="image"
+                            style="background-image: url('https://bashlab.wpi.edu//img//Maxim_logo.jpg');">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <div class="portrait" itemprop="image"
+                            style="background-image: url('https://bashlab.wpi.edu//img//bell_labs.png');">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <div id="profile">
+                        <div class="portrait" itemprop="image"
+                            style="background-image: url('https://bashlab.wpi.edu//img//samsung.png');">
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="home-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 section-heading">
+                    <h1>Contact</h1>
+
+                </div>
+                <div class="col-xs-12 col-md-8">
+                    <ul class="list-unstyled">
+
+
+
+
+                        <li>
+                            <i class="fa fa-envelope fa-fw" aria-hidden="true"></i>
+                            <span><a href="mailto:bislam@wpi.edu">bislam@wpi.edu</a></span>
+                        </li>
+
+
+
+                        <li>
+                            <i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>
+                            <span>311 Atwater Kent Laboratories, 100 Institute Road, Worcester MA, 01609</span>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p class="powered-by">
+
+                © Bashima, 2021 &middot;
+
+                Partially powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+                    theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+                <span class="pull-right"><a href="#home" id="back_to_top"><span class="button_icon"><i
+                                class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+
+            </p>
+        </div>
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+
+
+
+
+    <script type="text/x-mathjax-config">
+ MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+</script>
+
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML">
+        </script>
+
+</body>
+
+</html>
