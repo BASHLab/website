@@ -1,0 +1,194 @@
+[
+  {
+    "date": "September 2025",
+    "title": "EfficientMic got accepted in [red]BuildSys'25[/red]",
+    "content": "EfficientMic detects aliasing in real time to adapt sampling with just one mic. [red](Led by Jack)[/red]",
+    "url": "https://bashlab.github.io/efficientmic_project/",
+    "image": "./img/news/efficientmic.png",
+    "category": "publication"
+  },
+  {
+    "date": "September 2025",
+    "title": "[red]NIH NIMH SBIR[/red] Phase 2 Awarded",
+    "content": "",
+    "url": "https://reporter.nih.gov/search/dA1rsefomUqAkWnzcMSysg/project-details/11393482",
+    "image": "./img/news/sbir.png",
+    "category": "publication"
+  },
+  {
+    "date": "September 2025",
+    "title": "Mindfulness Meditation and Respiration got accepted in [red]IMWUT/UbiComp'25[/red]",
+    "content": "This work introduces smartphone-based respiration tracking and mindfulness skill estimation to enhance engagement and usability in digital meditation apps. [red](Led by Nur)[/red]",
+    "url": "https://bashlab.github.io/meditite_project/",
+    "image": "./img/news/mindful.png",
+    "category": "publication"
+  },
+  {
+    "date": "August 2025",
+    "title": "RAVEN got accepted in [red]EMNLP'25[/red]",
+    "content": "RAVEN improves multimodal question answering by dynamically gating cross-modal signals—using a single architecture to suppress distractors and resolve modality mismatches. [red](Led by Subrata)[/red]",
+    "url": "https://bashlab.github.io/raven_project/",
+    "image": "./img/news/raven.png",
+    "category": "publication"
+  },
+  {
+    "date": "July 2025",
+    "title": "LLaSA got accepted in in [red]GENAI4HS Workshop, UbiComp'25[/red]",
+    "content": "LLaSA combines IMU data with language models to generate interpretable, context-rich answers about human activity using large-scale sensor-caption and QA datasets.. [red](Led by Shoubornno)[/red]",
+    "url": "https://bashlab.github.io/llasa_project/",
+    "image": "./img/news/llasa.png",
+    "category": "publication"
+  },
+  {
+    "date": "June 2025",
+    "title": "LOCUS got accepted in [red]EWSN'25[/red]",
+    "content": "LOCUS enables robust sound source localization in batteryless systems by intelligently recovering missing multichannel data using deep learning. [red](Led by Subrata)[/red]",
+    "url": "https://bashlab.github.io/locus_project/",
+    "image": "./img/news/locus.png",
+    "category": "publication"
+  },
+  {
+    "date": "May 2025",
+    "title": "QuaDS got accepted in [red]Interspeech'25[/red]",
+    "content": "QUADS unifies quantization and distillation to create ultra-efficient spoken language understanding models. [red](Led by Subrata)[/red]",
+    "url": "https://bashlab.github.io/quad_project/",
+    "image": "./img/news/quads.png",
+    "category": "publication"
+  },
+  {
+    "date": "May 2025",
+    "title": "FATE got accepted in [red]MWSCAS'25[/red]",
+    "content": "Fate is a novel Fourier-Accelerated CMOS-based Tensor Engine that optimizes matrix multiplication using the Fourier Dot Product. [red](Led by Jack)[/red]",
+    "url": "https://bashlab.github.io/fate_project/",
+    "image": "./img/news/fate.png",
+    "category": "publication"
+  },
+  {
+    "date": "May 2025",
+    "title": "Shourno went to [red]Bosch Research Labs[/red] as Summer Research Intern",
+    "content": "",
+    "url": "https://www.bosch.us/our-company/innovation/",
+    "image": "./img/news/bosch.png",
+    "category": "publication"
+  },
+  {
+    "date": "November 2024",
+    "title": "Gift Money from [red]Wadsworth[/red] Acoustic Laboratory",
+    "content": "",
+    "url": "https://bashlab.wpi.edu/research",
+    "image": "./img/news/wadsworth.png",
+    "category": "publication"
+  },
+  {
+    "date": "July 2024",
+    "title": "[red]NIH NIMH SBIR[/red] Phase 1 Awarded",
+    "content": "",
+    "url": "https://reporter.nih.gov/search/JbW0N-Uuzkuu6w2WE7OsxA/project-details/10919943",
+    "image": "./img/news/sbir.png",
+    "category": "publication"
+  },
+  {
+    "date": "July 2024",
+    "title": "[red]NIH NIDDK[/red] RO1 Awarded",
+    "content": "",
+    "url": "https://reporter.nih.gov/search/m2XMndk72Uyo1nbCSi7IMQ/project-details/10981817",
+    "image": "./img/news/niddk.png",
+    "category": "publication"
+  },
+  {
+    "date": "May 2024",
+    "title": "InfantMotion2Vec got accepted in [red]BSN'24[/red]",
+    "content": "InfantMotion2Vec uses a single IMU sensor and semi-supervised learning to detect infant pose to facilitate neurodevelopmental risks in infants through natural motion analysis. [red](Led by Nur)[/red]",
+    "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10780750",
+    "image": "./img/news/infantmotion2vec.png",
+    "category": "publication"
+  },
+  {
+    "date": "May 2024",
+    "title": "Ultrasound-Gesture got accepted in [red]BSN'24[/red]",
+    "content": "This work enables real-time hand gesture recognition using forearm ultrasound and deep learning on edge devices, achieving high accuracy with efficient model compression. [red](Led by Keshav)[/red]",
+    "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10780669",
+    "image": "./img/news/ultrasound_forearm.png",
+    "category": "publication"
+  },
+  {
+    "date": "May 2024",
+    "title": "Subrata went to [red]Meta Reality Lab[/red] as Summer Research Intern and Part-time Student Researcher",
+    "content": "",
+    "url": "https://tech.facebook.com/reality-labs/",
+    "image": "./img/news/meta_rl.png",
+    "category": "publication"
+  },
+  {
+    "date": "April 2024",
+    "title": "FreeML got accepted in [red]EWSN'24[/red]",
+    "content": "FreeML enables memory-efficient, energy-adaptive inference of pre-trained deep neural networks on batteryless systems using novel compression and early-exit techniques. [red](Led by Subrata)[/red]",
+    "url": "https://bashlab.github.io/freeml_project",
+    "image": "./img/news/freeml.png",
+    "category": "publication"
+  },
+  {
+    "date": "February 2024",
+    "title": "Infant SoundTagging got accepted in [red]CHASE'24[/red]",
+    "content": "This work enhances infant-centric noise detection by fine-tuning large audio models on data from wearable infant recorders, improving accuracy in real-world home soundscapes. [red](Led by Nur)[/red]",
+    "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10614412",
+    "image": "./img/news/infant_soundscape.png",
+    "category": "publication"
+  },
+  {
+    "date": "January 2024",
+    "title": "[red]NSF CRII[/red] Awarded",
+    "content": "",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2347692&HistoricalAwards=false",
+    "image": "./img/news/nsf.png",
+    "category": "publication"
+  },
+  {
+    "date": "October 2023",
+    "title": "EchoSense got accepted in [red]MIT URTC'23[/red]",
+    "content": "This work explores using acoustic sensing and machine learning to identify and monitor the shape and health of small hollow objects with high accuracy for preventive maintenance in enclosed environments. [red](Led by Michael and Zhuolin)[/red]",
+    "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10534944",
+    "image": "./img/news/echosense.png",
+    "category": "publication"
+  },
+  {
+    "date": "September 2023",
+    "title": "[red]NIH NIDA[/red] RO1 Awarded",
+    "content": "",
+    "url": "https://reporter.nih.gov/search/Y243KaussUeGqwjP_QkHOA/project-details/10777825",
+    "image": "./img/news/nida.png",
+    "category": "publication"
+  },
+  {
+    "date": "May 2023",
+    "title": "Bashima presents Amalgamated Intermittent Systems in [red]IoTDI'23[/red]",
+    "content": "This work explores energy-aware coordination of intermittent computing nodes with unequal energy harvesting, enabling reliable sensing and computation without constant communication.",
+    "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10534944",
+    "image": "./img/news/falinks.png",
+    "category": "publication"
+  },
+  {
+    "date": "November 2022",
+    "title": "Subrata presents poster in [red]SenSys'22[/red]",
+    "content": "This work reveals how prior data knowledge enables input recovery from partially offloaded DNN vectors, highlighting privacy risks in edge-cloud inference.",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3560905.3568091",
+    "image": "./img/news/security.png",
+    "category": "publication"
+  },
+  {
+    "date": "August 2022",
+    "title": "Verification of Intermittent Systems got accepted in [red]EMSOFT'22[/red]",
+    "content": "This paper present formal verification of intermittent computing system powered by harvester energy. [red](Led by Rose & Bashima)[/red]",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3576842.3582388",
+    "image": "./img/news/verification.png",
+    "category": "publication"
+  },
+  {
+    "date": "August 2022",
+    "title": "[red]BASH[/red] Lab starts its journey at WPI",
+    "content": "",
+    "url": "https://bashlab.wpi.edu/",
+    "image": "./img/bashlab/AK311.jpg",
+    "category": "publication"
+  }
+]

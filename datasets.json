@@ -1,0 +1,42 @@
+{
+  "datasets": [
+    {
+      "title": "AVS-QA",
+      "description": "A comprehensive multimodal dataset combining audio, video, and sensor data with question-answer pairs for cross-modal understanding research.",
+      "url": "https://huggingface.co/datasets/BASH-Lab/AVS-QA",
+      "type": "dataset"
+    },
+    {
+      "title": "SensorCap",
+      "description": "LLM-assisted softly-labelled IMU sensor data captioning dataset with feature summarizations and narrations of human activities.",
+      "url": "https://huggingface.co/datasets/BASH-Lab/SensorCaps",
+      "type": "dataset"
+    },
+    {
+      "title": "OpenSQA",
+      "description": "Open-source sensor-aware question-answering or instruction-tuning dataset covering IMU data interpretations for human activities.",
+      "url": "https://huggingface.co/datasets/BASH-Lab/OpenSQA",
+      "type": "dataset"
+    },
+    {
+      "title": "LargeSet: Sound Source Localization",
+      "description": "Large-scale dataset for multichannel sound source localization research with diverse acoustic scenarios and precise ground truth localization information.",
+      "url": "https://drive.google.com/drive/folders/1YbOdBA8p-WI_FRT7ktbiex3TXhZS7igb",
+      "type": "dataset"
+    }
+  ],
+  "models": [
+    {
+      "title": "RAVEN: Multimodal Reasoning",
+      "description": "State-of-the-art multimodal reasoning model combining audio, video, and sensor data for comprehensive scene understanding and cross-modal reasoning.",
+      "url": "https://huggingface.co/BASH-Lab/RAVEN-AV-7B",
+      "type": "model"
+    },
+    {
+      "title": "LLaSA: Sensor-Language Model",
+      "description": "Specialized language model fine-tuned for sensor data interpretation and natural language generation, bridging sensors and human-understandable descriptions.",
+      "url": "https://huggingface.co/BASH-Lab/LLaSA-13B",
+      "type": "model"
+    }
+  ]
+}

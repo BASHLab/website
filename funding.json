@@ -1,0 +1,78 @@
+{
+  "chartData": {
+    "labels": ["NSF", "NIH", "GIFT"],
+    "datasets": [{
+      "data": [175, 772, 9],
+      "backgroundColor": ["#AC2B37", "#D64550", "#8E1E29"]
+    }],
+    "total": 956
+  },
+  "grants": [
+    {
+      "id": "nih-sbir2",
+      "title": "NIH NIMH SBIR (Phase 2)",
+      "icon": "fa-university",
+      "type": "NIH",
+      "duration": "2 year (9/2025 - 8/2027)",
+      "amount": "$170K (Total: $918K)",
+      "role": "Co-I",
+      "description": null,
+      "leadPIs": "John David Creswell & Mathew Polowitz (CMU & Equa Health)"
+    },
+    {
+      "id": "wadsworth",
+      "title": "Wadsworth Acoustic Laboratory",
+      "icon": "fa-university",
+      "type": "Gift",
+      "duration": "1 year (1/2024 - 12/2024)",
+      "amount": "$9K",
+      "role": "Lead PI",
+      "description": null,
+      "leadPIs": null
+    },
+    {
+      "id": "nsf-crii",
+      "title": "NSF CSR CRII",
+      "icon": "fa-flask",
+      "type": "NSF",
+      "duration": "2 years (1/2024 - 12/2025)",
+      "amount": "$175K",
+      "role": "Lead PI",
+      "description": "",
+      "leadPIs": null
+    },
+    {
+      "id": "nih-nida",
+      "title": "NIH NIDA R01",
+      "icon": "fa-heartbeat",
+      "type": "NIH",
+      "duration": "5 years (9/2023 - 7/2028)",
+      "amount": "$157K (Total: $2.7M)",
+      "role": "Co-I",
+      "description": null,
+      "leadPIs": "Nancy E. McElwain (UIUC) & Mark A. Hasegawa-Johnson (UIUC)"
+    },
+    {
+      "id": "nih-niddk",
+      "title": "NIH NIDDK R01",
+      "icon": "fa-medkit",
+      "type": "NIH",
+      "duration": "5 years (9/2024 - 7/2028)",
+      "amount": "$533K (Total: $2.7M)",
+      "role": "Co-I",
+      "description": null,
+      "leadPIs": "Nancy E. McElwain (UIUC) & Mark A. Hasegawa-Johnson (UIUC)"
+    },
+    {
+      "id": "nih-nimh",
+      "title": "NIH NIMH SBIR (Phase 1)",
+      "icon": "fa-brain",
+      "type": "NIH",
+      "duration": "1 year (9/2024 - 7/2025)",
+      "amount": "$82K (Total: $290K)",
+      "role": "Co-I",
+      "description": null,
+      "leadPIs": "John David Creswell & Mathew Polowitz (CMU & Equa Health)"
+    }
+  ]
+}

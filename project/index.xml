@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on BASH Lab</title>
+    <link>https://users.wpi.edu/~bislam/bashlab/project/</link>
+    <description>Recent content in Projects on BASH Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; Bashima, 2021 </copyright>
+    <lastBuildDate>Mon, 12 Jul 2021 16:10:22 +0200</lastBuildDate><atom:link href="https://users.wpi.edu/~bislam/bashlab/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monitor Development of a Child through AI and Mobile Sensing</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/project/littlebeats/</link>
+      <pubDate>Mon, 12 Jul 2021 16:10:22 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/project/littlebeats/</guid>
+      <description>We are developing an affordable and comfortable new mobile sensing device (called LittleBeats™) that children between age 3 to 24 months will wear in the home. LittleBeats™ is equipped with sensors to measure motion and heart rate, as well as a microphone to record audio. Designed with a small and sleek shape, the device easily fits inside of a specially designed shirt pocket. It is attached by placing three hypoallergenic gel stickers on your child’s skin.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Intermittent Systems</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/project/intermittent/</link>
+      <pubDate>Sun, 12 Jul 2020 16:10:22 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/project/intermittent/</guid>
+      <description>Current development of extremely low-power computing devices and efficient energy harvesters led to the creation of computing systems that are powered by intermittently available harvested energy, e.g., solar, piezoelectric, and radio-frequency (RF). Such computing systems go through power-on and off phases due to the lack of adequate harvesting energy. These systems are known as Intermittent Computing Systems. While existing works on intermittent computing systems concentrate preliminary on the lower level goals, e.</description>
+    </item>
+    
+    <item>
+      <title>Deep Neural Sensing for Mobile Health and Safety</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/project/audio/</link>
+      <pubDate>Thu, 12 Jul 2018 16:10:22 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/project/audio/</guid>
+      <description>Breathing biomarkers, such as breathing rate, fractional inspiratory time, and inhalation-exhalation ratio, are vital for monitoring the user&amp;rsquo;s health and well-being. We assesses the potential of using smartphone acoustic sensors for passive unguided breathing phase monitoring in a natural environment. We address the annotation challenges by developing a novel variant of the teacher-student deep neural network training method for transferring knowledge from an inertial sensor to an acoustic sensor, eliminating the need for manual breathing sound annotation by fusing signal processing with deep learning techniques.</description>
+    </item>
+    
+    <item>
+      <title>Energy-Efficient Computer Vision on Embedded Systems</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/project/vision/</link>
+      <pubDate>Thu, 12 Jul 2018 16:10:22 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/project/vision/</guid>
+      <description>Camera is the one of the most usable and common sensors in the current world. With the development of low-power camera and highly efficient embedded processors computer vision is now available in our daily handheld devices including smartphones. In this research, we explore the different computer vision applications, e.g., 3D reconstruction, augmented reality, and provide more energy-efficient solutions by controlling the image acquisition and image processing stages and intergrating other modalities, e.</description>
+    </item>
+    
+    <item>
+      <title>Localization using Low Power Network</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/project/localization/</link>
+      <pubDate>Sat, 12 May 2018 16:10:22 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/project/localization/</guid>
+      <description>Mobility tracking of internet of things (IoT) devices in smart city infrastructures such as smart buildings, hospitals, shopping centers, warehouses, smart streets, and outdoor spaces has many applications, and BLE is available in almost every IoT device in the market nowadays. Developing an accurate ranging technique for Low powered network-enabled, e.g., Lora, BLE, IoT devices (both battery powered and batterless) is a challenging feat as billions of these devices are already in use, and for pragmatic reasons, we cannot propose to modify the IoT device (a BLE peripheral) itself.</description>
+    </item>
+    
+  </channel>
+</rss>

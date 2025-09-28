@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta name="generator" content="Hugo 0.86.1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic-group">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="js/hugo-academic-group.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/academicons.min.css">
+    <link rel="stylesheet" href="css/biaslab-font.css">
+    <link rel="stylesheet"
+        href="//fonts.googleapis.com/css?family=Lato:100,300,400,700|Merriweather:100,400,700|Roboto+Mono">
+    <link rel="stylesheet" href="css/hugo-academic-group.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="">
+
+    <title>BASH Lab - Bringing Awareness through Systems for Humans Lab</title>
+</head>
+
+<body>
+    <div class="home-anchor" id="home"></div>
+
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target=".navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/header_white.png" alt="BASH Lab" class="navbar-logo">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="research.html">Research</a></li>
+                    <li class="nav-item"><a href="publications.html">Publications</a></li>
+                    <li class="nav-item"><a href="datasets.html">Datasets</a></li>
+                    <li class="nav-item"><a href="team.html">Team</a></li>
+                    <li class="nav-item"><a href="sponsors.html">Sponsors</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="space-below" style="padding: 10px;">
+        <div class="header-content" style="padding: 10px;">
+            <div class="header-content-inner" style="padding: 10px;">
+                <h1 style="margin: 0;">
+                    <FONT COLOR="#AC2B37">BASH</FONT> Lab
+                </h1>
+                <h2 style="margin: 0; font-size: 1.2em; font-weight: normal;">
+                    <FONT COLOR="#AC2B37">B</FONT>ringing <FONT COLOR="#AC2B37">A</FONT>wareness through <FONT
+                        COLOR="#AC2B37">S</FONT>ystems for <FONT COLOR="#AC2B37">H</FONT>umans
+                </h2>
+            </div>
+        </div>
+    </header>
+
+    <section id="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div class="news-grid" id="news-grid">
+                        <!-- News cards will be populated here -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p class="powered-by">
+                © Bashima, 2021 &middot;
+                Partially powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+                    theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a> &middot; Developed using <a
+                    href="https://claude.ai" target="_blank">Claude</a> and <a href="https://kiro.ai"
+                    target="_blank">Kiro</a>.
+                <span class="pull-right"><a href="#home" id="back_to_top"><span class="button_icon"><i
+                                class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        let allNews = [];
+
+        function getColumnCount() {
+            const width = window.innerWidth;
+            if (width <= 500) return 1;
+            if (width <= 800) return 2;
+            if (width <= 1200) return 3;
+            if (width <= 1600) return 4;
+            return 5;
+        }
+
+        function layoutMasonry() {
+            const newsGrid = document.getElementById('news-grid');
+            const cards = newsGrid.querySelectorAll('.news-card-container');
+            const columnCount = getColumnCount();
+            const gap = 15;
+
+            if (cards.length === 0) return;
+
+            // Calculate column width
+            const containerWidth = newsGrid.offsetWidth;
+            const columnWidth = (containerWidth - (gap * (columnCount - 1))) / columnCount;
+
+            // Initialize column heights
+            const columnHeights = new Array(columnCount).fill(0);
+
+            cards.forEach((card, index) => {
+                // Find the shortest column
+                const shortestColumnIndex = columnHeights.indexOf(Math.min(...columnHeights));
+
+                // Position the card
+                const left = shortestColumnIndex * (columnWidth + gap);
+                const top = columnHeights[shortestColumnIndex];
+
+                card.style.left = left + 'px';
+                card.style.top = top + 'px';
+                card.style.width = columnWidth + 'px';
+
+                // Update column height
+                columnHeights[shortestColumnIndex] += card.offsetHeight + gap;
+            });
+
+            // Set container height
+            const maxHeight = Math.max(...columnHeights) - gap;
+            newsGrid.style.height = maxHeight + 'px';
+        }
+
+        function displayNews() {
+            const newsGrid = document.getElementById('news-grid');
+            newsGrid.innerHTML = '';
+
+            allNews.forEach((newsItem, index) => {
+                const newsCard = createNewsCard(newsItem, index);
+                newsGrid.appendChild(newsCard);
+            });
+
+            // Wait for images to load before laying out
+            setTimeout(() => {
+                layoutMasonry();
+            }, 100);
+        }
+
+        // Re-layout on window resize
+        window.addEventListener('resize', () => {
+            setTimeout(layoutMasonry, 100);
+        });
+
+        function processRedText(text) {
+            // Replace text wrapped in [red]...[/red] with red spans
+            return text.replace(/\[red\](.*?)\[\/red\]/g, '<span class="red-text">$1</span>');
+        }
+
+        function createNewsCard(newsItem, index) {
+            const cardContainer = document.createElement('div');
+
+            // Create more dynamic height variation based on content length and index
+            const contentLength = newsItem.content.length;
+            let heightClass;
+
+            if (contentLength < 100) {
+                heightClass = 'height-small';
+            } else if (contentLength < 200) {
+                heightClass = 'height-medium';
+            } else if (contentLength < 300) {
+                heightClass = 'height-large';
+            } else {
+                heightClass = 'height-extra-large';
+            }
+
+            // Add some randomness based on index to avoid too much uniformity
+            const variation = ['height-small', 'height-medium', 'height-large'];
+            if (index % 4 === 0) {
+                heightClass = variation[index % 3];
+            }
+
+            cardContainer.className = `news-card-container ${heightClass}`;
+
+            // Process titles for red text
+            const processedTitle = processRedText(newsItem.title);
+            const processedContent = processRedText(newsItem.content);
+
+            // Create a short title from the full title (first few words) - strip HTML for length calculation
+            const plainTitle = newsItem.title.replace(/\[red\]|\[\/red\]/g, '');
+            const shortTitle = plainTitle.split(' ').slice(0, 6).join(' ') + (plainTitle.split(' ').length > 6 ? '...' : '');
+            const processedShortTitle = processRedText(shortTitle);
+
+            const isValidUrl = newsItem.url && (newsItem.url.startsWith('http') || newsItem.url.startsWith('www') || newsItem.url.endsWith('.html'));
+            const cardContent = `
+                <div class="simple-card">
+                    <div class="card-image">
+                        <img src="${newsItem.image}" alt="News Image" onerror="this.src='./img/research_clusters/sensor.png'">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">${processedTitle}</h3>
+                        <p class="card-description">${processedContent}</p>
+                        <div class="card-date">${newsItem.date}</div>
+                    </div>
+                </div>
+            `;
+
+            cardContainer.innerHTML = cardContent;
+
+            // Add click handler if there's a valid URL
+            if (isValidUrl && newsItem.url !== '#') {
+                cardContainer.style.cursor = 'pointer';
+                cardContainer.addEventListener('click', () => {
+                    if (newsItem.url.startsWith('http') || newsItem.url.startsWith('www')) {
+                        window.open(newsItem.url, '_blank');
+                    } else {
+                        window.location.href = newsItem.url;
+                    }
+                });
+            }
+
+            return cardContainer;
+        }
+    </script>
+
+
+
+    <script>
+        async function loadNews() {
+            try {
+                console.log('Attempting to load news.json...');
+                const response = await fetch('news.json?v=' + Date.now()); // Add cache busting
+                console.log('Response status:', response.status);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const newsData = await response.json();
+                console.log('Successfully loaded news data:', newsData);
+                console.log('Number of news items:', newsData.length);
+                allNews = newsData;
+
+                displayNews();
+            } catch (error) {
+                console.error('Detailed error loading news:', error);
+                console.log('Error type:', error.name);
+                console.log('Error message:', error.message);
+                console.log('Using fallback news data...');
+                // Fallback news if fetch fails - updated with red text examples
+                allNews = [
+                    {
+                        "date": "September 2025",
+                        "title": "EfficientMic got accepted in [red]BuildSys[/red]",
+                        "content": "This paper present a low-power, aliasing-aware single-mic framework that dynamically adjusts microphone sampling using machine learning, enabling scalable and accurate sound detection with minimal hardware.",
+                        "url": "https://bashlab.wpi.edu",
+                        "image": "./img/research_clusters/sensor.png",
+                        "category": "publication"
+                    },
+                    {
+                        "date": "December 2024",
+                        "title": "Welcome to the [red]BASH Lab[/red] website!",
+                        "content": "We are excited to launch our new website showcasing our research in [red]human-centered AI[/red] and intelligent sensing systems.",
+                        "url": "https://bashlab.wpi.edu",
+                        "image": "./img/research_clusters/sensor.png",
+                        "category": "announcement"
+                    },
+                    {
+                        "date": "November 2024",
+                        "title": "New research on [red]sensor-language fusion[/red] published",
+                        "content": "Our latest paper on bridging sensors and language intelligence has been accepted at a [red]top-tier conference[/red], demonstrating novel approaches to multimodal AI systems.",
+                        "url": "https://bashima.notion.site/sensing-the-future",
+                        "image": "./img/research_clusters/audio.png",
+                        "category": "publication"
+                    },
+                    {
+                        "date": "October 2024",
+                        "title": "Lab receives [red]NSF funding[/red] for edge AI research",
+                        "content": "We are thrilled to announce that our proposal for developing energy-efficient machine learning algorithms for ultra-low-power edge devices has been funded by the [red]National Science Foundation[/red].",
+                        "url": "https://bashima.notion.site/tinypower",
+                        "image": "./img/research_clusters/tiny.png",
+                        "category": "funding"
+                    }
+                ];
+                displayNews();
+            }
+        }
+        loadNews();
+    </script>
+
+    <style>
+        /* News Section */
+        #news {
+            padding: 40px 0 60px 0;
+            background: white;
+        }
+
+        .news-grid {
+            position: relative;
+            margin-bottom: 40px;
+        }
+
+        .news-card-container {
+            position: absolute;
+            width: calc(20% - 12px);
+            /* 5 columns */
+            transition: all 0.3s ease;
+        }
+
+        /* Responsive column widths */
+        @media (max-width: 1600px) {
+            .news-card-container {
+                width: calc(25% - 11.25px);
+                /* 4 columns */
+            }
+        }
+
+        @media (max-width: 1200px) {
+            .news-card-container {
+                width: calc(33.333% - 10px);
+                /* 3 columns */
+            }
+        }
+
+        @media (max-width: 800px) {
+            .news-card-container {
+                width: calc(50% - 7.5px);
+                /* 2 columns */
+            }
+        }
+
+        @media (max-width: 500px) {
+            .news-card-container {
+                width: 100%;
+                /* 1 column */
+            }
+        }
+
+        /* News Cards */
+
+        .news-card-container.height-small,
+        .news-card-container.height-medium,
+        .news-card-container.height-large,
+        .news-card-container.height-extra-large {
+            height: auto;
+        }
+
+        /* Flip Card Styles */
+        .flip-card {
+            background-color: transparent;
+            width: 100%;
+            height: auto;
+            min-height: 200px;
+            perspective: 1000px;
+        }
+
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: auto;
+            min-height: 200px;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front,
+        .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            min-height: 200px;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .flip-card-back {
+            background-color: #AC2B37;
+            color: white;
+            transform: rotateY(180deg);
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 12px;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            height: auto;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #e9ecef;
+        }
+
+        .card img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 12px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .card-content h3 {
+            color: #AC2B37;
+            font-size: 0.9em;
+            margin: 0;
+            line-height: 1.2;
+            font-weight: 600;
+        }
+
+        .news-back-content {
+            text-align: left;
+            width: 100%;
+            height: auto;
+            min-height: 150px;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+        }
+
+        .news-back-content p {
+            color: white;
+            line-height: 1.4;
+            margin: 0 0 10px 0;
+            font-size: 0.85em;
+            flex-grow: 1;
+        }
+
+        .click-hint {
+            color: #fff;
+            font-size: 0.75em;
+            font-style: italic;
+            opacity: 0.8;
+            margin-top: 8px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+
+        /* Simple Cards - SINRG Style */
+        .simple-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            height: auto;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 1px solid #f0f0f0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .simple-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 140px;
+            overflow: hidden;
+        }
+
+        .card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .simple-card:hover .card-image img {
+            transform: scale(1.05);
+        }
+
+        .card-body {
+            padding: 15px;
+            flex-grow: 1;
+        }
+
+        .card-title {
+            color: #333;
+            font-size: 1.0em;
+            font-weight: 600;
+            margin: 0 0 10px 0;
+            line-height: 1.3;
+        }
+
+        .card-description {
+            color: #666;
+            font-size: 0.85em;
+            line-height: 1.4;
+            margin: 0 0 10px 0;
+        }
+
+        .card-date {
+            color: #999;
+            font-size: 0.7em;
+            font-style: italic;
+            margin-top: auto;
+            text-align: right;
+            border-top: 1px solid #f0f0f0;
+            padding-top: 8px;
+        }
+
+
+
+
+
+        /* Navbar Logo */
+        .navbar-logo {
+            height: 60px;
+            width: auto;
+            margin-top: -15px;
+            margin-bottom: -15px;
+        }
+
+        .navbar-brand {
+            padding: 15px 15px;
+        }
+
+        .navbar-brand:hover {
+            text-decoration: none;
+        }
+
+        /* Red text highlighting */
+        .red-text {
+            color: #AC2B37;
+            font-weight: 600;
+        }
+
+
+
+        /* Button Styles */
+        .btn-outline-primary {
+            color: #AC2B37;
+            border-color: #AC2B37;
+            background: transparent;
+            padding: 10px 25px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-outline-primary:hover {
+            background-color: #AC2B37;
+            border-color: #AC2B37;
+            color: white;
+        }
+
+
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic-group">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/hugo-academic-group.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/academicons.min.css">
+    <link rel="stylesheet" href="css/biaslab-font.css">
+    <link rel="stylesheet"
+        href="//fonts.googleapis.com/css?family=Lato:100,300,400,700|Merriweather:100,400,700|Roboto+Mono">
+    <link rel="stylesheet" href="css/hugo-academic-group.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>BASH Lab - Publications</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bibtex_js_v2.js" type="text/javascript" charset="utf-8"></script>
+    <bibtex src="https://raw.githubusercontent.com/BASHLab/publications/main/publications.bib"></bibtex>
+
+    <script>
+        $(function () {
+            $("#Fontselector").on("change", function () {
+                var font = $("#Fontselector option:selected").text();
+                console.log(font);
+                $('.title.fonters').each(function () {
+                    $(this).css("font-family", font);
+                });
+            });
+        });
+        function reset() {
+            $("select").each(function () {
+                localStorage.setItem($(this).attr("id"), "");
+                $(this).val("");
+            });
+            $("#searchbar").val("");
+            $("#searchbar").trigger('change');
+        }
+        function resetOtherFilters(changedId) {
+            $("select").each(function () {
+                if ($(this).attr("id") !== changedId) {
+                    $(this).val("");
+                }
+            });
+            $("#searchbar").val("");
+        }
+
+        $("#authorselectfirst, #authorselect").on("change", function () {
+            resetOtherFilters($(this).attr("id"));
+            $(this).trigger('change');
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target=".navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/header_white.png" alt="BASH Lab" class="navbar-logo">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="research.html">Research</a></li>
+                    <li class="nav-item"><a href="publications.html">Publications</a></li>
+                    <li class="nav-item"><a href="datasets.html">Datasets</a></li>
+                    <li class="nav-item"><a href="team.html">Team</a></li>
+                    <li class="nav-item"><a href="sponsors.html">Sponsors</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div style="margin-top: 80px;"></div>
+
+    <section id="publications" class="home-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 section-heading">
+                    <h1 class="section-heading">Publications</h1>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="searchbar">
+                    <div style="float:left;">
+                        <button type="button" class="btn btn-default" onclick="reset()"
+                            style="border: 1px solid #AC2B37; color: #AC2B37;">Reset</button>
+                    </div>
+                    <div style="float:left;">
+                        <select id="authorselectfirst" class="btn bibtex_search bibtex_author"
+                            style="border: 1px solid #AC2B37;" extra="first" search="author"
+                            onchange="resetOtherFilters('authorselectfirst')">
+                            <option value="">Search First Author</option>
+                        </select>
+                    </div>
+                    <div style="float:left;">
+                        <select id="authorselect" class="btn bibtex_search bibtex_author"
+                            style="border: 1px solid #AC2B37;" search="author"
+                            onchange="resetOtherFilters('authorselect')">
+                            <option value="">Search Author</option>
+                        </select>
+                    </div>
+                    <div style="float:left;">
+                        <input type="text" class="bibtex_search form-control" id="searchbar"
+                            placeholder="Search publications" style="border: 1px solid #AC2B37; color: #AC2B37;">
+                        <span class="help-block"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bibtex_structure">
+                <div class="group year" extra="ASC number">
+                    <a href="#top" style="display: inline"><em><span class="pull-right"><a href="#publications"
+                                    id="back_to_top"><span class="button_icon"><i class="fa fa-arrow-up"
+                                            aria-hidden="true"></i></span></a></span></em></a>
+                    <div style="padding-bottom:10px;"></div>
+                    <div class="sort journal" extra="DESC string">
+                        <div class="templates"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="bibtex_display">
+                <div class="if bibtex_template" style="display: none;">
+                    <ul>
+                        <li>
+                            <span class="if journal !nolink">
+                                <a class="bibtexVar" href="+URLORDEFAULT+" extra="BIBTEXKEY">
+                                    <span style="text-decoration: underline;" class="title"></span>,
+                                </a>
+                            </span>
+
+                            <span class="if title nolink">
+                                <span class="title"></span>,
+                            </span>
+                            <div class="if author">
+                                <span class="author"></span>
+                            </div>
+                            <div>
+                                <span class="if journal"><em><span class="journal"></span></em>,</span>
+                                <span class="if booktitle">In <em><span class="booktitle"></span></em>,</span>
+                                <span class="if editor"><span class="editor"></span> (editors),</span>
+                                <span class="if publisher"><em><span class="publisher"></span></em>,</span>
+                                <span class="if !journal number">Technical report <span class="number"></span>,</span>
+                                <span class="if institution"><span class="institution"></span>,</span>
+                                <span class="if address"><span class="address"></span>,</span>
+                                <span class="if volume"><span class="volume"></span>,</span>
+                                <span class="if journal number">(<span class="number"></span>),</span>
+                                <span class="if pages"> pages <span class="pages"></span>,</span>
+                                <span class="if month"><span class="month"></span>,</span>
+                                <span class="if year"><span class="year"></span>.</span>
+                                <span class="if note"><span class="note"></span>.</span>
+                                <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+"
+                                    aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+                                    [bib]
+                                </a>
+                            </div>
+                            <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+                                <div class="well">
+                                    <pre><span class="bibtexraw noread"></span></pre>
+                                </div>
+                            </div>
+                            <div style="display:none"><span class="bibtextype"></span></div>
+                            <div style="display:none"><span class="if topic"><span class="topic"></span></span></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p class="powered-by">
+                © Bashima, 2021 &middot;
+                Partially powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+                    theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a> &middot; Developed using <a
+                    href="https://claude.ai" target="_blank">Claude</a> and <a href="https://kiro.ai"
+                    target="_blank">Kiro</a>.
+                <span class="pull-right"><a href="#home" id="back_to_top"><span class="button_icon"><i
+                                class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+            </p>
+        </div>
+    </footer>
+
+    <style>
+        /* Navbar Logo */
+        .navbar-logo {
+            height: 60px;
+            width: auto;
+            margin-top: -15px;
+            margin-bottom: -15px;
+        }
+
+        .navbar-brand {
+            padding: 15px 15px;
+        }
+
+        .navbar-brand:hover {
+            text-decoration: none;
+        }
+    </style>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+</html>

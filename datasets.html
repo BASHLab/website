@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic-group">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/hugo-academic-group.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/academicons.min.css">
+    <link rel="stylesheet" href="css/biaslab-font.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:100,300,400,700|Merriweather:100,400,700|Roboto+Mono">
+    <link rel="stylesheet" href="css/hugo-academic-group.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>BASH Lab - Datasets</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target=".navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/header_white.png" alt="BASH Lab" class="navbar-logo">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="research.html">Research</a></li>
+                    <li class="nav-item"><a href="publications.html">Publications</a></li>
+                    <li class="nav-item"><a href="datasets.html">Datasets</a></li>
+                    <li class="nav-item"><a href="team.html">Team</a></li>
+                    <li class="nav-item"><a href="sponsors.html">Sponsors</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div style="margin-top: 80px;"></div>
+
+    <section id="datasets" class="home-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 section-heading">
+                    <div class="datasets-header">
+                        <div class="external-links">
+                            <a href="https://huggingface.co/BASH-Lab" target="_blank" class="external-link" title="BASH Lab on Hugging Face">
+                                <svg class="huggingface-logo" width="32" height="30" viewBox="0 0 500 463" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M496.592 369.699C500.563 381.093 499.61 393.227 494.315 403.778C490.503 411.481 478.379 422.769C470.331 429.099 460.324 434.48 448.253 439.65C433.852 445.77 416.274 451.52 408.226 453.63C387.63 458.958 367.829 462.334 347.762 462.493C319.066 462.756 294.34 456.004 276.762 438.753C267.656 439.861 258.443 440.494 249.178 440.494C240.389 440.494 231.706 439.967 223.076 438.912C205.445 456.057 180.825 462.756 152.234 462.493C132.168 462.334 112.366 458.958 91.7177 453.63C83.7229 451.52 66.145 445.77 51.7439 439.65C39.6723 434.48 29.6656 429.099 21.6708 422.769C14.9467 417.441 9.49334 411.48 5.68127 403.778C0.439661 393.227 -0.566304 381.093 3.45755 369.699C-0.248631 360.994 -1.20165 351.024 1.71035 339.998C3.03399 334.987 5.20476 330.344 7.95792 326.229C7.37552 324.067 6.89901 321.851 6.58134 319.424C4.56941 304.97 9.59923 291.781 19.0765 281.547C23.7357 276.43 28.7655 272.895 34.0071 270.627C30.1421 254.273 28.1302 237.445 28.1302 220.247C28.1302 98.5969 127.085 0 249.178 0C291.111 0 330.343 11.6058 363.805 31.8633C369.84 35.5561 375.77 39.5126 381.436 43.7329C384.242 45.8431 387.048 48.006 389.748 50.2744C392.501 52.49 395.201 54.8112 397.796 57.1851C405.632 64.3069 412.991 71.9562 419.715 80.133C421.992 82.8235 424.163 85.6194 426.28 88.4681C430.569 94.1128 434.54 99.9685 438.193 106.035C443.752 115.109 448.623 124.604 452.859 134.469C455.665 141.064 458.101 147.816 460.271 154.727C463.501 165.067 465.99 175.723 467.684 186.696C468.213 190.336 468.69 194.028 469.06 197.721C469.802 205.107 470.225 212.598 470.225 220.247C470.225 237.234 468.213 253.904 464.454 269.994C470.278 272.262 475.784 275.955 480.92 281.547C490.397 291.781 495.427 305.022 493.415 319.477C493.098 321.851 492.621 324.067 492.039 326.229C494.792 330.344 496.963 334.987 498.286 339.998C501.198 351.024 500.245 360.994 496.592 369.699Z" fill="currentColor"/>
+                                    <path d="M433.839 221.75C433.839 120.838 351.531 39.0323 250 39.0323C148.469 39.0323 66.1613 120.838 66.1613 221.75C66.1613 322.662 148.469 404.468 250 404.468C351.531 404.468 433.839 322.662 433.839 221.75Z" fill="white"/>
+                                    <path d="M250 405.5C352.173 405.5 435 323.232 435 221.75C435 120.268 352.173 38 250 38C147.827 38 65 120.268 65 221.75C65 323.232 147.827 405.5 250 405.5Z" fill="currentColor"/>
+                                    <path d="M319.277 228.901C319.277 205.236 288.585 241.304 250.637 241.465C212.692 241.306 182 205.238 182 228.901C182 244.591 189.507 270.109 209.669 285.591C213.681 271.787 235.726 260.729 238.877 262.317C243.364 264.578 243.112 270.844 250.637 276.365C258.163 270.844 257.911 264.58 262.398 262.317C265.551 260.729 287.594 271.787 291.605 285.591C311.767 270.109 319.275 244.591 319.275 228.903L319.277 228.901Z" fill="white"/>
+                                    <path d="M262.4 262.315C257.913 264.576 258.165 270.842 250.639 276.363C243.114 270.842 243.366 264.578 238.879 262.315C235.726 260.727 213.683 271.785 209.672 285.589C219.866 293.417 233.297 298.678 250.627 298.806C267.986 298.68 281.417 293.417 291.611 285.589C287.6 271.785 265.555 260.727 262.404 262.315H262.4Z" fill="#FF323D"/>
+                                    <path d="M373 196C382.389 196 390 188.389 390 179C390 169.611 382.389 162 373 162C363.611 162 356 169.611 356 179C356 188.389 363.611 196 373 196Z" fill="white"/>
+                                    <path d="M128 196C137.389 196 145 188.389 145 179C145 169.611 137.389 162 128 162C118.611 162 111 169.611 111 179C111 188.389 118.611 196 128 196Z" fill="white"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/bashlab" target="_blank" class="external-link" title="BASH Lab on GitHub">
+                                <i class="fa fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Datasets Section -->
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <h2 class="subsection-heading">
+                        <i class="fa fa-database" aria-hidden="true"></i> Datasets
+                    </h2>
+
+                </div>
+            </div>
+
+            <div id="datasets-container">
+                <!-- Dataset cards will be populated here -->
+            </div>
+
+            <!-- Models Section -->
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-xs-12 col-md-12">
+                    <h2 class="subsection-heading">
+                        <i class="fa fa-cogs" aria-hidden="true"></i> Models
+                    </h2>
+
+                </div>
+            </div>
+
+            <div id="models-container">
+                <!-- Model cards will be populated here -->
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div class="usage-info">
+                        <h3>Usage Guidelines</h3>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <h4>For Datasets:</h4>
+                                <ul>
+                                    <li>Cite the relevant publications associated with each dataset</li>
+                                    <li>Follow the licensing terms specified for each dataset</li>
+                                    <li>Consider contributing back improvements or extensions to the community</li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <h4>For Models:</h4>
+                                <ul>
+                                    <li>Check model requirements and compatibility before deployment</li>
+                                    <li>Follow the model-specific licensing and usage terms</li>
+                                    <li>Report issues or improvements through our GitHub repositories</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p style="margin-top: 20px;">For questions about datasets, models, or collaboration opportunities, please reach out to our team.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p class="powered-by">
+                © Bashima, 2021 &middot;
+                Partially powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+                    theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a> &middot; Developed using <a
+                    href="https://claude.ai" target="_blank">Claude</a> and <a href="https://kiro.ai"
+                    target="_blank">Kiro</a>.
+                <span class="pull-right"><a href="#home" id="back_to_top"><span class="button_icon"><i
+                                class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+            </p>
+        </div>
+    </footer>
+
+    <style>
+        /* Navbar Logo */
+        .navbar-logo {
+            height: 60px;
+            width: auto;
+            margin-top: -15px;
+            margin-bottom: -15px;
+        }
+
+        .navbar-brand {
+            padding: 15px 15px;
+        }
+
+        .navbar-brand:hover {
+            text-decoration: none;
+        }
+
+        /* Section styling */
+        .section-heading h1 {
+            color: #AC2B37;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .section-heading p {
+            font-size: 1.2em;
+            color: #666;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        /* Datasets header with external links */
+        .datasets-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .external-links {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .external-link {
+            color: #AC2B37;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            padding: 10px;
+            border-radius: 50%;
+            background-color: rgba(172, 43, 55, 0.1);
+        }
+
+        .external-link:hover {
+            color: white;
+            background-color: #AC2B37;
+            transform: translateY(-2px);
+            text-decoration: none;
+        }
+
+        .external-link i {
+            display: block;
+        }
+
+        .huggingface-logo {
+            width: 32px;
+            height: 30px;
+            display: block;
+        }
+
+        .huggingface-logo path[fill="currentColor"] {
+            fill: currentColor;
+        }
+
+        .huggingface-logo path[fill="white"] {
+            fill: white;
+        }
+
+        .huggingface-logo path[fill="#FF323D"] {
+            fill: #FF323D;
+        }
+
+
+
+        /* Responsive design for header */
+        @media (max-width: 768px) {
+            .datasets-header {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+
+        /* Subsection styling */
+        .subsection-heading {
+            color: #AC2B37;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            margin-top: 40px;
+            text-align: left;
+        }
+        
+        .subsection-heading i {
+            margin-right: 15px;
+        }
+        
+        .subsection-description {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        /* Simple Cards - Matching index.html exactly */
+        .simple-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            height: auto;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 1px solid #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+        }
+
+        .simple-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-body {
+            padding: 15px;
+            flex-grow: 1;
+        }
+
+        .card-title {
+            color: #333;
+            font-size: 1.0em;
+            font-weight: 600;
+            margin: 0 0 10px 0;
+            line-height: 1.3;
+        }
+
+        .card-description {
+            color: #666;
+            font-size: 0.85em;
+            line-height: 1.4;
+            margin: 0 0 10px 0;
+        }
+
+        /* Usage info styling */
+        .usage-info {
+            padding: 25px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        
+        .usage-info h3 {
+            color: #AC2B37;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        
+        .usage-info h4 {
+            color: #AC2B37;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .usage-info ul {
+            margin-bottom: 15px;
+        }
+        
+        .usage-info li {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+
+        /* Layout fixes */
+        .row {
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+        
+        .col-xs-12, .col-md-6, .col-md-12 {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 767px) {
+            .subsection-heading {
+                font-size: 1.5em;
+                text-align: center;
+            }
+        }
+    </style>
+
+    <script>
+        let datasetsData = {};
+
+        function createCard(item) {
+            return `
+                <div class="col-xs-12 col-md-6">
+                    <div class="simple-card" onclick="window.open('${item.url}', '_blank')">
+                        <div class="card-body">
+                            <h3 class="card-title">${item.title}</h3>
+                            <p class="card-description">${item.description}</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function displayDatasets() {
+            const datasetsContainer = document.getElementById('datasets-container');
+            const modelsContainer = document.getElementById('models-container');
+            
+            if (!datasetsData.datasets || !datasetsData.models) return;
+
+            // Create datasets cards
+            let datasetsHTML = '';
+            for (let i = 0; i < datasetsData.datasets.length; i += 2) {
+                datasetsHTML += '<div class="row">';
+                datasetsHTML += createCard(datasetsData.datasets[i]);
+                if (i + 1 < datasetsData.datasets.length) {
+                    datasetsHTML += createCard(datasetsData.datasets[i + 1]);
+                }
+                datasetsHTML += '</div>';
+            }
+            datasetsContainer.innerHTML = datasetsHTML;
+
+            // Create models cards
+            let modelsHTML = '';
+            for (let i = 0; i < datasetsData.models.length; i += 2) {
+                modelsHTML += '<div class="row">';
+                modelsHTML += createCard(datasetsData.models[i]);
+                if (i + 1 < datasetsData.models.length) {
+                    modelsHTML += createCard(datasetsData.models[i + 1]);
+                }
+                modelsHTML += '</div>';
+            }
+            modelsContainer.innerHTML = modelsHTML;
+        }
+
+        async function loadDatasets() {
+            try {
+                console.log('Attempting to load datasets.json...');
+                const response = await fetch('datasets.json?v=' + Date.now());
+                console.log('Response status:', response.status);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                console.log('Successfully loaded datasets data:', data);
+                datasetsData = data;
+                displayDatasets();
+            } catch (error) {
+                console.error('Detailed error loading datasets:', error);
+                console.log('Using fallback datasets data...');
+                // Fallback data if fetch fails
+                datasetsData = {
+                    "datasets": [
+                        {
+                            "title": "AVS-QA Dataset",
+                            "description": "A comprehensive multimodal dataset combining audio, video, and sensor data with question-answer pairs for cross-modal understanding research.",
+                            "url": "https://github.com/BASHLab/RAVEN/tree/main/avs-qa-dataset",
+                            "type": "dataset"
+                        },
+                        {
+                            "title": "Sensor-Aware Captioning Dataset",
+                            "description": "Two complementary datasets: SensorCaps for natural language descriptions of sensor data, and OpenSQA for open-domain question answering with sensor context.",
+                            "url": "https://drive.google.com/drive/folders/1128HH_idfgmZnDeqQV2rjFhm4-yW7HK7?usp=share_link",
+                            "type": "dataset"
+                        },
+                        {
+                            "title": "LargeSet: Sound Source Localization",
+                            "description": "Large-scale dataset for multichannel sound source localization research with diverse acoustic scenarios and precise ground truth localization information.",
+                            "url": "https://drive.google.com/drive/folders/1YbOdBA8p-WI_FRT7ktbiex3TXhZS7igb",
+                            "type": "dataset"
+                        },
+                        {
+                            "title": "Aliasing Detection Dataset",
+                            "description": "Specialized dataset for detecting aliasing artifacts in single microphone audio recordings, supporting audio quality assessment research.",
+                            "url": "https://anonymous.4open.science/r/Aliasing-Audio-STFT-Dataset-5156/README.md",
+                            "type": "dataset"
+                        }
+                    ],
+                    "models": [
+                        {
+                            "title": "RAVEN: Multimodal Reasoning",
+                            "description": "State-of-the-art multimodal reasoning model combining audio, video, and sensor data for comprehensive scene understanding and cross-modal reasoning.",
+                            "url": "https://github.com/BASHLab/RAVEN",
+                            "type": "model"
+                        },
+                        {
+                            "title": "EfficientMic: Low-Power Audio",
+                            "description": "Lightweight, aliasing-aware single-microphone framework that dynamically adjusts sampling rates using machine learning for ultra-low-power edge devices.",
+                            "url": "https://github.com/BASHLab/EfficientMic",
+                            "type": "model"
+                        },
+                        {
+                            "title": "SpatialAudio: Sound Localization",
+                            "description": "Advanced deep learning models for multichannel sound source localization, trained on diverse acoustic scenarios for robust spatial audio processing.",
+                            "url": "https://github.com/BASHLab/SpatialAudio",
+                            "type": "model"
+                        },
+                        {
+                            "title": "SensorLM: Sensor-Language Model",
+                            "description": "Specialized language model fine-tuned for sensor data interpretation and natural language generation, bridging sensors and human-understandable descriptions.",
+                            "url": "https://github.com/BASHLab/SensorLM",
+                            "type": "model"
+                        }
+                    ]
+                };
+                displayDatasets();
+            }
+        }
+
+        // Load datasets when page loads
+        loadDatasets();
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

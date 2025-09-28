@@ -1,0 +1,122 @@
+{
+  "researchAreas": [
+    {
+      "id": "sensing-future",
+      "title": "Sensing the Future: Bridging Sensors and Language Intelligence",
+      "image": "./img/research_clusters/sensor.png",
+      "description": "We explore the synergy between sensor data and large language models to create intelligent systems that understand and interpret the world through a fusion of modalities. This research area focuses on developing novel approaches that combine traditional sensing technologies with modern AI to create more intuitive and responsive systems.",
+      "funding": null,
+      "learnMoreUrl": "https://bashima.notion.site/sensing-the-future?pvs=4",
+      "papers": [
+        {
+          "title": "RAVEN",
+          "venue": "EMNLP'25",
+          "url": "https://bashlab.github.io/raven_project/"
+        },
+        {
+          "title": "LLaSA",
+          "venue": "GenAI4HS,UbiComp'25",
+          "url": "https://bashlab.github.io/llasa_project/"
+        }
+      ],
+      "datasets": [
+        {
+          "name": "AVSQA",
+          "url": "https://huggingface.co/datasets/BASH-Lab/AVS-QA"
+        },
+        {
+          "name": "SensorCap",
+          "url": "https://huggingface.co/datasets/BASH-Lab/SensorCaps"
+        },
+        {
+          "name": "OpenSQA",
+          "url": "https://huggingface.co/datasets/BASH-Lab/OpenSQA"
+        }
+      ],
+      "models": [
+        {
+          "name": "RAVEN",
+          "url": "https://huggingface.co/BASH-Lab/RAVEN-AV-7B"
+        },
+        {
+          "name": "LLaSA",
+          "url": "https://huggingface.co/BASH-Lab/LLaSA-13B"
+        }
+      ]
+    },
+    {
+      "id": "tiny-power",
+      "title": "Tiny Power, Big Impact: ML for Low-Power Edge Innovation",
+      "image": "./img/research_clusters/tiny.png",
+      "description": "We pioneer the development of efficient machine learning algorithms for ultra-low-power edge devices, enabling intelligent sensing in resource-constrained environments. This research is crucial for IoT applications and sustainable computing.",
+      "funding": "National Science Foundation",
+      "learnMoreUrl": "https://bashima.notion.site/tinypower?pvs=4",
+      "papers": [
+        {
+          "title": "QUADS",
+          "venue": "Interspeech'25",
+          "url": "https://bashlab.github.io/quad_project/"
+        },
+        {
+          "title": "LOCUS",
+          "venue": "EWSN'25",
+          "url": "https://bashlab.github.io/locus_project/"
+        },
+        {
+          "title": "FATE",
+          "venue": "MWSCAS'25",
+          "url": "https://bashlab.github.io/fate_project/"
+        },
+        {
+          "title": "EfficientMic",
+          "venue": "BuildSys'25",
+          "url": "https://bashlab.github.io/efficientmic_project/"
+        },
+        {
+          "title": "FREEML",
+          "venue": "EWSN'24",
+          "url": "https://bashlab.github.io/freeml_project/"
+        }
+      ],
+      "datasets": [
+        {
+          "name": "LargeSet",
+          "url": "https://drive.google.com/drive/folders/1YbOdBA8p-WI_FRT7ktbiex3TXhZS7igb"
+        }
+      ],
+      "models": []
+    },
+    {
+      "id": "mind-meets-machine",
+      "title": "Mind Meets Machine: AI Transforming Behavioral Health",
+      "image": "./img/research_clusters/mindful.png",
+      "description": "We leverage artificial intelligence to revolutionize behavioral health, providing innovative tools for diagnosis, monitoring, and treatment to improve developmental and mental well-being. Our interdisciplinary approach combines AI with healthcare expertise.",
+      "funding": "National Institute of Health",
+      "learnMoreUrl": "https://bashima.notion.site/mind-meets-machine?pvs=4",
+      "papers": [
+        {
+          "title": "Mindfulness Meditation",
+          "venue": "IMWUT/Ubicomp'25",
+          "url": "https://bashlab.github.io/meditite_project/"
+        },
+        {
+          "title": "Infant SoundTagging",
+          "venue": "CHASE'24",
+          "url": "https://bashlab.wpi.edu/publications_pdf/khan2024sound.pdf"
+        },
+        {
+          "title": "InfantMotion2Vec",
+          "venue": "BSN'24",
+          "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10780750&tag=1"
+        },
+        {
+          "title": "Littlebeats Validation",
+          "venue": "Sensors'24",
+          "url": "https://www.mdpi.com/1424-8220/24/3/901"
+        }
+      ],
+      "datasets": [],
+      "models": []
+    }
+  ]
+}

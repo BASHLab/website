@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic-group">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/hugo-academic-group.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/academicons.min.css">
+    <link rel="stylesheet" href="css/biaslab-font.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:100,300,400,700|Merriweather:100,400,700|Roboto+Mono">
+    <link rel="stylesheet" href="css/hugo-academic-group.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>BASH Lab - Team</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target=".navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/header_white.png" alt="BASH Lab" class="navbar-logo">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="research.html">Research</a></li>
+                    <li class="nav-item"><a href="publications.html">Publications</a></li>
+                    <li class="nav-item"><a href="datasets.html">Datasets</a></li>
+                    <li class="nav-item"><a href="team.html">Team</a></li>
+                    <li class="nav-item"><a href="sponsors.html">Sponsors</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div style="margin-top: 80px;"></div>
+
+    <section id="members" class="home-section">
+        <div class="container">
+            <div class="row" id="members-container">
+                <!-- Members will be loaded dynamically from JSON -->
+            </div>
+
+            <div class="row" id="alumni-container" style="margin-top: 30px;">
+                <!-- Alumni will be loaded dynamically from JSON -->
+            </div>
+
+            <div class="row" id="collaborators-container" style="margin-top: 30px;">
+                <div class="col-xs-12 col-md-12">
+                    <div class="collaborators-section">
+                        <h2 class="section-heading">Collaborators</h2>
+                        <div class="collaborator-logos">
+                            <div class="row" id="collaborator-logos-container">
+                                <!-- Collaborator logos will be loaded dynamically from JSON -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p class="powered-by">
+                © Bashima, 2021 &middot;
+                Partially powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+                    theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a> &middot; Developed using <a
+                    href="https://claude.ai" target="_blank">Claude</a> and <a href="https://kiro.ai"
+                    target="_blank">Kiro</a>.
+                <span class="pull-right"><a href="#home" id="back_to_top"><span class="button_icon"><i
+                                class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+            </p>
+        </div>
+    </footer>
+
+    <style>
+        /* Navbar Logo */
+        .navbar-logo {
+            height: 60px;
+            width: auto;
+            margin-top: -15px;
+            margin-bottom: -15px;
+        }
+
+        .navbar-brand {
+            padding: 15px 15px;
+        }
+
+        .navbar-brand:hover {
+            text-decoration: none;
+        }
+
+        .collaborators-section {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .collaborator-logos {
+            margin-top: 20px;
+        }
+        .collaborator-logo {
+            max-width: 100%;
+            max-height: 80px;
+            margin: 10px;
+            filter: grayscale(50%);
+            transition: filter 0.3s ease;
+        }
+        .collaborator-logo:hover {
+            filter: grayscale(0%);
+        }
+        .section-heading h2 {
+            color: #AC2B37;
+            border-bottom: 2px solid #AC2B37;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        #profile {
+            margin-bottom: 30px;
+        }
+        .portrait {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 15px auto;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+            border: 3px solid #AC2B37;
+        }
+        .portrait-title h4 {
+            color: #AC2B37;
+            margin-bottom: 5px;
+        }
+        .portrait-title h5 {
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>new WOW().init();</script>
+
+    <script>
+        (async function(){
+            try {
+                const response = await fetch('./team.json?v=' + Date.now(), {
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                
+                // Render members
+                const membersContainer = document.getElementById('members-container');
+                if (membersContainer && data.members) {
+                    data.members.forEach(member => {
+                        const memberDiv = document.createElement('div');
+                        memberDiv.className = 'col-xs-12 col-md-3';
+                        
+                        const profile = document.createElement('div');
+                        profile.id = 'profile';
+                        profile.className = 'wow fadeInUp';
+                        profile.setAttribute('data-wow-delay', '0.1s');
+
+                        const content = `
+                            <a href="${member.url}">
+                                <div class="portrait" itemprop="image"
+                                    style="background-image: url('img//portraits/${member.image}');">
+                                </div>
+                            </a>
+                            <div class="portrait-title">
+                                <h4 itemprop="name"><a href="${member.url}">${member.name}</a></h4>
+                                <h5>${member.title}</h5>
+                            </div>
+                        `;
+                        
+                        profile.innerHTML = content;
+                        memberDiv.appendChild(profile);
+                        membersContainer.appendChild(memberDiv);
+                    });
+                }
+
+                // Render alumni
+                const alumniContainer = document.getElementById('alumni-container');
+                if (alumniContainer && (data.undergraduateAlumni?.length > 0 || data.mastersAlumni?.length > 0)) {
+                    // Function to create alumni section
+                    const createAlumniSection = (title, alumni) => {
+                        if (!alumni || alumni.length === 0) return '';
+                        
+                        const alumniList = alumni.map(alum => 
+                            `${alum.name}, ${alum.degree}, ${alum.graduationYear} → ${alum.currentPosition}`
+                        ).join('<br>');
+                        
+                        return `
+                            <div class="col-xs-12 col-md-12">
+                                <h2 class="section-heading">${title}</h2>
+                            </div>
+                            <div class="col-xs-12" style="font-size: 1.1em; line-height: 1.8; color: #444; margin-bottom: 30px;">
+                                ${alumniList}
+                            </div>
+                        `;
+                    };
+
+                    // Create both sections
+                    const undergraduateSection = createAlumniSection('Undergraduate & Masters Alumni', data.undergraduateAlumni);
+                    const mastersSection = createAlumniSection('Masters Alumni', data.mastersAlumni);
+                    
+                    alumniContainer.innerHTML = undergraduateSection + mastersSection;
+                }
+
+                // Render collaborators
+                const collaboratorsContainer = document.getElementById('collaborator-logos-container');
+                if (collaboratorsContainer && data.collaborators) {
+                    data.collaborators.forEach(collab => {
+                        const collabDiv = document.createElement('div');
+                        collabDiv.className = 'col-xs-6 col-md-2';
+                        
+                        collabDiv.innerHTML = `
+                            <img src="img/${collab.logo}" alt="${collab.name}" class="collaborator-logo">
+                        `;
+                        
+                        collaboratorsContainer.appendChild(collabDiv);
+                    });
+                }
+
+            } catch (err) {
+                console.error('Failed to load team.json:', err);
+                const containers = ['members-container', 'alumni-container', 'collaborator-logos-container'];
+                containers.forEach(containerId => {
+                    const container = document.getElementById(containerId);
+                    if (container) {
+                        container.innerHTML = `<div class="alert alert-danger">
+                            <p><strong>Error loading team data:</strong></p>
+                            <p>${err.message}</p>
+                        </div>`;
+                    }
+                });
+            }
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASH Lab</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .publication {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .publication h3 {
+            margin: 0 0 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BASH Lab</h1>
+        <nav>
+            <a href="#research">Research Areas</a>
+            <a href="#publications">Publications</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="publications">
+            <h2>Publications</h2>
+            <div id="publication-list">Loading publications...</div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 BASH Lab. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        // URL of the JSON file hosted on GitHub Pages
+        const githubURL = "https://raw.githubusercontent.com/BASHLab/publications/main/publications.json";
+
+        // Fetch and display publications
+        function fetchPublications() {
+    fetch(githubURL)
+        .then(response => {
+            console.log("Response status:", response.status); // Debugging
+            if (!response.ok) {
+                throw new Error("Failed to fetch: " + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log("Fetched data:", data); // Debugging
+            displayPublications(data);
+        })
+        .catch(error => {
+            console.error("Error fetching publications:", error);
+            document.getElementById('publication-list').innerText = "Failed to load publications. Please try again later.";
+        });
+}
+
+        // Display publications dynamically
+        function displayPublications(publications) {
+            const container = document.getElementById('publication-list');
+            container.innerHTML = ''; // Clear any existing content
+            publications.forEach(pub => {
+                const div = document.createElement('div');
+                div.className = 'publication';
+                div.innerHTML = `
+                    <h3>${pub.title}</h3>
+                    <p><strong>Authors:</strong> ${pub.authors}</p>
+                    <p><strong>Date:</strong> ${pub.date}</p>
+                    <p><strong>Venue:</strong> ${pub.venue}</p>
+                    <p><strong>Tags:</strong> ${pub.tags.join(', ')}</p>
+                    <a href="${pub.link}" target="_blank">Read More</a>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        // Call fetchPublications when the DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', fetchPublications);
+    </script>
+</body>
+</html>

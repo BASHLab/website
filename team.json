@@ -1,0 +1,126 @@
+{
+  "members": [
+    {
+      "name": "Bashima Islam",
+      "title": "Assistant Professor, ECE, CS & DS, Worcester Polytechnic Institute",
+      "type": "faculty",
+      "image": "Bashima.png",
+      "url": "https://users.wpi.edu/~bislam/"
+    },
+    {
+      "name": "Mohammad Nur Hossain Khan",
+      "title": "PhD Student, ECE, Worcester Polytechnic Institute",
+      "type": "phd",
+      "image": "nur.png",
+      "url": "http://users.wpi.edu/~mkhan"
+    },
+    {
+      "name": "Subrata Kumar Biswas",
+      "title": "PhD Student, ECE, Worcester Polytechnic Institute",
+      "type": "phd",
+      "image": "subrata.png",
+      "url": "https://users.wpi.edu/~sbiswas/"
+    },
+    {
+      "name": "Sheikh Asif Imran Shouborno",
+      "title": "PhD Student, ECE, Worcester Polytechnic Institute",
+      "type": "phd",
+      "image": "shouborno.jpg",
+      "url": "https://sheikhasifimran.wixsite.com/shouborno"
+    },
+    {
+      "name": "Bibhus Luitel",
+      "title": "PhD Student, ECE, Worcester Polytechnic Institute",
+      "type": "phd",
+      "image": "bibhus.jpeg",
+      "url": "https://users.wpi.edu/~bluitel/"
+    },
+    {
+      "name": "Evan Smith",
+      "title": "Undergraduate Student, ECE, Worcester Polytechnic Institute",
+      "type": "undergraduate",
+      "image": "evan.png",
+      "url": "https://evangibsonsmith.com"
+    },
+    {
+      "name": "Violet Colwell",
+      "title": "Undergraduate Student, ECE, Worcester Polytechnic Institute",
+      "type": "undergraduate",
+      "image": "alex.JPG",
+      "url": "https://alex.colwell.xyz/"
+    },
+    {
+      "name": "Nhan Tran",
+      "title": "Undergraduate Student, ECE/CS, Worcester Polytechnic Institute",
+      "type": "undergraduate",
+      "image": "marlin.jpeg",
+      "url": ""
+    }
+  ],
+  "undergraduateAlumni": [
+    {
+      "name": "Ashe Neth",
+      "degree": "BS (CS)",
+      "graduationYear": "2025",
+      "currentPosition": "PhD Student, University of Washington St. Louis"
+    },
+    {
+      "name": "Jack Adiletta",
+      "degree": "BS/MS (ECE)",
+      "graduationYear": "2025",
+      "currentPosition": "Engineer, Intel"
+    },
+    {
+      "name": "Robbie Oleynick",
+      "degree": "BS/MS (ECE,CS)",
+      "graduationYear": "2025",
+      "currentPosition": "Engineer, Bose"
+    },
+    {
+      "name": "Joshua Hollyer",
+      "degree": "BS/MS (ECE)",
+      "graduationYear": "2023",
+      "currentPosition": "Hardware Engineer, Acacia"
+    },
+    {
+      "name": "Zhuolin Liu",
+      "degree": "BS/MS (ECE)",
+      "graduationYear": "2023",
+      "currentPosition": ""
+    },
+    {
+      "name": "Michael Rothstein",
+      "degree": "BS/MS (ECE)",
+      "graduationYear": "2023",
+      "currentPosition": ""
+    }
+  ],
+  "mastersAlumni": [],
+  "collaborators": [
+    {
+      "name": "UIUC",
+      "logo": "uiuc.jpg"
+    },
+    {
+      "name": "Carnegie Mellon University",
+      "logo": "cmu.png"
+    },
+    {
+      "name": "University of Tennessee Knoxville",
+      "logo": "utk.png"
+    },
+    {
+      "name": "Meta Reality Labs",
+      "logo": "meta.png"
+    },
+    
+    {
+      "name": "Bosch Research USA",
+      "logo": "bosch.png"
+    },
+    {
+      "name": "University of Trento",
+      "logo": "trento.png"
+    }
+  ]
+}

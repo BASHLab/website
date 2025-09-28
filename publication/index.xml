@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on BASH Lab</title>
+    <link>https://users.wpi.edu/~bislam/bashlab/publication/</link>
+    <description>Recent content in Publications on BASH Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; Bashima, 2021 </copyright>
+    <lastBuildDate>Mon, 12 Jul 2021 16:37:31 +0200</lastBuildDate><atom:link href="https://users.wpi.edu/~bislam/bashlab/publication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BreathTrack: Detecting Regular Breathing Phases from Unannotated Acoustic Data Captured by a Smartphone</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/breathtrack/</link>
+      <pubDate>Mon, 12 Jul 2021 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/breathtrack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zygarde: Time-Sensitive On-Device Deep Inference and Adaptationon Intermittently-Powered Systems</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/zygarde/</link>
+      <pubDate>Sun, 12 Jul 2020 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/zygarde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BreathEasy: Assessing Respiratory Diseases Using Mobile Multimodal Sensors</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/breatheasy/</link>
+      <pubDate>Tue, 12 May 2020 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/breatheasy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Time Synchronization of Multimodal Cough Events from Mobile Devices</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/cough/</link>
+      <pubDate>Sun, 12 Apr 2020 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/cough/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scheduling Computational and Energy Harvesting Tasks in Deadline-Aware Intermittent Systems</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/celebi/</link>
+      <pubDate>Sun, 12 Apr 2020 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/celebi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PhD Forum Abstract: Scheduling Tasks on Intermittently Powered Systems</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/phd_forum/</link>
+      <pubDate>Wed, 12 Feb 2020 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/phd_forum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differences in Reliability and Predictability of Harvested Energy from Battery-less Intermittently Powered Systems</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/harvester/</link>
+      <pubDate>Sun, 12 Jan 2020 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/harvester/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intelligent Chargers will Make Mobile Devices Live Longer</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/battery/</link>
+      <pubDate>Sun, 12 Jan 2020 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/battery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intermittent Learning: On-Device Machine Learning on Intermittently Powered System</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/learning/</link>
+      <pubDate>Sun, 12 Jan 2020 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poster Abstract: On-Device Training from Sensor Data on Batteryless Platforms</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/energy_poster/</link>
+      <pubDate>Fri, 12 Apr 2019 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/energy_poster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time-Aware Deep Intelligence on Batteryless Systems</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/wip-zygarde/</link>
+      <pubDate>Fri, 12 Apr 2019 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/wip-zygarde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving Pedestrian Safety in Cities using Intelligent Wearable Systems</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/pawsj/</link>
+      <pubDate>Sat, 12 Jan 2019 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/pawsj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LoRaIn: Making a Case for LoRa in Indoor Localization</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/lorain/</link>
+      <pubDate>Sat, 12 Jan 2019 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/lorain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Glimpse.3D: A Motion-Triggered Stereo Body Camera for 3D Experience Capture and Preview</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/glimpse3d/</link>
+      <pubDate>Thu, 12 Apr 2018 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/glimpse3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rethinking Ranging of Unmodified BLE Peripherals in Smart City Infrastructure</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/bleloc/</link>
+      <pubDate>Mon, 12 Mar 2018 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/bleloc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Duty-Cycle-Aware Real-Time Scheduling of Wireless Links in Low Power WANs</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/duty/</link>
+      <pubDate>Mon, 12 Feb 2018 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/duty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MARBLE: Mobile Augmented Reality Using a Distributed BLE Beacon Infrastructure</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/marble/</link>
+      <pubDate>Mon, 12 Feb 2018 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/marble/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paws: A Wearable Acoustic System for Pedestrian Safety</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/paws/</link>
+      <pubDate>Mon, 12 Feb 2018 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/paws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SoundSifter: Mitigating Overhearing of Continuous Listening Devices</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/soundsifter/</link>
+      <pubDate>Wed, 12 Jul 2017 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/soundsifter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preventive Maintenance of Centralized HVAC Systems: Use of Acoustic Sensors, Feature Extraction, and Unsupervised Learning</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/hvac/</link>
+      <pubDate>Sun, 12 Feb 2017 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/hvac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo Abstract: SEUS: A Wearable Multi-Channel Acoustic Headset Platform to Improve Pedestrian Safety</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/seus/</link>
+      <pubDate>Mon, 12 Sep 2016 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/seus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High Performance Approximate Computing by Adaptive Relaxed Synchronization</title>
+      <link>https://users.wpi.edu/~bislam/bashlab/publication/hpcc/</link>
+      <pubDate>Mon, 12 Sep 2016 16:37:31 +0200</pubDate>
+      
+      <guid>https://users.wpi.edu/~bislam/bashlab/publication/hpcc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
