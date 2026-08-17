@@ -590,46 +590,10 @@
 
                 displayNews();
             } catch (error) {
-                console.error('Detailed error loading news:', error);
-                console.log('Error type:', error.name);
-                console.log('Error message:', error.message);
-                console.log('Using fallback news data...');
-                // Fallback news if fetch fails - updated with red text examples
-                allNews = [
-                    {
-                        "date": "September 2025",
-                        "title": "EfficientMic got accepted in [red]BuildSys[/red]",
-                        "content": "This paper present a low-power, aliasing-aware single-mic framework that dynamically adjusts microphone sampling using machine learning, enabling scalable and accurate sound detection with minimal hardware.",
-                        "url": "https://bashlab.wpi.edu",
-                        "image": "./img/research_clusters/sensor.png",
-                        "category": "publication"
-                    },
-                    {
-                        "date": "December 2024",
-                        "title": "Welcome to the [red]BASH Lab[/red] website!",
-                        "content": "We are excited to launch our new website showcasing our research in [red]human-centered AI[/red] and intelligent sensing systems.",
-                        "url": "https://bashlab.wpi.edu",
-                        "image": "./img/research_clusters/sensor.png",
-                        "category": "announcement"
-                    },
-                    {
-                        "date": "November 2024",
-                        "title": "New research on [red]sensor-language fusion[/red] published",
-                        "content": "Our latest paper on bridging sensors and language intelligence has been accepted at a [red]top-tier conference[/red], demonstrating novel approaches to multimodal AI systems.",
-                        "url": "https://bashima.notion.site/sensing-the-future",
-                        "image": "./img/research_clusters/audio.png",
-                        "category": "publication"
-                    },
-                    {
-                        "date": "October 2024",
-                        "title": "Lab receives [red]NSF funding[/red] for edge AI research",
-                        "content": "We are thrilled to announce that our proposal for developing energy-efficient machine learning algorithms for ultra-low-power edge devices has been funded by the [red]National Science Foundation[/red].",
-                        "url": "https://bashima.notion.site/tinypower",
-                        "image": "./img/research_clusters/tiny.png",
-                        "category": "funding"
-                    }
-                ];
-                displayNews();
+                // Fetch failed (e.g. opened via file://, or offline). Keep the
+                // pre-rendered news that is already baked into the page instead of
+                // overwriting it with a stub. displayNews() only runs on success.
+                console.error('Could not load news.json; keeping pre-rendered content.', error);
             }
         }
         loadNews();

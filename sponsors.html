@@ -569,15 +569,9 @@
                 }
 
             } catch (err) {
-                console.error('Failed to load funding.json:', err);
-                const c = document.getElementById('grants-container');
-                if (c) {
-                    c.innerHTML = `<div class="alert alert-danger">
-                        <p><strong>Error loading funding data:</strong></p>
-                        <p>${err.message}</p>
-                        <p>Path attempted: ${window.location.href.replace('sponsors.html', '')}funding.json</p>
-                    </div>`;
-                }
+                // Fetch failed (e.g. opened via file://, or offline). Keep the
+                // pre-rendered grants baked into the page instead of showing an error.
+                console.error('Could not load funding.json; keeping pre-rendered content.', err);
             }
         })();
     </script>

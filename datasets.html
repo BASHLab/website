@@ -457,64 +457,10 @@
                 datasetsData = data;
                 displayDatasets();
             } catch (error) {
-                console.error('Detailed error loading datasets:', error);
-                console.log('Using fallback datasets data...');
-                // Fallback data if fetch fails
-                datasetsData = {
-                    "datasets": [
-                        {
-                            "title": "AVS-QA Dataset",
-                            "description": "A comprehensive multimodal dataset combining audio, video, and sensor data with question-answer pairs for cross-modal understanding research.",
-                            "url": "https://github.com/BASHLab/RAVEN/tree/main/avs-qa-dataset",
-                            "type": "dataset"
-                        },
-                        {
-                            "title": "Sensor-Aware Captioning Dataset",
-                            "description": "Two complementary datasets: SensorCaps for natural language descriptions of sensor data, and OpenSQA for open-domain question answering with sensor context.",
-                            "url": "https://drive.google.com/drive/folders/1128HH_idfgmZnDeqQV2rjFhm4-yW7HK7?usp=share_link",
-                            "type": "dataset"
-                        },
-                        {
-                            "title": "LargeSet: Sound Source Localization",
-                            "description": "Large-scale dataset for multichannel sound source localization research with diverse acoustic scenarios and precise ground truth localization information.",
-                            "url": "https://drive.google.com/drive/folders/1YbOdBA8p-WI_FRT7ktbiex3TXhZS7igb",
-                            "type": "dataset"
-                        },
-                        {
-                            "title": "Aliasing Detection Dataset",
-                            "description": "Specialized dataset for detecting aliasing artifacts in single microphone audio recordings, supporting audio quality assessment research.",
-                            "url": "https://anonymous.4open.science/r/Aliasing-Audio-STFT-Dataset-5156/README.md",
-                            "type": "dataset"
-                        }
-                    ],
-                    "models": [
-                        {
-                            "title": "RAVEN: Multimodal Reasoning",
-                            "description": "State-of-the-art multimodal reasoning model combining audio, video, and sensor data for comprehensive scene understanding and cross-modal reasoning.",
-                            "url": "https://github.com/BASHLab/RAVEN",
-                            "type": "model"
-                        },
-                        {
-                            "title": "EfficientMic: Low-Power Audio",
-                            "description": "Lightweight, aliasing-aware single-microphone framework that dynamically adjusts sampling rates using machine learning for ultra-low-power edge devices.",
-                            "url": "https://github.com/BASHLab/EfficientMic",
-                            "type": "model"
-                        },
-                        {
-                            "title": "SpatialAudio: Sound Localization",
-                            "description": "Advanced deep learning models for multichannel sound source localization, trained on diverse acoustic scenarios for robust spatial audio processing.",
-                            "url": "https://github.com/BASHLab/SpatialAudio",
-                            "type": "model"
-                        },
-                        {
-                            "title": "SensorLM: Sensor-Language Model",
-                            "description": "Specialized language model fine-tuned for sensor data interpretation and natural language generation, bridging sensors and human-understandable descriptions.",
-                            "url": "https://github.com/BASHLab/SensorLM",
-                            "type": "model"
-                        }
-                    ]
-                };
-                displayDatasets();
+                // Fetch failed (e.g. opened via file://, or offline). Keep the
+                // pre-rendered datasets/models baked into the page rather than
+                // overwriting them. displayDatasets() only runs on success.
+                console.error('Could not load datasets.json; keeping pre-rendered content.', error);
             }
         }
 

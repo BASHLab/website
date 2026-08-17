@@ -314,9 +314,9 @@
                 loadStudentProjectVideos(data.studentProjectVideos);
             })
             .catch(error => {
-                console.error('Error loading media data:', error);
-                // Load fallback data if needed
-                loadFallbackData();
+                // Fetch failed (e.g. opened via file://, or offline). Keep the
+                // pre-rendered videos baked into the page instead of replacing them.
+                console.error('Could not load media.json; keeping pre-rendered content.', error);
             });
 
         function loadResearchVideos(videos) {

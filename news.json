@@ -1,6 +1,6 @@
 [
   {
-    "date": "January 2025",
+    "date": "January 2026",
     "title": "OWL got accepted in [red]ICLR 2026[/red]",
     "content": "OWL shows how an audio language model can infer where a sound is in 3D space (direction and distance) and provide spatially grounded reasoning steps behind its predictions.",
     "url": "https://bashlab.github.io/owl_project/",
