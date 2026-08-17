@@ -5,7 +5,7 @@
 Site: https://bashlab.wpi.edu
 
 ## News
-- January 2025 — OWL got accepted in ICLR 2026: OWL shows how an audio language model can infer where a sound is in 3D space (direction and distance) and provide spatially grounded reasoning steps behind its predictions. (https://bashlab.github.io/owl_project/)
+- January 2026 — OWL got accepted in ICLR 2026: OWL shows how an audio language model can infer where a sound is in 3D space (direction and distance) and provide spatially grounded reasoning steps behind its predictions. (https://bashlab.github.io/owl_project/)
 - September 2025 — Our paper got accepted in ICASSP 2026: This work was carried out during my internship at Meta Reality Labs, in collaboration with the Audio Research Team, where we studied the characteristics of hair-induced noise in smart glasses audio and developed mitigation strategies for robust real-world wearable audio capture. (https://users.wpi.edu/~sbiswas/assets/publications/26-icassp/ICASSP_26_HNM.pdf)
 - September 2025 — Subrata receives Peter B. Meyers Fellowship: This fellowship highlights Subrata’s hard work and excellence in graduate scholarship. (https://www.linkedin.com/posts/wpi-electrical-and-computer-engineering-4385b2225_wpi-phd-excellence-activity-7379196307317465088-Tih-?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAgjZbABO4TS_kXaa2F6FK-u5Ex7vOyAWVg)
 - September 2025 — EfficientMic got accepted in BuildSys'25: EfficientMic detects aliasing in real time to adapt sampling with just one mic. (Led by Jack) (https://jta2021.wixsite.com/efficientmic)
