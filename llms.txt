@@ -64,12 +64,12 @@ More: https://bashima.notion.site/mind-meets-machine?pvs=4
 - LLaSA: Sensor-Language Model: Specialized language model fine-tuned for sensor data interpretation and natural language generation, bridging sensors and human-understandable descriptions. (https://huggingface.co/BASH-Lab/LLaSA-13B)
 
 ## Team
-- Bashima Islam — Assistant Professor, ECE, University of Massachusetts Amherst (https://users.wpi.edu/~bislam/)
-- Mohammad Nur Hossain Khan — PhD Student, ECE, University of Massachusetts Amherst (http://users.wpi.edu/~mkhan)
+- Bashima Islam — Assistant Professor, ECE, University of Massachusetts Amherst (https://bashimaislam.com)
+- Mohammad Nur Hossain Khan — PhD Student, ECE, University of Massachusetts Amherst (https://nurhossain2301.github.io/)
 - Subrata Kumar Biswas — PhD Student, ECE, University of Massachusetts Amherst (https://users.wpi.edu/~sbiswas/)
 - Sheikh Asif Imran Shouborno — PhD Student, ECE, University of Massachusetts Amherst (https://sheikhasifimran.wixsite.com/shouborno)
 - Bibhus Luitel — PhD Student, ECE, University of Massachusetts Amherst (https://users.wpi.edu/~bluitel/)
-- Sabbir Hossain Ujjal — PhD Student, ECE, University of Massachusetts Amherst (https://users.wpi.edu/~bluitel/)
+- Sabbir Hossain Ujjal — PhD Student, ECE, University of Massachusetts Amherst (https://sabbirhossainujjal.github.io/)
 
 ### Alumni
 - Evan Smith, ,  — now: 
