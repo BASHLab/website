@@ -70,6 +70,7 @@ More: https://bashima.notion.site/mind-meets-machine?pvs=4
 - Sheikh Asif Imran Shouborno — PhD Student, ECE, University of Massachusetts Amherst (https://sheikhasifimran.wixsite.com/shouborno)
 - Bibhus Luitel — PhD Student, ECE, University of Massachusetts Amherst (https://users.wpi.edu/~bluitel/)
 - Sabbir Hossain Ujjal — PhD Student, ECE, University of Massachusetts Amherst (https://sabbirhossainujjal.github.io/)
+- Anna Balin — Master's Student, ECE, Worcester Polytechnic Institute
 
 ### Alumni
 - Evan Smith, ,  — now: 

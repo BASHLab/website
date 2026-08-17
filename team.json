@@ -41,6 +41,13 @@
       "type": "phd",
       "image": "sabbir.jpeg",
       "url": "https://sabbirhossainujjal.github.io/"
+    },
+    {
+      "name": "Anna Balin",
+      "title": "Master's Student, ECE, Worcester Polytechnic Institute",
+      "type": "masters",
+      "image": "portrait.jpg",
+      "url": ""
     }
   ],
   "undergraduateAlumni": [
