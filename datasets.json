@@ -23,6 +23,12 @@
       "description": "Large-scale dataset for multichannel sound source localization research with diverse acoustic scenarios and precise ground truth localization information.",
       "url": "https://drive.google.com/drive/folders/1YbOdBA8p-WI_FRT7ktbiex3TXhZS7igb",
       "type": "dataset"
+    },
+    {
+      "title": "Aliasing Detection Dataset",
+      "description": "A dataset consisting of STFTs derived from the UrbanSound8K Dataset, and ESC50 Dataset which are either aliasing or nonaliasing.",
+      "url": "https://github.com/jackadiletta/Aliasing-Audio-STFT-Dataset",
+      "type": "dataset"
     }
   ],
   "models": [

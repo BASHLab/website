@@ -1,0 +1,15 @@
+# macOS junk
+.DS_Store
+._*
+.smbdelete*
+.AppleDouble
+.LSOverride
+
+# editor
+*.swp
+*~
+
+# private keys — never commit these
+id_rsa*
+*.pem
+*.key

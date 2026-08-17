@@ -1,0 +1,172 @@
+# BASH Lab — Bringing Awareness through Systems for Humans
+
+> Research lab of Prof. Bashima Islam at Worcester Polytechnic Institute (WPI), building ubiquitous AI systems that learn from motion, audio, physiological and ambient sensor data to support human behavioral well-being. Focus areas: multimodal representation learning, sensor-grounded language models, and resource-constrained (edge / TinyML) inference.
+
+Site: https://bashlab.wpi.edu
+
+## News
+- January 2025 — OWL got accepted in ICLR 2026: OWL shows how an audio language model can infer where a sound is in 3D space (direction and distance) and provide spatially grounded reasoning steps behind its predictions. (https://bashlab.github.io/owl_project/)
+- September 2025 — Our paper got accepted in ICASSP 2026: This work was carried out during my internship at Meta Reality Labs, in collaboration with the Audio Research Team, where we studied the characteristics of hair-induced noise in smart glasses audio and developed mitigation strategies for robust real-world wearable audio capture. (https://users.wpi.edu/~sbiswas/assets/publications/26-icassp/ICASSP_26_HNM.pdf)
+- September 2025 — Subrata receives Peter B. Meyers Fellowship: This fellowship highlights Subrata’s hard work and excellence in graduate scholarship. (https://www.linkedin.com/posts/wpi-electrical-and-computer-engineering-4385b2225_wpi-phd-excellence-activity-7379196307317465088-Tih-?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAgjZbABO4TS_kXaa2F6FK-u5Ex7vOyAWVg)
+- September 2025 — EfficientMic got accepted in BuildSys'25: EfficientMic detects aliasing in real time to adapt sampling with just one mic. (Led by Jack) (https://jta2021.wixsite.com/efficientmic)
+- September 2025 — NIH NIMH SBIR Phase 2 Awarded:  (https://reporter.nih.gov/search/dA1rsefomUqAkWnzcMSysg/project-details/11393482)
+- September 2025 — Mindfulness Meditation and Respiration got accepted in IMWUT/UbiComp'25: This work introduces smartphone-based respiration tracking and mindfulness skill estimation to enhance engagement and usability in digital meditation apps. (Led by Nur) (https://bashlab.github.io/meditite_project/)
+- September 2025 — LYNX got accepted in MIT URTC'25 as a Poster: Three high school students developed an open-source multimodal earable for data collection. (Led by Hikmet, Musa, Pranav)
+- August 2025 — RAVEN got accepted in EMNLP'25: RAVEN improves multimodal question answering by dynamically gating cross-modal signals—using a single architecture to suppress distractors and resolve modality mismatches. (Led by Subrata) (https://bashlab.github.io/raven_project/)
+- July 2025 — LLaSA got accepted in in GENAI4HS Workshop, UbiComp'25: LLaSA combines IMU data with language models to generate interpretable, context-rich answers about human activity using large-scale sensor-caption and QA datasets.. (Led by Shoubornno) (https://bashlab.github.io/llasa_project/)
+- June 2025 — LOCUS got accepted in EWSN'25: LOCUS enables robust sound source localization in batteryless systems by intelligently recovering missing multichannel data using deep learning. (Led by Subrata) (https://bashlab.github.io/locus_project/)
+- May 2025 — QuaDS got accepted in Interspeech'25: QUADS unifies quantization and distillation to create ultra-efficient spoken language understanding models. (Led by Subrata) (https://bashlab.github.io/quad_project/)
+- May 2025 — FATE got accepted in MWSCAS'25: Fate is a novel Fourier-Accelerated CMOS-based Tensor Engine that optimizes matrix multiplication using the Fourier Dot Product. (Led by Jack) (https://bashlab.github.io/fate_project/)
+- May 2025 — Shourno went to Bosch Research Labs as Summer Research Intern:  (https://www.bosch.us/our-company/innovation/)
+- November 2024 — Gift Money from Wadsworth Acoustic Laboratory:  (https://bashlab.wpi.edu/research)
+- July 2024 — NIH NIMH SBIR Phase 1 Awarded:  (https://reporter.nih.gov/search/JbW0N-Uuzkuu6w2WE7OsxA/project-details/10919943)
+- July 2024 — NIH NIDDK RO1 Awarded:  (https://reporter.nih.gov/search/m2XMndk72Uyo1nbCSi7IMQ/project-details/10981817)
+- May 2024 — InfantMotion2Vec got accepted in BSN'24: InfantMotion2Vec uses a single IMU sensor and semi-supervised learning to detect infant pose to facilitate neurodevelopmental risks in infants through natural motion analysis. (Led by Nur) (https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10780750)
+- May 2024 — Ultrasound-Gesture got accepted in BSN'24: This work enables real-time hand gesture recognition using forearm ultrasound and deep learning on edge devices, achieving high accuracy with efficient model compression. (Led by Keshav) (https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10780669)
+- May 2024 — Subrata went to Meta Reality Lab as Summer Research Intern and Part-time Student Researcher:  (https://tech.facebook.com/reality-labs/)
+- April 2024 — FreeML got accepted in EWSN'24: FreeML enables memory-efficient, energy-adaptive inference of pre-trained deep neural networks on batteryless systems using novel compression and early-exit techniques. (Led by Subrata) (https://ewsn.org/file-repository/ewsn2024/ewsn24-final16.pdf)
+- February 2024 — Infant SoundTagging got accepted in CHASE'24: This work enhances infant-centric noise detection by fine-tuning large audio models on data from wearable infant recorders, improving accuracy in real-world home soundscapes. (Led by Nur) (https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10614412)
+- January 2024 — NSF CRII Awarded:  (https://www.nsf.gov/awardsearch/showAward?AWD_ID=2347692&HistoricalAwards=false)
+- October 2023 — EchoSense got accepted in MIT URTC'23: This work explores using acoustic sensing and machine learning to identify and monitor the shape and health of small hollow objects with high accuracy for preventive maintenance in enclosed environments. (Led by Michael and Zhuolin) (https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10534944)
+- September 2023 — NIH NIDA RO1 Awarded:  (https://reporter.nih.gov/search/Y243KaussUeGqwjP_QkHOA/project-details/10777825)
+- May 2023 — Bashima presents Amalgamated Intermittent Systems in IoTDI'23: This work explores energy-aware coordination of intermittent computing nodes with unequal energy harvesting, enabling reliable sensing and computation without constant communication. (https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10534944)
+- November 2022 — Subrata presents poster in SenSys'22: This work reveals how prior data knowledge enables input recovery from partially offloaded DNN vectors, highlighting privacy risks in edge-cloud inference. (https://dl.acm.org/doi/pdf/10.1145/3560905.3568091)
+- August 2022 — Verification of Intermittent Systems got accepted in EMSOFT'22: This paper present formal verification of intermittent computing system powered by harvester energy. (Led by Rose & Bashima) (https://dl.acm.org/doi/pdf/10.1145/3576842.3582388)
+- August 2022 — BASH Lab starts its journey at WPI:  (https://bashlab.wpi.edu/)
+
+## Research Areas
+### Sensing the Future: Bridging Sensors and Language Intelligence
+We explore the synergy between sensor data and large language models to create intelligent systems that understand and interpret the world through a fusion of modalities. This research area focuses on developing novel approaches that combine traditional sensing technologies with modern AI to create more intuitive and responsive systems.
+Papers: RAVEN (EMNLP'25), LLaSA (GenAI4HS,UbiComp'25)
+More: https://bashima.notion.site/sensing-the-future?pvs=4
+
+### Tiny Power, Big Impact: ML for Low-Power Edge Innovation
+We pioneer the development of efficient machine learning algorithms for ultra-low-power edge devices, enabling intelligent sensing in resource-constrained environments. This research is crucial for IoT applications and sustainable computing.
+Funding: National Science Foundation
+Papers: QUADS (Interspeech'25), LOCUS (EWSN'25), FATE (MWSCAS'25), EfficientMic (BuildSys'25), FREEML (EWSN'24)
+More: https://bashima.notion.site/tinypower?pvs=4
+
+### Mind Meets Machine: AI Transforming Behavioral Health
+We leverage artificial intelligence to revolutionize behavioral health, providing innovative tools for diagnosis, monitoring, and treatment to improve developmental and mental well-being. Our interdisciplinary approach combines AI with healthcare expertise.
+Funding: National Institute of Health
+Papers: Mindfulness Meditation (IMWUT/Ubicomp'25), Infant SoundTagging (CHASE'24), InfantMotion2Vec (BSN'24), Littlebeats Validation (Sensors'24)
+More: https://bashima.notion.site/mind-meets-machine?pvs=4
+
+## Datasets
+- AVS-QA: A comprehensive multimodal dataset combining audio, video, and sensor data with question-answer pairs for cross-modal understanding research. (https://huggingface.co/datasets/BASH-Lab/AVS-QA)
+- SensorCap: LLM-assisted softly-labelled IMU sensor data captioning dataset with feature summarizations and narrations of human activities. (https://huggingface.co/datasets/BASH-Lab/SensorCaps)
+- OpenSQA: Open-source sensor-aware question-answering or instruction-tuning dataset covering IMU data interpretations for human activities. (https://huggingface.co/datasets/BASH-Lab/OpenSQA)
+- LargeSet: Sound Source Localization: Large-scale dataset for multichannel sound source localization research with diverse acoustic scenarios and precise ground truth localization information. (https://drive.google.com/drive/folders/1YbOdBA8p-WI_FRT7ktbiex3TXhZS7igb)
+- Aliasing Detection Dataset: A dataset consisting of STFTs derived from the UrbanSound8K Dataset, and ESC50 Dataset which are either aliasing or nonaliasing. (https://github.com/jackadiletta/Aliasing-Audio-STFT-Dataset)
+
+## Models
+- RAVEN: Multimodal Reasoning: State-of-the-art multimodal reasoning model combining audio, video, and sensor data for comprehensive scene understanding and cross-modal reasoning. (https://huggingface.co/BASH-Lab/RAVEN-AV-7B)
+- LLaSA: Sensor-Language Model: Specialized language model fine-tuned for sensor data interpretation and natural language generation, bridging sensors and human-understandable descriptions. (https://huggingface.co/BASH-Lab/LLaSA-13B)
+
+## Team
+- Bashima Islam — Assistant Professor, ECE, CS & DS, Worcester Polytechnic Institute (https://users.wpi.edu/~bislam/)
+- Mohammad Nur Hossain Khan — PhD Student, ECE, Worcester Polytechnic Institute (http://users.wpi.edu/~mkhan)
+- Subrata Kumar Biswas — PhD Student, ECE, Worcester Polytechnic Institute (https://users.wpi.edu/~sbiswas/)
+- Sheikh Asif Imran Shouborno — PhD Student, ECE, Worcester Polytechnic Institute (https://sheikhasifimran.wixsite.com/shouborno)
+- Bibhus Luitel — PhD Student, ECE, Worcester Polytechnic Institute (https://users.wpi.edu/~bluitel/)
+- Evan Smith — Undergraduate Student, ECE, Worcester Polytechnic Institute (https://evangibsonsmith.com)
+- Violet Colwell — Undergraduate Student, ECE, Worcester Polytechnic Institute (https://alex.colwell.xyz/)
+- Nhan Tran — Undergraduate Student, ECE/CS, Worcester Polytechnic Institute
+
+### Alumni
+- Ashe Neth, BS (CS), 2025 — now: PhD Student, University of Washington St. Louis
+- Jack Adiletta, BS/MS (ECE), 2025 — now: Engineer, Intel
+- Robbie Oleynick, BS/MS (ECE,CS), 2025 — now: Engineer, Bose
+- Joshua Hollyer, BS/MS (ECE), 2023 — now: Hardware Engineer, Acacia
+- Zhuolin Liu, BS/MS (ECE), 2023 — now: Aerospace Software Engineer, Honeywell
+- Michael Rothstein, BS/MS (ECE), 2023 — now: 
+
+Collaborating institutions: Carnegie Mellon University, University of Illinois Urbana-Champaign, Georgia Tech, University of Trento, Meta Reality Lab
+
+## Funding
+Total funding: $956K
+- NIH NIMH SBIR (Phase2) (NIH), $170K (Total: $918K), role: Co-I, 2 year (9/2025 - 8/2027), Lead PIs: John David Creswell & Mathew Polowitz (CMU & Equa Health)
+- Wadsworth Acoustic Laboratory (Gift), $9K, role: Lead PI, 1 year (1/2024 - 12/2024)
+- NSF CSR CRII (NSF), $175K, role: Lead PI, 2 years (1/2024 - 12/2025)
+- NIH NIDA R01 (NIH), $157K (Total: $2.7M), role: Co-I, 5 years (9/2023 - 7/2028), Lead PIs: Nancy E. McElwain (UIUC) & Mark A. Hasegawa-Johnson (UIUC)
+- NIH NIDDK R01 (NIH), $533K (Total: $2.7M), role: Co-I, 5 years (9/2024 - 7/2028), Lead PIs: Nancy E. McElwain (UIUC) & Mark A. Hasegawa-Johnson (UIUC)
+- NIH NIMH SBIR (Phase1) (NIH), $82K (Total: $290K), role: Co-I, 1 year (9/2024 - 7/2025), Lead PIs: John David Creswell & Mathew Polowitz (CMU & Equa Health)
+
+## Media
+- RAVEN: Query-Guided Representation Alignment for Question Answering over Audio, Video, Embedded Sensors, and Natural Language. EMNLP 2025 (2025) — https://www.youtube.com/watch?v=XZ4r2Jia5rA
+- FATE: A Fourier Accelerated Tensor Engine for Neural Networks (2024) — https://www.youtube.com/watch?v=ECnW74_fUB8
+- Talking Llama: Real-time Image-to-Poetryon Raspberry Pi 5 (2024) — https://www.youtube.com/watch?v=7dQLIwz4zt4
+- Vibration Classification for Embedded Systems (2023) — https://www.youtube.com/watch?v=YaLit9dmuns
+- Gestify (2024) — https://www.youtube.com/watch?v=n5AmI1qYyJ4
+
+## Publications
+- OWL: Geometry-Aware Spatial Reasoning for Audio Large Language Models. Subrata Biswas, Mohammad Nur Hossain Khan, Bashima Islam. International Conference on Learning Representations (ICLR) 2026 https://arxiv.org/pdf/2509.26140?
+- Hair Noise Analysis and Mitigation for Smart Glasses Audio Captures. Subrata Biswas, Daniel Wong, Bashima Islam, Sanjeel Parekh, Vladimir Tourbabin. ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2026 https://ieeexplore.ieee.org/document/11464268
+- RAVEN: Query-Guided Representation Alignment for Question Answering over Audio, Video, Embedded Sensors, and Natural Language. Subrata Biswas, Mohammad Nur Hossain Khan, Bashima Islam. Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing 2025 https://aclanthology.org/2025.emnlp-main.96/
+- Mindfulness Meditation and Respiration: Accelerometer-Based Respiration Rate and Mindfulness Progress Estimation to Enhance App Engagement and Mindfulness Skills. Mohammad Nur Hossain Khan, David creswell, Jordan Albert, Patrick O'Connell, Shawn Fallon, Mathew Polowitz, Xuhai orson Xu, Bashima Islam. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/Ubicomp) 2025 https://bashlab.github.io/meditite_project/
+- QUADS: Quantized Distillation Framework for Efficient Speech Language Understanding. Subrata Biswas, Mohammad Nur Hossain Khan, Bashima Islam. Interspeech 2025 2025 https://www.isca-archive.org/interspeech_2025/biswas25b_interspeech.pdf
+- LOCUS: LOcalization with Channel Uncertainty and Sporadic Energy. Subrata Biswas, Mohammad Nur Hossain Khan, Alex Colwell, Jack Adiletta, Bashima Islam. 22nd International Conference on Embedded Wireless Systems and Networks (EWSN) 2025 https://bashlab.github.io/locus_project/
+- EfficientMic: Adaptive Acoustic Sensing with a Single Microphone for Smart Infrastructure. Jack Adiletta, Mohammad Nur Hossain Khan, Shiwei Fang, Bashima Islam. 12th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation (BuildSys) 2025 https://jta2021.wixsite.com/efficientmic
+- LLaSA: A Multimodal LLM for Human Activity Analysis Through Wearable and Smartphone Sensors. Sheikh Asif Imran, Mohammad Nur Hossain Khan, Subrata Biswas, Bashima Islam. Generative AI and Foundation Models for Human Sensing Workshop, UbiComp 2025 https://bashlab.github.io/llasa_project/
+- UNIT: Scalable unstructured inference-time pruning for MAC-efficient neural inference on MCUs. Ashe Neth, Sawinder Kaur, Mohammad Nur Hossain Khan, Subrata Biswas, Asif Salekin, Bashima Islam. arXiv preprint 2025 https://arxiv.org/abs/2507.07885
+- Machine learning-based estimation of EMG baseline noise standard deviation without rest trials. Naisargi Mehta, Bashima Islam, Edward A. Clancy. Journal of Electromyography and Kinesiology 2025 https://doi.org/https://doi.org/10.1016/j.jelekin.2025.103097
+- FATE: A Fourier Accelerated Tensor Engine for Neural Networks. Jack Adiletta, Bashima Islam, Ulkuhan Guler. IEEE International Midwest Symposium on Circuits and Systems MWSCAS 2025 https://bashlab.github.io/fate_project/
+- Anti-Sensing: Defense Against Unauthorized Radar-Based Human Vital Sign Sensing with Physically Realizable Wearable Oscillators. Md Farhan Tasnim Oshim, Nigel Doering, Bashima Islam, Tsui-Wei Weng, Tauhidur Rahman. 2025 IEEE International Conference on Robotics and Automation (ICRA) 2025 https://doi.org/10.1109/ICRA55743.2025.11127941
+- Poster: LYNX: An Open-Source Platform for In-Ear Multimodal Sensing. Musa Guler, Hikmet Bisen, Pranav Khurana, Bashima Islam. MIT Undergraduate Research Technology Conference (MIT URTC) 2025
+- Biobehavioral sensing platform for capturing infant states/health and environmental input via ecg, motion, and audio signals. Nancy L McElwain, Mark A Hasegawa-Johnson, Romit Roy Choudhury, Ashutosh Dhekne, Bashima Islam. Google Patents 2025
+- ECG Statement Classification and Lead Reconstruction using CNN-based Models. Kiriaki J Rajotte, Bashima Islam, Xinming Huang, David D McManus, Edward A Clancy. IEEE Journal of Biomedical and Health Informatics 2025
+- Comparing Quantization Methods for On-Edge ECG Interpretation using Multi-Task CNN. Kiriaki J Rajotte, Bashima Islam, David McManus, Xinming Huang, Edward A Clancy. IEEE-EMBS International Conference on Body Sensor Networks (BSN) 2025
+- Dataset: A Novel Aliasing vs Non Aliasing Audio Dataset for Always-On IoT Microphone Experimentation. Jack Adiletta, Khan Mohammad Nur Hossain, Matthew Reynolds, Shiwei Fang, Bashima Islam. Proceedings of the 12th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation 2025
+- Preliminary Technical Validation of LittleBeats™: A Multimodal Sensing Platform to Capture Cardiac Physiology, Motion, and Vocalizations. Bashima Islam, Nancy L McElwain, Jialu Li, Maria I Davila, Yannan Hu, Kexin Hu, Jordan M Bodway, Ashutosh Dhekne, Romit Roy Choudhury, Mark Hasegawa-Johnson. Sensors 2024
+- InfantMotion2Vec: Unlabeled Data-Driven Infant Pose Estimation Using a Single Chest IMU. Mohammad Nur Hossain Khan, Nancy L McElwain, Mark Hasegawa-Johnson, Bashima Islam. 2024 IEEE 20th International Conference on Body Sensor Networks (BSN) 2024 https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10780750
+- Sound Tagging in Infant-centric Home Soundscapes. Mohammad Nur Hossain Khan, Jialu Li, Nancy L McElwain, Mark Hasegawa–Johnson, Bashima Islam. 2024 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE) 2024 https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10614412
+- Bootstrapping Health Wearables Powered by Intra-Body Power Transfer. Saad Ahmed, Eren Yildiz, Shashank Holla, Noor Mohammed, Bashima Islam, Kasim Sinan Yildirim, Jeremy Gummeson, Sunghoon Ivan Lee, Josiah Hester. IEEE-EMBS International Conference on Body Sensor Networks (BSN) 2024 https://ieeexplore.ieee.org/document/10780616
+- The Internet of Batteryless Things. Saad Ahmed, Bashima Islam, Kasim Sinan Yildirim, Marco Zimmerling, Przemys Pawe, Muhammad Hamad Alizai, Brandon Lucia, Luca Mottola, Jacob Sorber, Josiah Hester. Communications of the ACM 2024
+- Forearm Ultrasound based Gesture Recognition on Edge. Keshav Bimbraw, Haichong K Zhang, Bashima Islam. IEEE-EMBS International Conference on Body Sensor Networks (BSN) 2024 https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10780669&tag=1
+- Memory-efficient Energy-adaptive Inference of Pre-Trained Models on Batteryless Embedded Systems. Pietro Farina, Subrata Biswas, Eren Y, Khakim Akhunov, Saad Ahmed, Bashima Islam, Kas Sinan Y. International Conference on Embedded Wireless Systems and Networks (EWSN) 2024 https://ewsn.org/file-repository/ewsn2024/ewsn24-final16.pdf
+- Evaluating Users’ Experiences of a Child Multimodal Wearable Device: Mixed Methods Approach. Nancy L McElwain, Meghan C Fisher, Camille Nebeker, Jordan M Bodway, Bashima Islam, Mark Hasegawa-Johnson. JMIR Human Factors 2024
+- Missingness-resilient Video-enhanced Multimodal Disfluency Detection. Payal Mohapatra, Shamika Likhite, Subrata Biswas, Bashima Islam, Qi Zhu. Interspeech 2024 https://www.isca-archive.org/interspeech_2024/mohapatra24_interspeech.pdf
+- EchoSense: Acoustic Sensing for Enclosed Structure Monitoring and Recognition. Michael Rothstein, Zhuolin Liu, Bashima Islam. IEEE MIT Undergraduate Research Technology Conference (MIT URTC) 2023
+- An Empirical Study of Interference Features in Licensed and Unlicensed Bands for Intelligent Spectrum Management. Zhuoran Su, Kaveh Pahlavan, Bashima Islam. 24th IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM) 2023
+- Protean: Adaptive Hardware-Accelerated Intermittent Computing. Abu Bakar, Rishabh Goel, Jasper de Winkel, Jason Huang, Saad Ahmed, Bashima Islam, Przemyslaw Pawelczak, Kasim Sinan Yildirim, Josiah Hester. GetMobile: Mobile Computing and Communications 2023
+- Classification of infant sleep/wake states: cross-attention among large scale pretrained transformer networks using audio, ECG, and IMU data. Kai Chieh Chang, Mark Hasegawa-Johnson, Nancy L McElwain, Bashima Islam. 2023 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) 2023
+- Amalgamated Intermittent Computing Systems. Bashima Islam, Yubo Luo, Shahriar Nirjon. IEEE/ACM International Conference on Internet-of-Things Design and Implementation (IoTDI) 2023
+- Efficient Stuttering Event Detection using Siamese Networks. Payal Mohapatra, Md Tamzeed Islam, Bashima Islam, Qi Zhu. IEEE International Conference on Acoustic Speech and Signal Processing (ICASSP) 2023
+- Characteristics of Mid-Bands Interference in Wireless Spectrum Sharing for Mobility Support in 6G, Wi-Fi 7, and Beyond. Kaveh Pahlavan, Bashima Islam, Zhuoran Su, Edward Morgan. International Journal of Wireless Information Networks 2023
+- An Empirical Study of Interference Features in Licensed and Unlicensed Bands for Intelligent Spectrum Management. Zhuoran Su, Kaveh Pahlavan, Bashima Islam. 2023 IEEE 24th International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM) 2023
+- Self-Supervised Speech Enhancement using Multi-Modal Data. Yu-Lin Wei, Rajalaxmi Rajagopalan, Bashima Islam, Romit Roy Choudhury. NeurIPS Workshop on ML for Audio 2023
+- Efficient and Safe I/O Operations for Intermittent Systems. Eren Yildiz, Saad Ahmed, Bashima Islam, Josiah Hester, Kasim Sinan Yildirim. European Conference on Computer Systems (EuroSys) 2023
+- Protean: An Energy-Efficient and Heterogeneous Platform for Adaptive and Hardware-Accelerated Battery-free Computing. Abu Bakar, Rishabh Goel, Jasper De Winkel, Jason Huang, Saad Ahmed, Bashima Islam, Przemys Pawe, Kas Sinan Y, Josiah Hester. Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems (SenSys) 2022
+- Cyber–Physical Verification of Intermittently Powered Embedded Systems. Rose Bohrer, Bashima Islam. IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 2022
+- Poster: Studying the Security Threats of Partially Processed Deep Neural Inference Data in an IoT Device. Argha Dhar, Arna Roy, Subrata Biswas, Bashima Islam. ACM Conference on Embedded Networked Sensor Systems (SenSys) 2022
+- Speech disfluency detection with contextual representation and data distillation. Payal Mohapatra, Akash Pandey, Bashima Islam, Qi Zhu. Proceedings of the 1st ACM international workshop on intelligent acoustic systems and applications 2022
+- Breathing measurement and management using an electronic device. Md Mahbubur Rahman, Bashima Islam, Tousif Ahmed, Nathan Robert Folkman, Anh Minh Dinh, Sean Bornheimer, Ebrahim Nematihosseinabadi, Jilong Kuang, Jun Gao. Google Patents 2022
+- BreathTrack: detecting regular breathing phases from unannotated acoustic data captured by a smartphone. Bashima Islam, Md Mahbubur Rahman, Tousif Ahmed, Mohsin Yusuf Ahmed, Md Mehedi Hasan, Viswam Nathan, Korosh Vatanparvar, Ebrahim Nemati, Jilong Kuang, Jun Alex Gao. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp) 2021
+- Automated time synchronization of cough events from multimodal sensors in mobile devices. Tousif Ahmed, Mohsin Y Ahmed, Md Mahbubur Rahman, Ebrahim Nemati, Bashima Islam, Korosh Vatanparvar, Viswam Nathan, Daniel McCaffrey, Jilong Kuang, Jun Alex Gao. Proceedings of the 2020 International Conference on Multimodal Interaction (ICMI) 2020
+- Scheduling Computational and Energy Harvesting Tasks in Deadline-Aware Intermittent Systems. Bashima Islam, Shahriar Nirjon. IEEE International Conference on Real-Time and Embedded Technology and Applications Symposium (RTAS) 2020 https://ieeexplore.ieee.org/document/9113096
+- PhD Forum Abstract: Scheduling Tasks on Intermittently Powered Systems. Bashima Islam. 2020 19th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN) 2020
+- Zygarde: Time-Sensitive On-Device Deep Inference and Adaptation on Intermittently-Powered Systems. Bashima Islam, Shahriar Nirjon. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/Ubicomp) 2020 https://dl.acm.org/doi/10.1145/3411808
+- Intelligent Chargers will Make Mobile Devices Live Longer. Alma Probstl, Bashima Islam, Shahriar Nirjon, Naehuck R Chang, Samarjit Chakraborty. IEEE Design and Test Journal 2020 https://ieeexplore.ieee.org/document/9133188
+- BreathEasy: Assessing Respiratory Diseases Using Mobile Multimodal Sensors. Md Mahbubur Rahman, Mohsin Yusuf Ahmed, Tousif Ahmed, Bashima Islam, Viswam Nathan, Korosh Vatanparvar, Ebrahim Nemati, Daniel McCaffrey, Jilong Kuang, Jun Alex Gao. ACM International Conference on Multimodal Interaction (ICMI) 2020
+- Differences in reliability and predictability of harvested energy from battery-less intermittently powered systems. Nithya Sampath, Bashima Islam, Shahriar Nirjon. Journal of Emerging Investigators. www. emerginginvestigators. org 2020
+- WiP: On-device training from sensor data on batteryless platforms. Bashima Islam, Yubo Luo, Seulki Lee, Shahriar Nirjon. Proceedings of the 18th International Conference on Information Processing in Sensor Networks (IPSN) 2019
+- LoRaIn: Making a Case for LoRa in Indoor Localization. Work in Progress Paper. Bashima Islam, Md Tamzeed Islam, Shahriar Nirjon. IEEE International Conference on Pervasive Computing and Communications, (PerCom) 2019 https://ieeexplore.ieee.org/document/8730767
+- Time-Aware Deep Intelligence on Batteryless Systems. Work in Progress Paper. Bashima Islam, Yubo Luo, Seulki Lee, Shahriar Nirjon. Brief Presentations Proceedings (RTAS 2019) 2019 http://2019.rtas.org/wp-content/uploads/2019/04/RTAS19_BP_proceedings.pdf
+- Intermittent Learning: On-Device Machine Learning on Intermittently Powered System. Seulki Lee, Bashima Islam, Yubo Luo, Shahriar Nirjon. ACM Proceedings on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UBICOMP), Volume 3, Issue 4 2019 https://arxiv.org/pdf/1904.09644.pdf
+- Poster Abstract: On-Device Training from Sensor Data on Batteryless Platforms. Bashima Islam, Yubo Luo, Shahriar Nirjon. ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN) 2019 https://ieeexplore.ieee.org/document/8732490
+- Improving pedestrian safety in cities using intelligent wearable systems. Stephen Xia, Daniel de Godoy Peixoto, Bashima Islam, Md Tamzeed Islam, Shahriar Nirjon, Peter R Kinget, Xiaofan Jiang. IEEE Internet of Things Journal 2019
+- Paws: A Wearable Acoustic System for Pedestrian Safety. Daniel de Godoy, Bashima Islam, Stephen Xia, Md Tamzeed Islam, Rishikanth Chandrasekaran, Yen-Chun Chen, Shahriar Nirjon, Peter R Kinget, Xiaofan Jiang. Orlando, USA 2018 https://ieeexplore.ieee.org/abstract/document/8366992
+- Demo Abstract: A Motion-Triggered Stereo Camera for 3D Experience Capture. Bashima Islam, Md Tamzeed Islam, Shahriar Nirjon. 2018 17th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN) 2018
+- Duty-Cycle-Aware Real-Time Scheduling of Wireless Links in Low Power WANs. Md Tamzeed Islam, Bashima Islam, Shahriar Nirjon. IEEE International Conference on Distributed Computing in Sensor Systems (DCOSS) 2018 https://ieeexplore.ieee.org/abstract/document/8510960/
+- Glimpse.3D: A Motion-Triggered Stereo Body Camera for 3D Experience Capture and Preview. Bashima Islam, Md Tamzeed Islam, Shahriar Nirjon. ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN) 2018 https://dl.acm.org/citation.cfm?id=3207991
+- Rethinking Ranging of Unmodified BLE Peripherals in Smart City Infrastructure. Bashima Islam, Mostafa Uddin, Sarit Mukherjee, Shahriar Nirjon. ACM Multimedia Systems Conference (MMSys) 2018 https://dl.acm.org/citation.cfm?id=3204950
+- A Smartphone-Based System for Improving Pedestrian Safety. Stephen Xia, Daniel de Godoy, Bashima Islam, Md Tamzeed Islam, Shahriar Nirjon, Peter R. Kinget, Xiaofan Jiang. IEEE Vehicular Networking Conference (VNC) 2018 https://ieeexplore.ieee.org/document/8628320
+- Marble: Mobile Augmented Reality using a Distributed BLE Beacon Infrastructure. Chong Shao, Bashima Islam, Shahriar Nirjon. IEEE/ACM International Conference on Internet-of-Things Design and Implementation (IoTDI) 2018 https://ieeexplore.ieee.org/abstract/document/8366977/
+- SoundSifter: Mitigating Overhearing of Continuous Listening Devices. Md Tamzeed Islam, Bashima Islam, Shahriar Nirjon. ACM Proceedings Conference on Mobile Systems, Applications, and Services (MobiSys) 2017 https://dl.acm.org/citation.cfm?id=3081338
+- Trusted Worrier: A low-cost and high-accuracy user authentication system for firearm exploiting dynamic hand pressure biometrics. Md Shihabul Islam, Mohammad Ali, Kazi Hasan Zubaer, Saiyma Sarmin, Md Tamzeed Islam, Bashima Islam, ABM Alim Al Islam, Asif Mohaisin Sadri. 2017 International Conference on Networking, Systems and Security (NSysS) 2017
+- Preventive maintenance of centralized HVAC systems: use of acoustic sensors, feature extraction, and unsupervised learning. Ravi Srinivasan, Md Tamzeed Islam, Bashima Islam, Zeyu Wang, Tamim Sookoor, Omprakash Gnawali, Shahriar Nirjon. Building Simulation 2017 2017
+- High Performance Approximate Computing by Adaptive Relaxed Synchronization. Bashima Islam, Faysal Hossain, Rifat Shahriyar. IEEE International Conference on High Performance Computing and Communication (HPCC) 2016 https://ieeexplore.ieee.org/abstract/document/7828509/
+- A System for Identifying and Visualizing Influential Communities. Md Tamzeed Islam, Bashima Islam, Mohammed Eunus Ali. Workshop on Social Data Analytics and Management, (VLDB) 2016 https://arxiv.org/abs/1610.06298
+- Demo Abstract: SEUS: A Wearable Multi-Channel Acoustic Headset Platform to Improve Pedestrian Safety. Rishikanth Chandrasekaran, Daniel de Godoy, Stephen Xia, Bashima Islam, Md Tamzeed Islam, Shahriar Nirjon, Peter R. Kinget, Xiaofan Jiang. ACM Conference on Embedded Network Sensor Systems (Sensys) 2016 https://dl.acm.org/doi/10.1145/2994551.2996547
+- Poster Abstract: Super-savior: A System to Aid Combating Harassment and Violence Against Women. Tanzila Choudhury, Bashima Islam, A. B. M. Alim Al Islam. Proceedings of Workshop on Women Empowerment through ICT: Higher Studies, Research and Career (WE-ICT) 2014 https://www.cs.unc.edu/ bashima/publications/pdf/super_savior.pdf
+- Demo Abstract: Happy Watch: A Portable Health Monitoring System. Bashima Islam, Md Tamzeed Islam, Zaheen Mustakin, MM Haque, Hasan Shahid Ferdous. Workshop on Design and Implementation of Emerging & Computing Systems (WDIECS) 2013

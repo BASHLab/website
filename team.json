@@ -86,7 +86,7 @@
       "name": "Zhuolin Liu",
       "degree": "BS/MS (ECE)",
       "graduationYear": "2023",
-      "currentPosition": ""
+      "currentPosition": "Aerospace Software Engineer, Honeywell"
     },
     {
       "name": "Michael Rothstein",
@@ -98,29 +98,24 @@
   "mastersAlumni": [],
   "collaborators": [
     {
-      "name": "UIUC",
-      "logo": "uiuc.jpg"
-    },
-    {
       "name": "Carnegie Mellon University",
       "logo": "cmu.png"
     },
     {
-      "name": "University of Tennessee Knoxville",
-      "logo": "utk.png"
+      "name": "University of Illinois Urbana-Champaign",
+      "logo": "uiuc.jpg"
     },
     {
-      "name": "Meta Reality Labs",
-      "logo": "meta.png"
-    },
-    
-    {
-      "name": "Bosch Research USA",
-      "logo": "bosch.png"
+      "name": "Georgia Tech",
+      "logo": "gtech.png"
     },
     {
       "name": "University of Trento",
       "logo": "trento.png"
+    },
+    {
+      "name": "Meta Reality Lab",
+      "logo": "meta.png"
     }
   ]
 }

@@ -1,0 +1,50 @@
+name: Prerender content for LLMs & crawlers
+
+# Bakes the JSON / GitHub-BibTeX data into the static HTML so that LLM agents,
+# chatbots and search crawlers (which do NOT run JavaScript) can read the site.
+#
+# Runs on every push, plus once a day so new publications added to the
+# BASHLab/publications repo get picked up automatically. It commits the baked
+# HTML (and llms.txt / sitemap.xml / robots.txt) back to the branch.
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 6 * * *" # daily 06:17 UTC — refreshes publications from the .bib repo
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prerender-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  prerender:
+    # Skip when the trigger is our own auto-commit, so we never loop.
+    # (A separate deploy workflow, if you have one, still runs on that commit.)
+    if: "github.event_name != 'push' || !contains(github.event.head_commit.message, '[prerender]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Bake JSON/BibTeX into static HTML
+        run: python3 prerender.py
+
+      - name: Commit baked content
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "Prerender site content for LLMs/crawlers [prerender]"
+            git push
+          else
+            echo "No changes to commit."
+          fi

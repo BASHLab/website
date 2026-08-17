@@ -1,0 +1,46 @@
+{
+  "researchVideos": [
+    {
+      "title": "RAVEN: Query-Guided Representation Alignment for Question Answering over Audio, Video, Embedded Sensors, and Natural Language. EMNLP 2025",
+      "url": "https://www.youtube.com/embed/XZ4r2Jia5rA?si=t7ZReHdxnSLrmDO4",
+      "thumbnail": "./img/news/raven.png",
+      "category": "research",
+      "date": "2025",
+      "videoId": "XZ4r2Jia5rA"
+    },
+    {
+      "title": "FATE: A Fourier Accelerated Tensor Engine for Neural Networks",
+      "url": "https://www.youtube.com/embed/ECnW74_fUB8",
+      "thumbnail": "./img/research_clusters/sensor.png",
+      "category": "research",
+      "date": "2024",
+      "videoId": "ECnW74_fUB8"
+    }
+  ],
+  "studentProjectVideos": [
+    {
+      "title": "Talking Llama: Real-time Image-to-Poetryon Raspberry Pi 5",
+      "url": "https://www.youtube.com/embed/7dQLIwz4zt4",
+      "thumbnail": "./img/research_clusters/audio.png",
+      "category": "student-project",
+      "date": "2024",
+      "videoId": "7dQLIwz4zt4"
+    },
+    {
+      "title": "Vibration Classification for Embedded Systems",
+      "url": "https://www.youtube.com/embed/YaLit9dmuns",
+      "thumbnail": "./img/research_clusters/tiny.png",
+      "category": "student-project",
+      "date": "2023",
+      "videoId": "YaLit9dmuns"
+    },
+    {
+      "title": "Gestify",
+      "url": "https://www.youtube.com/embed/n5AmI1qYyJ4",
+      "thumbnail": "./img/research_clusters/sensor.png",
+      "category": "student-project",
+      "date": "2024",
+      "videoId": "n5AmI1qYyJ4"
+    }
+  ]
+}

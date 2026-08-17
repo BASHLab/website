@@ -10,7 +10,7 @@
   "grants": [
     {
       "id": "nih-sbir2",
-      "title": "NIH NIMH SBIR (Phase 2)",
+      "title": "NIH NIMH SBIR (Phase2)",
       "icon": "fa-university",
       "type": "NIH",
       "duration": "2 year (9/2025 - 8/2027)",
@@ -65,7 +65,7 @@
     },
     {
       "id": "nih-nimh",
-      "title": "NIH NIMH SBIR (Phase 1)",
+      "title": "NIH NIMH SBIR (Phase1)",
       "icon": "fa-brain",
       "type": "NIH",
       "duration": "1 year (9/2024 - 7/2025)",

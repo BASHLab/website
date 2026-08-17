@@ -1,9 +1,33 @@
 [
   {
+    "date": "January 2025",
+    "title": "OWL got accepted in [red]ICLR 2026[/red]",
+    "content": "OWL shows how an audio language model can infer where a sound is in 3D space (direction and distance) and provide spatially grounded reasoning steps behind its predictions.",
+    "url": "https://bashlab.github.io/owl_project/",
+    "image": "./img/news/owl-logo.png",
+    "category": "publication"
+  },
+  {
+    "date": "September 2025",
+    "title": "Our paper got accepted in [red]ICASSP 2026[/red]",
+    "content": "This work was carried out during my internship at Meta Reality Labs, in collaboration with the Audio Research Team, where we studied the characteristics of hair-induced noise in smart glasses audio and developed mitigation strategies for robust real-world wearable audio capture.",
+    "url": "https://users.wpi.edu/~sbiswas/assets/publications/26-icassp/ICASSP_26_HNM.pdf",
+    "image": "./img/news/hair_noise.png",
+    "category": "publication"
+  },
+  {
+    "date": "September 2025",
+    "title": "Subrata receives [red]Peter B. Meyers Fellowship[/red]",
+    "content": "This fellowship highlights Subrata’s hard work and excellence in graduate scholarship.",
+    "url": "https://www.linkedin.com/posts/wpi-electrical-and-computer-engineering-4385b2225_wpi-phd-excellence-activity-7379196307317465088-Tih-?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAgjZbABO4TS_kXaa2F6FK-u5Ex7vOyAWVg",
+    "image": "./img/news/subrata_peter.jpeg",
+    "category": "award"
+  },
+  {
     "date": "September 2025",
     "title": "EfficientMic got accepted in [red]BuildSys'25[/red]",
     "content": "EfficientMic detects aliasing in real time to adapt sampling with just one mic. [red](Led by Jack)[/red]",
-    "url": "https://bashlab.github.io/efficientmic_project/",
+    "url": "https://jta2021.wixsite.com/efficientmic",
     "image": "./img/news/efficientmic.png",
     "category": "publication"
   },
@@ -21,6 +45,14 @@
     "content": "This work introduces smartphone-based respiration tracking and mindfulness skill estimation to enhance engagement and usability in digital meditation apps. [red](Led by Nur)[/red]",
     "url": "https://bashlab.github.io/meditite_project/",
     "image": "./img/news/mindful.png",
+    "category": "publication"
+  },
+  {
+    "date": "September 2025",
+    "title": "LYNX got accepted in [red]MIT URTC'25[/red] as a Poster",
+    "content": "Three high school students developed an open-source multimodal earable for data collection. [red](Led by Hikmet, Musa, Pranav)[/red]",
+    "url": "",
+    "image": "./img/news/LYNX.png",
     "category": "publication"
   },
   {
@@ -123,7 +155,7 @@
     "date": "April 2024",
     "title": "FreeML got accepted in [red]EWSN'24[/red]",
     "content": "FreeML enables memory-efficient, energy-adaptive inference of pre-trained deep neural networks on batteryless systems using novel compression and early-exit techniques. [red](Led by Subrata)[/red]",
-    "url": "https://bashlab.github.io/freeml_project",
+    "url": "https://ewsn.org/file-repository/ewsn2024/ewsn24-final16.pdf",
     "image": "./img/news/freeml.png",
     "category": "publication"
   },
