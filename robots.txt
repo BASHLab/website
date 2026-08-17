@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bashlab.wpi.edu/sitemap.xml
+Sitemap: https://bashlab.github.io/sitemap.xml

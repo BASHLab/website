@@ -26,7 +26,7 @@ import sys
 import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-BASE_URL = "https://bashlab.wpi.edu"
+BASE_URL = "https://bashlab.github.io"
 BIB_URL = "https://raw.githubusercontent.com/BASHLab/publications/main/publications.bib"
 
 OFFLINE = "--offline" in sys.argv  # use the local publications.bib instead of fetching
@@ -191,9 +191,9 @@ def render_members(members):
         url = m.get("url") or "#"
         cells.append(
             '<div class="col-xs-12 col-md-3"><div id="profile">'
-            '<a href="%s"><div class="portrait" style="background-image:url(\'%s//img//portraits/%s\');"></div></a>'
+            '<a href="%s"><div class="portrait" style="background-image:url(\'img/portraits/%s\');"></div></a>'
             '<div class="portrait-title"><h4><a href="%s">%s</a></h4><h5>%s</h5></div>'
-            "</div></div>" % (esc(url), BASE_URL, esc(m.get("image")), esc(url), esc(m.get("name")), esc(m.get("title")))
+            "</div></div>" % (esc(url), esc(m.get("image")), esc(url), esc(m.get("name")), esc(m.get("title")))
         )
     return '<div class="pr-fallback"><div class="row">%s</div></div>' % "".join(cells)
 
@@ -411,8 +411,8 @@ ORG_JSONLD = {
     "alternateName": "BASH Lab",
     "url": BASE_URL,
     "logo": BASE_URL + "/img/header_white.png",
-    "parentOrganization": {"@type": "CollegeOrUniversity", "name": "Worcester Polytechnic Institute"},
-    "sameAs": ["https://github.com/BASHLab", "https://huggingface.co/BASH-Lab", "https://www.youtube.com/@BASHLab_WPI"],
+    "parentOrganization": {"@type": "CollegeOrUniversity", "name": "University of Massachusetts Amherst"},
+    "sameAs": ["https://github.com/BASHLab", "https://huggingface.co/BASH-Lab", "https://www.youtube.com/@BASHLab_UMass"],
 }
 
 
@@ -438,7 +438,7 @@ def build_llms_txt(news, research, datasets, media, team, funding, pubs):
     L = []
     L.append("# BASH Lab \u2014 Bringing Awareness through Systems for Humans")
     L.append("")
-    L.append("> Research lab of Prof. Bashima Islam at Worcester Polytechnic Institute (WPI), "
+    L.append("> Research lab of Prof. Bashima Islam at the University of Massachusetts Amherst (UMass Amherst), "
              "building ubiquitous AI systems that learn from motion, audio, physiological and ambient "
              "sensor data to support human behavioral well-being. Focus areas: multimodal representation "
              "learning, sensor-grounded language models, and resource-constrained (edge / TinyML) inference.")
@@ -554,7 +554,7 @@ def main():
                                              "datePublished": plain(n.get("date")), "url": n.get("url", BASE_URL)}}
                                    for i, n in enumerate(news)]}
     h = inject_head(h, "head", head_block(
-        "BASH Lab at WPI (Prof. Bashima Islam): ubiquitous AI for multimodal sensing \u2014 "
+        "BASH Lab at UMass Amherst (Prof. Bashima Islam): ubiquitous AI for multimodal sensing \u2014 "
         "audio/IMU/physiological signals, sensor-grounded language models, and low-power edge ML for human well-being.",
         [news_ld]))
     write_file("index.html", h)
@@ -563,7 +563,7 @@ def main():
     h = read_file("research.html")
     h = inject_into(h, "research-areas-container", "research", render_research(research.get("researchAreas", [])))
     h = inject_head(h, "head", head_block(
-        "Research at BASH Lab (WPI): sensor-language intelligence, low-power edge ML (TinyML), and AI for behavioral health."))
+        "Research at BASH Lab (UMass Amherst): sensor-language intelligence, low-power edge ML (TinyML), and AI for behavioral health."))
     write_file("research.html", h)
 
     # ---- datasets.html ----
@@ -571,14 +571,14 @@ def main():
     h = inject_into(h, "datasets-container", "datasets", render_cards(datasets.get("datasets", [])))
     h = inject_into(h, "models-container", "models", render_cards(datasets.get("models", [])))
     h = inject_head(h, "head", head_block(
-        "Open datasets and models from BASH Lab (WPI): AVS-QA, SensorCaps, OpenSQA, RAVEN, LLaSA and more."))
+        "Open datasets and models from BASH Lab (UMass Amherst): AVS-QA, SensorCaps, OpenSQA, RAVEN, LLaSA and more."))
     write_file("datasets.html", h)
 
     # ---- media.html ----
     h = read_file("media.html")
     h = inject_into(h, "research-videos-container", "researchvideos", render_videos(media.get("researchVideos", [])))
     h = inject_into(h, "student-videos-container", "studentvideos", render_videos(media.get("studentProjectVideos", [])))
-    h = inject_head(h, "head", head_block("Research talks and student project videos from BASH Lab (WPI)."))
+    h = inject_head(h, "head", head_block("Research talks and student project videos from BASH Lab (UMass Amherst)."))
     write_file("media.html", h)
 
     # ---- team.html ----
@@ -591,13 +591,13 @@ def main():
     people_ld = [{"@type": "Person", "name": plain(m.get("name")), "jobTitle": plain(m.get("title")),
                   "url": m.get("url") or BASE_URL, "worksFor": {"@type": "Organization", "name": "BASH Lab"}}
                  for m in team.get("members", [])]
-    h = inject_head(h, "head", head_block("The BASH Lab team at WPI, led by Prof. Bashima Islam.", people_ld))
+    h = inject_head(h, "head", head_block("The BASH Lab team at UMass Amherst, led by Prof. Bashima Islam.", people_ld))
     write_file("team.html", h)
 
     # ---- sponsors.html ----
     h = read_file("sponsors.html")
     h = inject_into(h, "grants-container", "grants", render_grants(funding))
-    h = inject_head(h, "head", head_block("Research funding and sponsors supporting BASH Lab (WPI): NSF, NIH and gifts."))
+    h = inject_head(h, "head", head_block("Research funding and sponsors supporting BASH Lab (UMass Amherst): NSF, NIH and gifts."))
     write_file("sponsors.html", h)
 
     # ---- publications.html ----
@@ -606,7 +606,7 @@ def main():
     pub_ld = [{"@type": "ScholarlyArticle", "headline": clean_tex(e.get("title", "")),
                "author": format_authors(e.get("author", "")), "datePublished": clean_tex(e.get("year", "")),
                "url": clean_tex(e.get("url", ""))} for e in pubs[:25]]
-    h = inject_head(h, "head", head_block("Publications from BASH Lab (WPI): multimodal sensing, sensor-language models and edge ML.", pub_ld))
+    h = inject_head(h, "head", head_block("Publications from BASH Lab (UMass Amherst): multimodal sensing, sensor-language models and edge ML.", pub_ld))
     write_file("publications.html", h)
 
     # ---- llms.txt ----

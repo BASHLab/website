@@ -1,6 +1,6 @@
 # BASH Lab website
 
-Static site for [bashlab.wpi.edu](https://bashlab.wpi.edu).
+Static site for [bashlab.github.io](https://bashlab.github.io).
 
 ## How content works (important)
 
@@ -52,7 +52,7 @@ Then commit the changed files.
 
 It commits the baked HTML back to the branch with a `[prerender]` marker in the
 commit message (the workflow skips its own commits, so it never loops). Whatever
-serves `main` to bashlab.wpi.edu then serves the baked HTML.
+serves `main` to bashlab.github.io then serves the baked HTML.
 
 > If you have a separate deploy workflow, you can instead run `python3 prerender.py`
 > as the step right before it uploads, and skip the auto-commit — either approach works.

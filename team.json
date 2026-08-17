@@ -2,62 +2,69 @@
   "members": [
     {
       "name": "Bashima Islam",
-      "title": "Assistant Professor, ECE, CS & DS, Worcester Polytechnic Institute",
+      "title": "Assistant Professor, ECE, University of Massachusetts Amherst",
       "type": "faculty",
       "image": "Bashima.png",
       "url": "https://users.wpi.edu/~bislam/"
     },
     {
       "name": "Mohammad Nur Hossain Khan",
-      "title": "PhD Student, ECE, Worcester Polytechnic Institute",
+      "title": "PhD Student, ECE, University of Massachusetts Amherst",
       "type": "phd",
       "image": "nur.png",
       "url": "http://users.wpi.edu/~mkhan"
     },
     {
       "name": "Subrata Kumar Biswas",
-      "title": "PhD Student, ECE, Worcester Polytechnic Institute",
+      "title": "PhD Student, ECE, University of Massachusetts Amherst",
       "type": "phd",
       "image": "subrata.png",
       "url": "https://users.wpi.edu/~sbiswas/"
     },
     {
       "name": "Sheikh Asif Imran Shouborno",
-      "title": "PhD Student, ECE, Worcester Polytechnic Institute",
+      "title": "PhD Student, ECE, University of Massachusetts Amherst",
       "type": "phd",
       "image": "shouborno.jpg",
       "url": "https://sheikhasifimran.wixsite.com/shouborno"
     },
     {
       "name": "Bibhus Luitel",
-      "title": "PhD Student, ECE, Worcester Polytechnic Institute",
+      "title": "PhD Student, ECE, University of Massachusetts Amherst",
       "type": "phd",
       "image": "bibhus.jpeg",
       "url": "https://users.wpi.edu/~bluitel/"
     },
-    {
+{
+      "name": "Sabbir Hossain Ujjal",
+      "title": "PhD Student, ECE, University of Massachusetts Amherst",
+      "type": "phd",
+      "image": "sabbir.jpeg",
+      "url": "https://users.wpi.edu/~bluitel/"
+    }
+  ],
+  "undergraduateAlumni": [
+{
       "name": "Evan Smith",
-      "title": "Undergraduate Student, ECE, Worcester Polytechnic Institute",
+      "title": "Undergraduate Student, ECE, University of Massachusetts Amherst",
       "type": "undergraduate",
       "image": "evan.png",
       "url": "https://evangibsonsmith.com"
     },
-    {
+{
       "name": "Violet Colwell",
-      "title": "Undergraduate Student, ECE, Worcester Polytechnic Institute",
+      "title": "Undergraduate Student, ECE, University of Massachusetts Amherst",
       "type": "undergraduate",
       "image": "alex.JPG",
       "url": "https://alex.colwell.xyz/"
     },
     {
       "name": "Nhan Tran",
-      "title": "Undergraduate Student, ECE/CS, Worcester Polytechnic Institute",
+      "title": "Undergraduate Student, ECE/CS, University of Massachusetts Amherst",
       "type": "undergraduate",
       "image": "marlin.jpeg",
       "url": ""
-    }
-  ],
-  "undergraduateAlumni": [
+    },
     {
       "name": "Ashe Neth",
       "degree": "BS (CS)",

@@ -1,11 +1,11 @@
 # BASH Lab — Bringing Awareness through Systems for Humans
 
-> Research lab of Prof. Bashima Islam at Worcester Polytechnic Institute (WPI), building ubiquitous AI systems that learn from motion, audio, physiological and ambient sensor data to support human behavioral well-being. Focus areas: multimodal representation learning, sensor-grounded language models, and resource-constrained (edge / TinyML) inference.
+> Research lab of Prof. Bashima Islam at the University of Massachusetts Amherst (UMass Amherst), building ubiquitous AI systems that learn from motion, audio, physiological and ambient sensor data to support human behavioral well-being. Focus areas: multimodal representation learning, sensor-grounded language models, and resource-constrained (edge / TinyML) inference.
 
-Site: https://bashlab.wpi.edu
+Site: https://bashlab.github.io
 
 ## News
-- January 2025 — OWL got accepted in ICLR 2026: OWL shows how an audio language model can infer where a sound is in 3D space (direction and distance) and provide spatially grounded reasoning steps behind its predictions. (https://bashlab.github.io/owl_project/)
+- January 2026 — OWL got accepted in ICLR 2026: OWL shows how an audio language model can infer where a sound is in 3D space (direction and distance) and provide spatially grounded reasoning steps behind its predictions. (https://bashlab.github.io/owl_project/)
 - September 2025 — Our paper got accepted in ICASSP 2026: This work was carried out during my internship at Meta Reality Labs, in collaboration with the Audio Research Team, where we studied the characteristics of hair-induced noise in smart glasses audio and developed mitigation strategies for robust real-world wearable audio capture. (https://users.wpi.edu/~sbiswas/assets/publications/26-icassp/ICASSP_26_HNM.pdf)
 - September 2025 — Subrata receives Peter B. Meyers Fellowship: This fellowship highlights Subrata’s hard work and excellence in graduate scholarship. (https://www.linkedin.com/posts/wpi-electrical-and-computer-engineering-4385b2225_wpi-phd-excellence-activity-7379196307317465088-Tih-?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAgjZbABO4TS_kXaa2F6FK-u5Ex7vOyAWVg)
 - September 2025 — EfficientMic got accepted in BuildSys'25: EfficientMic detects aliasing in real time to adapt sampling with just one mic. (Led by Jack) (https://jta2021.wixsite.com/efficientmic)
@@ -18,7 +18,7 @@ Site: https://bashlab.wpi.edu
 - May 2025 — QuaDS got accepted in Interspeech'25: QUADS unifies quantization and distillation to create ultra-efficient spoken language understanding models. (Led by Subrata) (https://bashlab.github.io/quad_project/)
 - May 2025 — FATE got accepted in MWSCAS'25: Fate is a novel Fourier-Accelerated CMOS-based Tensor Engine that optimizes matrix multiplication using the Fourier Dot Product. (Led by Jack) (https://bashlab.github.io/fate_project/)
 - May 2025 — Shourno went to Bosch Research Labs as Summer Research Intern:  (https://www.bosch.us/our-company/innovation/)
-- November 2024 — Gift Money from Wadsworth Acoustic Laboratory:  (https://bashlab.wpi.edu/research)
+- November 2024 — Gift Money from Wadsworth Acoustic Laboratory:  (https://bashlab.github.io/research)
 - July 2024 — NIH NIMH SBIR Phase 1 Awarded:  (https://reporter.nih.gov/search/JbW0N-Uuzkuu6w2WE7OsxA/project-details/10919943)
 - July 2024 — NIH NIDDK RO1 Awarded:  (https://reporter.nih.gov/search/m2XMndk72Uyo1nbCSi7IMQ/project-details/10981817)
 - May 2024 — InfantMotion2Vec got accepted in BSN'24: InfantMotion2Vec uses a single IMU sensor and semi-supervised learning to detect infant pose to facilitate neurodevelopmental risks in infants through natural motion analysis. (Led by Nur) (https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10780750)
@@ -32,7 +32,7 @@ Site: https://bashlab.wpi.edu
 - May 2023 — Bashima presents Amalgamated Intermittent Systems in IoTDI'23: This work explores energy-aware coordination of intermittent computing nodes with unequal energy harvesting, enabling reliable sensing and computation without constant communication. (https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10534944)
 - November 2022 — Subrata presents poster in SenSys'22: This work reveals how prior data knowledge enables input recovery from partially offloaded DNN vectors, highlighting privacy risks in edge-cloud inference. (https://dl.acm.org/doi/pdf/10.1145/3560905.3568091)
 - August 2022 — Verification of Intermittent Systems got accepted in EMSOFT'22: This paper present formal verification of intermittent computing system powered by harvester energy. (Led by Rose & Bashima) (https://dl.acm.org/doi/pdf/10.1145/3576842.3582388)
-- August 2022 — BASH Lab starts its journey at WPI:  (https://bashlab.wpi.edu/)
+- August 2022 — BASH Lab starts its journey at WPI:  (https://bashlab.github.io/)
 
 ## Research Areas
 ### Sensing the Future: Bridging Sensors and Language Intelligence
@@ -64,16 +64,17 @@ More: https://bashima.notion.site/mind-meets-machine?pvs=4
 - LLaSA: Sensor-Language Model: Specialized language model fine-tuned for sensor data interpretation and natural language generation, bridging sensors and human-understandable descriptions. (https://huggingface.co/BASH-Lab/LLaSA-13B)
 
 ## Team
-- Bashima Islam — Assistant Professor, ECE, CS & DS, Worcester Polytechnic Institute (https://users.wpi.edu/~bislam/)
-- Mohammad Nur Hossain Khan — PhD Student, ECE, Worcester Polytechnic Institute (http://users.wpi.edu/~mkhan)
-- Subrata Kumar Biswas — PhD Student, ECE, Worcester Polytechnic Institute (https://users.wpi.edu/~sbiswas/)
-- Sheikh Asif Imran Shouborno — PhD Student, ECE, Worcester Polytechnic Institute (https://sheikhasifimran.wixsite.com/shouborno)
-- Bibhus Luitel — PhD Student, ECE, Worcester Polytechnic Institute (https://users.wpi.edu/~bluitel/)
-- Evan Smith — Undergraduate Student, ECE, Worcester Polytechnic Institute (https://evangibsonsmith.com)
-- Violet Colwell — Undergraduate Student, ECE, Worcester Polytechnic Institute (https://alex.colwell.xyz/)
-- Nhan Tran — Undergraduate Student, ECE/CS, Worcester Polytechnic Institute
+- Bashima Islam — Assistant Professor, ECE, University of Massachusetts Amherst (https://users.wpi.edu/~bislam/)
+- Mohammad Nur Hossain Khan — PhD Student, ECE, University of Massachusetts Amherst (http://users.wpi.edu/~mkhan)
+- Subrata Kumar Biswas — PhD Student, ECE, University of Massachusetts Amherst (https://users.wpi.edu/~sbiswas/)
+- Sheikh Asif Imran Shouborno — PhD Student, ECE, University of Massachusetts Amherst (https://sheikhasifimran.wixsite.com/shouborno)
+- Bibhus Luitel — PhD Student, ECE, University of Massachusetts Amherst (https://users.wpi.edu/~bluitel/)
+- Sabbir Hossain Ujjal — PhD Student, ECE, University of Massachusetts Amherst (https://users.wpi.edu/~bluitel/)
 
 ### Alumni
+- Evan Smith, ,  — now: 
+- Violet Colwell, ,  — now: 
+- Nhan Tran, ,  — now: 
 - Ashe Neth, BS (CS), 2025 — now: PhD Student, University of Washington St. Louis
 - Jack Adiletta, BS/MS (ECE), 2025 — now: Engineer, Intel
 - Robbie Oleynick, BS/MS (ECE,CS), 2025 — now: Engineer, Bose
