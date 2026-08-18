@@ -86,7 +86,8 @@ More: https://bashima.notion.site/mind-meets-machine?pvs=4
 Collaborating institutions: Carnegie Mellon University, University of Illinois Urbana-Champaign, Georgia Tech, University of Trento, Meta Reality Lab
 
 ## Funding
-Total funding: $956K
+Total funding: $1762K
+- NSF CAREER (NSF), $636K, role: Lead PI, 5 years (10/2026 - 9/2031)
 - NIH NIMH SBIR (Phase2) (NIH), $170K (Total: $918K), role: Co-I, 2 year (9/2025 - 8/2027), Lead PIs: John David Creswell & Mathew Polowitz (CMU & Equa Health)
 - Wadsworth Acoustic Laboratory (Gift), $9K, role: Lead PI, 1 year (1/2024 - 12/2024)
 - NSF CSR CRII (NSF), $175K, role: Lead PI, 2 years (1/2024 - 12/2025)

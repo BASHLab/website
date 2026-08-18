@@ -2,12 +2,23 @@
   "chartData": {
     "labels": ["NSF", "NIH", "GIFT"],
     "datasets": [{
-      "data": [175, 772, 9],
+      "data": [811, 942, 9],
       "backgroundColor": ["#AC2B37", "#D64550", "#8E1E29"]
     }],
-    "total": 956
+    "total": 1762
   },
   "grants": [
+    {
+      "id": "nsf-career",
+      "title": "NSF CAREER",
+      "icon": "fa-star",
+      "type": "NSF",
+      "duration": "5 years (10/2026 - 9/2031)",
+      "amount": "$636K",
+      "role": "Lead PI",
+      "description": "NSF Faculty Early Career Development (CAREER) Award. Total award: $635,517.",
+      "leadPIs": null
+    },
     {
       "id": "nih-sbir2",
       "title": "NIH NIMH SBIR (Phase2)",
