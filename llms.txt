@@ -74,7 +74,7 @@ More: https://bashima.notion.site/mind-meets-machine?pvs=4
 
 ### Alumni
 - Evan Smith, BS/MS (ECE,CS), 2026 — now: 
-- Violet Colwell, BS (ECE),  — now: Software Engineer, Shadow Startup (Contract)
+- Violet Colwell, BS (ECE), 2026 — now: Software Engineer, Shadow Startup (Contract)
 - Nhan Tran, BS (ECE,CS), 2026 — now: 
 - Ashe Neth, BS (CS), 2025 — now: PhD Student, University of Washington St. Louis
 - Jack Adiletta, BS/MS (ECE), 2025 — now: Engineer, Intel
