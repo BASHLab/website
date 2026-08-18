@@ -16,6 +16,22 @@
     "category": "funding"
   },
   {
+    "date": "July 2026",
+    "title": "Subrata joins [red]Amazon AWS[/red] as Summer Research Intern",
+    "content": "Subrata Kumar Biswas is spending the summer as a Research Intern at Amazon AWS.",
+    "url": "",
+    "image": "./img/research_clusters/sensor.png",
+    "category": "internship"
+  },
+  {
+    "date": "March 2026",
+    "title": "Subrata joins [red]Mitsubishi Research Lab (MIRL)[/red] as Research Intern",
+    "content": "Subrata Kumar Biswas joined Mitsubishi Research Lab (MIRL) as a Research Intern.",
+    "url": "",
+    "image": "./img/research_clusters/sensor.png",
+    "category": "internship"
+  },
+  {
     "date": "January 2026",
     "title": "OWL got accepted in [red]ICLR 2026[/red]",
     "content": "OWL shows how an audio language model can infer where a sound is in 3D space (direction and distance) and provide spatially grounded reasoning steps behind its predictions.",
