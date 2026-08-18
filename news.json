@@ -4,7 +4,7 @@
     "title": "BASH Lab moves to [red]UMass Amherst[/red]",
     "content": "The BASH Lab has relocated from Worcester Polytechnic Institute (WPI) to the University of Massachusetts Amherst, where we continue our research on AI and sensing for health.",
     "url": "https://bashlab.github.io",
-    "image": "./img/research_clusters/sensor.png",
+    "image": "",
     "category": "announcement"
   },
   {
@@ -20,15 +20,15 @@
     "title": "Subrata joins [red]Amazon AWS[/red] as Summer Research Intern",
     "content": "Subrata Kumar Biswas is spending the summer as a Research Intern at Amazon AWS.",
     "url": "",
-    "image": "./img/research_clusters/sensor.png",
+    "image": "./img/news/amazon.jpg",
     "category": "internship"
   },
   {
     "date": "March 2026",
-    "title": "Subrata joins [red]Mitsubishi Research Lab (MIRL)[/red] as Research Intern",
-    "content": "Subrata Kumar Biswas joined Mitsubishi Research Lab (MIRL) as a Research Intern.",
+    "title": "Subrata joins [red]Mitsubishi Electric Research Laboratories (MERL)[/red] as Research Intern",
+    "content": "Subrata Kumar Biswas joined Mitsubishi Electric Research Laboratories (MERL) as a Research Intern.",
     "url": "",
-    "image": "./img/research_clusters/sensor.png",
+    "image": "./img/news/merl.png",
     "category": "internship"
   },
   {

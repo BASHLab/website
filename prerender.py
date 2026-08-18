@@ -113,16 +113,18 @@ def inject_head(html_text, name, block):
 def render_news(items):
     cards = []
     for it in items:
-        img = esc(it.get("image", "./img/research_clusters/sensor.png"))
+        image = it.get("image")
+        card_img = ('<div class="card-image"><img src="%s" alt="%s"></div>'
+                    % (esc(image), esc(plain(it.get("title"))))) if image else ""
         inner = (
             '<div class="simple-card">'
-            '<div class="card-image"><img src="%s" alt="%s"></div>'
+            '%s'
             '<div class="card-body">'
             '<h3 class="card-title">%s</h3>'
             '<p class="card-description">%s</p>'
             '<div class="card-date">%s</div>'
             "</div></div>"
-        ) % (img, esc(plain(it.get("title"))), red(it.get("title")), red(it.get("content")), esc(it.get("date")))
+        ) % (card_img, red(it.get("title")), red(it.get("content")), esc(it.get("date")))
         url = it.get("url")
         if url and url != "#":
             inner = '<a href="%s" style="text-decoration:none;color:inherit;">%s</a>' % (esc(url), inner)
