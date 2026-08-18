@@ -57,6 +57,7 @@ Papers: Mindfulness Meditation (IMWUT/Ubicomp'25), Infant SoundTagging (CHASE'24
 More: https://bashima.notion.site/mind-meets-machine?pvs=4
 
 ## Datasets
+- BiDepth: Over one million QA pairs pairing binaural audio with panoramic depth images and room impulse responses, supporting geometry-aware spatial audio reasoning (from the OWL project). (https://bashlab.github.io/owl_project/)
 - AVS-QA: A comprehensive multimodal dataset combining audio, video, and sensor data with question-answer pairs for cross-modal understanding research. (https://huggingface.co/datasets/BASH-Lab/AVS-QA)
 - SensorCap: LLM-assisted softly-labelled IMU sensor data captioning dataset with feature summarizations and narrations of human activities. (https://huggingface.co/datasets/BASH-Lab/SensorCaps)
 - OpenSQA: Open-source sensor-aware question-answering or instruction-tuning dataset covering IMU data interpretations for human activities. (https://huggingface.co/datasets/BASH-Lab/OpenSQA)
@@ -64,6 +65,7 @@ More: https://bashima.notion.site/mind-meets-machine?pvs=4
 - Aliasing Detection Dataset: A dataset consisting of STFTs derived from the UrbanSound8K Dataset, and ESC50 Dataset which are either aliasing or nonaliasing. (https://github.com/jackadiletta/Aliasing-Audio-STFT-Dataset)
 
 ## Models
+- OWL: Geometry-Aware Audio LLM: Audio large language model that infers where a sound is in 3D space — its direction and distance — with spatially grounded reasoning behind each prediction. (https://huggingface.co/BASH-Lab/OWL)
 - RAVEN: Multimodal Reasoning: State-of-the-art multimodal reasoning model combining audio, video, and sensor data for comprehensive scene understanding and cross-modal reasoning. (https://huggingface.co/BASH-Lab/RAVEN-AV-7B)
 - LLaSA: Sensor-Language Model: Specialized language model fine-tuned for sensor data interpretation and natural language generation, bridging sensors and human-understandable descriptions. (https://huggingface.co/BASH-Lab/LLaSA-13B)
 

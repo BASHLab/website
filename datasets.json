@@ -1,6 +1,12 @@
 {
   "datasets": [
     {
+      "title": "BiDepth",
+      "description": "Over one million QA pairs pairing binaural audio with panoramic depth images and room impulse responses, supporting geometry-aware spatial audio reasoning (from the OWL project).",
+      "url": "https://bashlab.github.io/owl_project/",
+      "type": "dataset"
+    },
+    {
       "title": "AVS-QA",
       "description": "A comprehensive multimodal dataset combining audio, video, and sensor data with question-answer pairs for cross-modal understanding research.",
       "url": "https://huggingface.co/datasets/BASH-Lab/AVS-QA",
@@ -32,6 +38,12 @@
     }
   ],
   "models": [
+    {
+      "title": "OWL: Geometry-Aware Audio LLM",
+      "description": "Audio large language model that infers where a sound is in 3D space — its direction and distance — with spatially grounded reasoning behind each prediction.",
+      "url": "https://huggingface.co/BASH-Lab/OWL",
+      "type": "model"
+    },
     {
       "title": "RAVEN: Multimodal Reasoning",
       "description": "State-of-the-art multimodal reasoning model combining audio, video, and sensor data for comprehensive scene understanding and cross-modal reasoning.",
