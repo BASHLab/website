@@ -65,17 +65,17 @@ More: https://bashima.notion.site/mind-meets-machine?pvs=4
 
 ## Team
 - Bashima Islam — Assistant Professor, ECE, University of Massachusetts Amherst (https://bashimaislam.com)
-- Mohammad Nur Hossain Khan — PhD Student, ECE, University of Massachusetts Amherst (https://nurhossain2301.github.io/)
 - Subrata Kumar Biswas — PhD Student, ECE, Worcester Polytechnic Institute (https://users.wpi.edu/~sbiswas/)
+- Mohammad Nur Hossain Khan — PhD Student, ECE, University of Massachusetts Amherst (https://nurhossain2301.github.io/)
 - Sheikh Asif Imran Shouborno — PhD Student, ECE, University of Massachusetts Amherst (https://sheikhasifimran.wixsite.com/shouborno)
 - Bibhus Luitel — PhD Student, ECE, University of Massachusetts Amherst (https://users.wpi.edu/~bluitel/)
 - Sabbir Hossain Ujjal — PhD Student, ECE, University of Massachusetts Amherst (https://sabbirhossainujjal.github.io/)
 - Anna Balin — Master's Student, ECE, Worcester Polytechnic Institute (https://users.wpi.edu/~abalin)
 
 ### Alumni
-- Evan Smith, ,  — now: 
+- Evan Smith, BS/MS (ECE,CS), 2026 — now: 
 - Violet Colwell, BS (ECE),  — now: Software Engineer, Shadow Startup (Contract)
-- Nhan Tran, ,  — now: 
+- Nhan Tran, BS (ECE,CS), 2026 — now: 
 - Ashe Neth, BS (CS), 2025 — now: PhD Student, University of Washington St. Louis
 - Jack Adiletta, BS/MS (ECE), 2025 — now: Engineer, Intel
 - Robbie Oleynick, BS/MS (ECE,CS), 2025 — now: Engineer, Bose

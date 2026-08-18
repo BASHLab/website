@@ -8,18 +8,18 @@
       "url": "https://bashimaislam.com"
     },
     {
-      "name": "Mohammad Nur Hossain Khan",
-      "title": "PhD Student, ECE, University of Massachusetts Amherst",
-      "type": "phd",
-      "image": "nur.png",
-      "url": "https://nurhossain2301.github.io/"
-    },
-    {
       "name": "Subrata Kumar Biswas",
       "title": "PhD Student, ECE, Worcester Polytechnic Institute",
       "type": "phd",
       "image": "subrata.png",
       "url": "https://users.wpi.edu/~sbiswas/"
+    },
+{
+      "name": "Mohammad Nur Hossain Khan",
+      "title": "PhD Student, ECE, University of Massachusetts Amherst",
+      "type": "phd",
+      "image": "nur.png",
+      "url": "https://nurhossain2301.github.io/"
     },
     {
       "name": "Sheikh Asif Imran Shouborno",
@@ -56,7 +56,9 @@
       "title": "Undergraduate Student, ECE, University of Massachusetts Amherst",
       "type": "undergraduate",
       "image": "evan.png",
-      "url": "https://evangibsonsmith.com"
+      "url": "https://evangibsonsmith.com",
+      "degree": "BS/MS (ECE,CS)",
+      "graduationYear": "2026"
     },
 {
       "name": "Violet Colwell",
@@ -73,7 +75,9 @@
       "title": "Undergraduate Student, ECE/CS, University of Massachusetts Amherst",
       "type": "undergraduate",
       "image": "marlin.jpeg",
-      "url": ""
+      "url": "",
+      "degree": "BS (ECE,CS)",
+      "graduationYear": "2026"
     },
     {
       "name": "Ashe Neth",
