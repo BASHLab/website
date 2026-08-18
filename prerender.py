@@ -434,6 +434,8 @@ def head_block(description, extra_jsonld=None):
         '<meta property="og:description" content="%s">\n'
         '<meta property="og:type" content="website">\n'
         '<meta name="robots" content="index, follow">\n'
+        '<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">\n'
+        '<meta http-equiv="Pragma" content="no-cache">\n'
         '<script type="application/ld+json">\n%s\n</script>'
     ) % (esc(description), esc(description), ld)
 
