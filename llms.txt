@@ -73,7 +73,7 @@ More: https://bashima.notion.site/mind-meets-machine?pvs=4
 - Anna Balin — Master's Student, ECE, Worcester Polytechnic Institute (https://users.wpi.edu/~abalin)
 
 ### Alumni
-- Evan Smith, BS/MS (ECE,CS), 2026 — now: 
+- Evan Smith, BS/MS (ECE,CS), 2026 — now: Associate Embedded Security Engineer, MITRE
 - Violet Colwell, BS (ECE), 2026 — now: Software Engineer, Shadow Startup
 - Nhan Tran, BS (ECE,CS), 2026 — now: 
 - Ashe Neth, BS (CS), 2025 — now: PhD Student, University of Washington St. Louis
