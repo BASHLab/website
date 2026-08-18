@@ -50,6 +50,10 @@
         {
           "name": "LLaSA",
           "url": "https://huggingface.co/BASH-Lab/LLaSA-13B"
+        },
+        {
+          "name": "OWL",
+          "url": "https://huggingface.co/BASH-Lab/OWL"
         }
       ]
     },
