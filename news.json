@@ -1,5 +1,21 @@
 [
   {
+    "date": "September 2026",
+    "title": "BASH Lab moves to [red]UMass Amherst[/red]",
+    "content": "The BASH Lab has relocated from Worcester Polytechnic Institute (WPI) to the University of Massachusetts Amherst, where we continue our research on AI and sensing for health.",
+    "url": "https://bashlab.github.io",
+    "image": "./img/research_clusters/sensor.png",
+    "category": "announcement"
+  },
+  {
+    "date": "September 2026",
+    "title": "Prof. Bashima Islam receives [red]NSF CAREER Award[/red]",
+    "content": "The lab received an NSF Faculty Early Career Development (CAREER) Award supporting five years of research (2026-2031), with Bashima Islam as Lead PI.",
+    "url": "sponsors.html",
+    "image": "./img/news/nsf.png",
+    "category": "funding"
+  },
+  {
     "date": "January 2026",
     "title": "OWL got accepted in [red]ICLR 2026[/red]",
     "content": "OWL shows how an audio language model can infer where a sound is in 3D space (direction and distance) and provide spatially grounded reasoning steps behind its predictions.",
