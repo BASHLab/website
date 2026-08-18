@@ -17,6 +17,11 @@
           "title": "LLaSA",
           "venue": "GenAI4HS,UbiComp'25",
           "url": "https://bashlab.github.io/llasa_project/"
+        },
+        {
+          "title": "OWL",
+          "venue": "ICLR'26",
+          "url": "https://bashlab.github.io/owl_project/"
         }
       ],
       "datasets": [
@@ -31,6 +36,10 @@
         {
           "name": "OpenSQA",
           "url": "https://huggingface.co/datasets/BASH-Lab/OpenSQA"
+        },
+        {
+          "name": "BiDepth",
+          "url": "https://bashlab.github.io/owl_project/"
         }
       ],
       "models": [
