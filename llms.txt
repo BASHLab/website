@@ -89,7 +89,7 @@ More: https://bashima.notion.site/mind-meets-machine?pvs=4
 - Zhuolin Liu, BS/MS (ECE), 2023 — now: Aerospace Software Engineer, Honeywell
 - Michael Rothstein, BS/MS (ECE), 2023 — now: 
 
-Collaborating institutions: Carnegie Mellon University, University of Illinois Urbana-Champaign, Georgia Tech, University of Trento, Meta Reality Lab, Arizona State University, University of Tennessee, Knoxville, Bosch Research America, Equa Health
+Collaborating institutions: Carnegie Mellon University, University of Illinois Urbana-Champaign, Georgia Tech, University of Trento, Meta Reality Lab, Arizona State University, University of Tennessee, Knoxville, Bosch Research America, Equa Health, Northwestern University, Delft University of Technology, University of California San Diego, UMass Chan Medical School, Columbia University
 
 ## Funding
 Total funding: $1762K
@@ -111,7 +111,7 @@ Total funding: $1762K
 ## Publications
 - OWL: Geometry-Aware Spatial Reasoning for Audio Large Language Models. Subrata Biswas, Mohammad Nur Hossain Khan, Bashima Islam. International Conference on Learning Representations (ICLR) 2026 https://arxiv.org/pdf/2509.26140?
 - Hair Noise Analysis and Mitigation for Smart Glasses Audio Captures. Subrata Biswas, Daniel Wong, Bashima Islam, Sanjeel Parekh, Vladimir Tourbabin. ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2026 https://ieeexplore.ieee.org/document/11464268
-- RAVEN: Query-Guided Representation Alignment for Question Answering over Audio, Video, Embedded Sensors, and Natural Language. Subrata Biswas, Mohammad Nur Hossain Khan, Bashima Islam. Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing 2025 https://aclanthology.org/2025.emnlp-main.96/
+- RAVEN: Query-Guided Representation Alignment for Question Answering over Audio, Video, Embedded Sensors, and Natural Language. Subrata Biswas, Mohammad Nur Hossain Khan, Bashima Islam. Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP) 2025 https://aclanthology.org/2025.emnlp-main.96/
 - Mindfulness Meditation and Respiration: Accelerometer-Based Respiration Rate and Mindfulness Progress Estimation to Enhance App Engagement and Mindfulness Skills. Mohammad Nur Hossain Khan, David creswell, Jordan Albert, Patrick O'Connell, Shawn Fallon, Mathew Polowitz, Xuhai orson Xu, Bashima Islam. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/Ubicomp) 2025 https://bashlab.github.io/meditite_project/
 - QUADS: Quantized Distillation Framework for Efficient Speech Language Understanding. Subrata Biswas, Mohammad Nur Hossain Khan, Bashima Islam. Interspeech 2025 2025 https://www.isca-archive.org/interspeech_2025/biswas25b_interspeech.pdf
 - LOCUS: LOcalization with Channel Uncertainty and Sporadic Energy. Subrata Biswas, Mohammad Nur Hossain Khan, Alex Colwell, Jack Adiletta, Bashima Islam. 22nd International Conference on Embedded Wireless Systems and Networks (EWSN) 2025 https://bashlab.github.io/locus_project/

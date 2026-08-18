@@ -154,6 +154,26 @@
     {
       "name": "Equa Health",
       "logo": "equa.png"
+    },
+    {
+      "name": "Northwestern University",
+      "logo": "northwestern.png"
+    },
+    {
+      "name": "Delft University of Technology",
+      "logo": "delft.png"
+    },
+    {
+      "name": "University of California San Diego",
+      "logo": "ucsd.png"
+    },
+    {
+      "name": "UMass Chan Medical School",
+      "logo": "umass_medical.png"
+    },
+    {
+      "name": "Columbia University",
+      "logo": "columbia.png"
     }
   ]
 }
