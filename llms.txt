@@ -1,4 +1,4 @@
-# BASH Lab — Bringing Awareness through Systems for Humans
+# BASH Lab — Bridging AI and Sensing for Health
 
 > Research lab of Prof. Bashima Islam at the University of Massachusetts Amherst (UMass Amherst), building ubiquitous AI systems that learn from motion, audio, physiological and ambient sensor data to support human behavioral well-being. Focus areas: multimodal representation learning, sensor-grounded language models, and resource-constrained (edge / TinyML) inference.
 
@@ -70,11 +70,11 @@ More: https://bashima.notion.site/mind-meets-machine?pvs=4
 - Sheikh Asif Imran Shouborno — PhD Student, ECE, University of Massachusetts Amherst (https://sheikhasifimran.wixsite.com/shouborno)
 - Bibhus Luitel — PhD Student, ECE, University of Massachusetts Amherst (https://users.wpi.edu/~bluitel/)
 - Sabbir Hossain Ujjal — PhD Student, ECE, University of Massachusetts Amherst (https://sabbirhossainujjal.github.io/)
-- Anna Balin — Master's Student, ECE, Worcester Polytechnic Institute
+- Anna Balin — Master's Student, ECE, Worcester Polytechnic Institute (https://users.wpi.edu/~abalin)
 
 ### Alumni
 - Evan Smith, ,  — now: 
-- Violet Colwell, ,  — now: 
+- Violet Colwell, BS (ECE),  — now: Software Engineer, Shadow Startup (Contract)
 - Nhan Tran, ,  — now: 
 - Ashe Neth, BS (CS), 2025 — now: PhD Student, University of Washington St. Louis
 - Jack Adiletta, BS/MS (ECE), 2025 — now: Engineer, Intel

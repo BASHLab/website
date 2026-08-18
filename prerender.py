@@ -202,10 +202,15 @@ def render_alumni(data):
     def section(title, alumni):
         if not alumni:
             return ""
-        rows = "<br>".join(
-            "%s, %s, %s &rarr; %s" % (esc(a.get("name")), esc(a.get("degree")), esc(a.get("graduationYear")), esc(a.get("currentPosition")))
-            for a in alumni
-        )
+        def fmt_row(a):
+            line = esc(a.get("name"))
+            meta = ", ".join(esc(x) for x in (a.get("degree"), a.get("graduationYear")) if x)
+            if meta:
+                line += ", " + meta
+            if a.get("currentPosition"):
+                line += " &rarr; " + esc(a.get("currentPosition"))
+            return line
+        rows = "<br>".join(fmt_row(a) for a in alumni)
         return (
             '<div class="col-xs-12 col-md-12"><h2 class="section-heading">%s</h2></div>'
             '<div class="col-xs-12" style="font-size:1.1em;line-height:1.8;color:#444;margin-bottom:30px;">%s</div>'
@@ -407,7 +412,7 @@ def render_publications(entries):
 ORG_JSONLD = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "BASH Lab (Bringing Awareness through Systems for Humans)",
+    "name": "BASH Lab (Bridging AI and Sensing for Health)",
     "alternateName": "BASH Lab",
     "url": BASE_URL,
     "logo": BASE_URL + "/img/header_white.png",
@@ -436,7 +441,7 @@ def head_block(description, extra_jsonld=None):
 # --------------------------------------------------------------------------- #
 def build_llms_txt(news, research, datasets, media, team, funding, pubs):
     L = []
-    L.append("# BASH Lab \u2014 Bringing Awareness through Systems for Humans")
+    L.append("# BASH Lab \u2014 Bridging AI and Sensing for Health")
     L.append("")
     L.append("> Research lab of Prof. Bashima Islam at the University of Massachusetts Amherst (UMass Amherst), "
              "building ubiquitous AI systems that learn from motion, audio, physiological and ambient "

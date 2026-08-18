@@ -47,7 +47,7 @@
       "title": "Master's Student, ECE, Worcester Polytechnic Institute",
       "type": "masters",
       "image": "portrait.jpg",
-      "url": ""
+      "url": "https://users.wpi.edu/~abalin"
     }
   ],
   "undergraduateAlumni": [
@@ -63,7 +63,10 @@
       "title": "Undergraduate Student, ECE, University of Massachusetts Amherst",
       "type": "undergraduate",
       "image": "alex.JPG",
-      "url": "https://alex.colwell.xyz/"
+      "url": "https://alex.colwell.xyz/",
+      "degree": "BS (ECE)",
+      "graduationYear": "",
+      "currentPosition": "Software Engineer, Shadow Startup (Contract)"
     },
     {
       "name": "Nhan Tran",
