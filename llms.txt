@@ -89,7 +89,7 @@ More: https://bashima.notion.site/mind-meets-machine?pvs=4
 - Zhuolin Liu, BS/MS (ECE), 2023 — now: Aerospace Software Engineer, Honeywell
 - Michael Rothstein, BS/MS (ECE), 2023 — now: 
 
-Collaborating institutions: Carnegie Mellon University, University of Illinois Urbana-Champaign, Georgia Tech, University of Trento, Meta Reality Lab
+Collaborating institutions: Carnegie Mellon University, University of Illinois Urbana-Champaign, Georgia Tech, University of Trento, Meta Reality Lab, Arizona State University, University of Tennessee, Knoxville, Bosch Research America, Equa Health
 
 ## Funding
 Total funding: $1762K

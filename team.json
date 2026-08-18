@@ -138,6 +138,22 @@
     {
       "name": "Meta Reality Lab",
       "logo": "meta.png"
+    },
+    {
+      "name": "Arizona State University",
+      "logo": "asu.png"
+    },
+    {
+      "name": "University of Tennessee, Knoxville",
+      "logo": "utk.png"
+    },
+    {
+      "name": "Bosch Research America",
+      "logo": "bosch.png"
+    },
+    {
+      "name": "Equa Health",
+      "logo": "equa.png"
     }
   ]
 }
