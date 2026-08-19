@@ -5,7 +5,7 @@
       "title": "Sensing the Future: Bridging Sensors and Language Intelligence",
       "image": "./img/research_clusters/sensor.png",
       "description": "We explore the synergy between sensor data and large language models to create intelligent systems that understand and interpret the world through a fusion of modalities. This research area focuses on developing novel approaches that combine traditional sensing technologies with modern AI to create more intuitive and responsive systems.",
-      "funding": "National Science Foundation (NSF CAREER)",
+      "funding": "National Science Foundation",
       "learnMoreUrl": "https://bashima.notion.site/sensing-the-future?pvs=4",
       "papers": [
         {
@@ -62,7 +62,7 @@
       "title": "Tiny Power, Big Impact: ML for Low-Power Edge Innovation",
       "image": "./img/research_clusters/tiny.png",
       "description": "We pioneer the development of efficient machine learning algorithms for ultra-low-power edge devices, enabling intelligent sensing in resource-constrained environments. This research is crucial for IoT applications and sustainable computing.",
-      "funding": "National Science Foundation (NSF CRII and NSF CAREER)",
+      "funding": "National Science Foundation",
       "learnMoreUrl": "https://bashima.notion.site/tinypower?pvs=4",
       "papers": [
         {

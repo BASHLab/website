@@ -41,13 +41,13 @@ Site: https://bashlab.github.io
 ## Research Areas
 ### Sensing the Future: Bridging Sensors and Language Intelligence
 We explore the synergy between sensor data and large language models to create intelligent systems that understand and interpret the world through a fusion of modalities. This research area focuses on developing novel approaches that combine traditional sensing technologies with modern AI to create more intuitive and responsive systems.
-Funding: National Science Foundation (NSF CAREER)
+Funding: National Science Foundation
 Papers: RAVEN (EMNLP'25), LLaSA (GenAI4HS,UbiComp'25), OWL (ICLR'26)
 More: https://bashima.notion.site/sensing-the-future?pvs=4
 
 ### Tiny Power, Big Impact: ML for Low-Power Edge Innovation
 We pioneer the development of efficient machine learning algorithms for ultra-low-power edge devices, enabling intelligent sensing in resource-constrained environments. This research is crucial for IoT applications and sustainable computing.
-Funding: National Science Foundation (NSF CRII and NSF CAREER)
+Funding: National Science Foundation
 Papers: QUADS (Interspeech'25), LOCUS (EWSN'25), FATE (MWSCAS'25), EfficientMic (BuildSys'25), FREEML (EWSN'24)
 More: https://bashima.notion.site/tinypower?pvs=4
 
