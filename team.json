@@ -48,6 +48,13 @@
       "type": "masters",
       "image": "portrait.jpg",
       "url": "https://users.wpi.edu/~abalin"
+    },
+    {
+      "name": "Ekata Poudel",
+      "title": "BS, CS, Worcester Polytechnic Institute",
+      "type": "undergraduate",
+      "image": "portrait.jpg",
+      "url": "https://www.linkedin.com/in/ekatapoudel"
     }
   ],
   "undergraduateAlumni": [
