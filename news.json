@@ -53,7 +53,8 @@
     "content": "This fellowship highlights Subrata’s hard work and excellence in graduate scholarship.",
     "url": "https://www.linkedin.com/posts/wpi-electrical-and-computer-engineering-4385b2225_wpi-phd-excellence-activity-7379196307317465088-Tih-?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAgjZbABO4TS_kXaa2F6FK-u5Ex7vOyAWVg",
     "image": "./img/news/subrata_peter.jpeg",
-    "category": "award"
+    "category": "award",
+    "labOnly": true
   },
   {
     "date": "September 2025",
