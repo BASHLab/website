@@ -5,7 +5,7 @@
       "title": "Sensing the Future: Bridging Sensors and Language Intelligence",
       "image": "./img/research_clusters/sensor.png",
       "description": "We explore the synergy between sensor data and large language models to create intelligent systems that understand and interpret the world through a fusion of modalities. This research area focuses on developing novel approaches that combine traditional sensing technologies with modern AI to create more intuitive and responsive systems.",
-      "funding": null,
+      "funding": "National Science Foundation (NSF CAREER)",
       "learnMoreUrl": "https://bashima.notion.site/sensing-the-future?pvs=4",
       "papers": [
         {
