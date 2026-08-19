@@ -62,7 +62,7 @@
       "title": "Tiny Power, Big Impact: ML for Low-Power Edge Innovation",
       "image": "./img/research_clusters/tiny.png",
       "description": "We pioneer the development of efficient machine learning algorithms for ultra-low-power edge devices, enabling intelligent sensing in resource-constrained environments. This research is crucial for IoT applications and sustainable computing.",
-      "funding": "National Science Foundation",
+      "funding": "National Science Foundation (NSF CRII and NSF CAREER)",
       "learnMoreUrl": "https://bashima.notion.site/tinypower?pvs=4",
       "papers": [
         {
