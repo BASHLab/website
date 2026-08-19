@@ -74,7 +74,7 @@ More: https://bashima.notion.site/mind-meets-machine?pvs=4
 - Bashima Islam — Assistant Professor, ECE, University of Massachusetts Amherst (https://bashimaislam.com)
 - Subrata Kumar Biswas — PhD Student, ECE, Worcester Polytechnic Institute (https://users.wpi.edu/~sbiswas/)
 - Mohammad Nur Hossain Khan — PhD Student, ECE, University of Massachusetts Amherst (https://nurhossain2301.github.io/)
-- Sheikh Asif Imran Shouborno — PhD Student, ECE, University of Massachusetts Amherst (https://sheikhasifimran.wixsite.com/shouborno)
+- Sheikh Asif Imran Shouborno — PhD Student, ECE, University of Massachusetts Amherst (https://shouborno.wixsite.com/research)
 - Bibhus Luitel — PhD Student, ECE, University of Massachusetts Amherst (https://users.wpi.edu/~bluitel/)
 - Sabbir Hossain Ujjal — PhD Student, ECE, University of Massachusetts Amherst (https://sabbirhossainujjal.github.io/)
 - Anna Balin — Master's Student, ECE, Worcester Polytechnic Institute (https://users.wpi.edu/~abalin)
