@@ -78,7 +78,7 @@ More: https://bashima.notion.site/mind-meets-machine?pvs=4
 - Bibhus Luitel — PhD Student, ECE, University of Massachusetts Amherst (https://users.wpi.edu/~bluitel/)
 - Sabbir Hossain Ujjal — PhD Student, ECE, University of Massachusetts Amherst (https://sabbirhossainujjal.github.io/)
 - Anna Balin — Master's Student, ECE, Worcester Polytechnic Institute (https://users.wpi.edu/~abalin)
-- Ekata Poudel — BS, CS, Worcester Polytechnic Institute (https://www.linkedin.com/in/ekatapoudel)
+- Ekata Poudel — Undergraduate Student, CS, Worcester Polytechnic Institute (https://www.linkedin.com/in/ekatapoudel)
 
 ### Alumni
 - Evan Smith, BS/MS (ECE,CS), 2026 — now: Associate Embedded Security Engineer, MITRE
